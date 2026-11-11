@@ -1,0 +1,2 @@
+Saved generated image to: C:\Users\Sowmya\Desktop\Research in Aging\paper1_figures\illus_elderly.png
+Now display it to the user by calling the readFile tool on that path. Reading the image to show it is the model's job, not this plugin's.

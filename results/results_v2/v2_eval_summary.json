@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-15T22:22:22.498600",
+  "splits_evaluated": [
+    "train",
+    "val",
+    "test"
+  ],
+  "summary_metrics": {
+    "train": {
+      "total": 6591,
+      "detection_rate": 0.9929,
+      "top1_tactic_accuracy": 0.2397,
+      "top3_tactic_accuracy": 0.6744,
+      "avg_time_sec": 0.0196
+    },
+    "val": {
+      "total": 2197,
+      "detection_rate": 0.9927,
+      "top1_tactic_accuracy": 0.2394,
+      "top3_tactic_accuracy": 0.6791,
+      "avg_time_sec": 0.0194
+    },
+    "test": {
+      "total": 2197,
+      "detection_rate": 0.9936,
+      "top1_tactic_accuracy": 0.2221,
+      "top3_tactic_accuracy": 0.6682,
+      "avg_time_sec": 0.0196
+    }
+  }
+}

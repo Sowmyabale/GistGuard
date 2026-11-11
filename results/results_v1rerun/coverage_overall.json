@@ -1,0 +1,30 @@
+{
+  "v3_prompted": {
+    "ask_pct": 32.5,
+    "ask_den": 1556,
+    "id_pct": 36.8,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "SFT-v1": {
+    "ask_pct": 33.1,
+    "ask_den": 1556,
+    "id_pct": 33.4,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "SFT-v2": {
+    "ask_pct": 82.6,
+    "ask_den": 1556,
+    "id_pct": 70.6,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "SFT-v2s": {
+    "ask_pct": 80.7,
+    "ask_den": 1556,
+    "id_pct": 68.7,
+    "id_den": 1870,
+    "n": 2197
+  }
+}

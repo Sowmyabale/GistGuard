@@ -1,0 +1,84 @@
+================================================================================
+SAMPLE GIST EXPLANATIONS FROM END-TO-END EVALUATION
+================================================================================
+
+--- Example 1 ---
+Scam Type: bank
+Predicted: bank
+Confidence: 0.9954
+Profile: trust=Moderate, tech=Low, awareness=Vaguely Aware
+
+GIST:
+This call is from a fake bank representative trying to take your money. There are many people who do this.
+
+Bottom-line meanings (bottom lines) help you understand the real message of the communication. They eliminate complicated language and jargon.
+
+================================================================================
+
+--- Example 11 ---
+Scam Type: romance
+Predicted: romance
+Confidence: 0.9965
+Profile: trust=Moderate, tech=Moderate, awareness=Vaguely Aware
+
+GIST:
+This caller is pretending to be your loved one to get money. They want to keep you from being careful with your money.
+
+Why it works:
+Similar scams occur every day. This visitor has already been tricked by a similar call.
+
+================================================================================
+
+--- Example 26 ---
+Scam Type: medicare
+Predicted: medicare
+Confidence: 0.9964
+Profile: trust=Moderate, tech=Low, awareness=Vaguely Aware
+
+GIST:
+This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to confirm the issue.
+
+Why it works:
+Fuzzy trace theory (FTT) suggests that brain processes not fully understood by users make sense to others. This explanation makes sense to the user based on their experience and understanding of scams. It also reassures the user that help is available and they are not alone in this situation.
+
+================================================================================
+
+--- Example 51 ---
+Scam Type: grandparent
+Predicted: grandparent
+Confidence: 0.9898
+Profile: trust=High, tech=Low, awareness=Unaware
+
+GIST:
+This caller is pretending to be your grandchild to get money from you. They have been doing this for years.
+
+Bottom-line meanings include:
+- Safety concern
+- Relative is not who they say they are
+- Government agencies do not ask for money over the phone
+
+Reasoning includes:
+ - Federal authorities take these calls seriously. Many people get them every month.
+ - Your family should also be careful. Scammers can be real friends or relatives.
+ – Do not give money to anyone you do not know well. Check their identity online. Ask family members or friends if this person is real.
+ [DO] Call the official number on your card or statement. Ask a
+
+================================================================================
+
+--- Example 76 ---
+Scam Type: medicare
+Predicted: medicare
+Confidence: 0.9964
+Profile: trust=Moderate, tech=Low, awareness=Vaguely Aware
+
+GIST:
+This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to verify this.
+
+Basic explanation: medicaresafe.gov
+Reason: government agency protects seniors from fraud.
+Why it matters: your confidence in calling is important. These calls happen to many people.
+Affect: worry
+Do it now: hang up the phone. Call the official number on your card or statement. Ask a family member or friend to help you if needed.
+
+================================================================================
+

@@ -1,0 +1,51 @@
+{
+  "layer1": {
+    "scam_accuracy": 0.9986345015930814,
+    "scam_f1_macro": 0.9987121245534336,
+    "tactic_accuracy": 0.9986345015930814,
+    "per_class": {
+      "bank": {
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "government_impersonation": {
+        "recall": 0.9903,
+        "f1": 0.9951
+      },
+      "grandparent": {
+        "recall": 1.0,
+        "f1": 0.9946
+      },
+      "investment": {
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "lottery": {
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "medicare": {
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "romance": {
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "virtual_kidnapping": {
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "mean_true_class_confidence": 0.998460969191063
+  },
+  "layer2": {
+    "trust_acc": 0.8798361401911697,
+    "trust_f1": 0.8522835864211924,
+    "tech_acc": 0.8789258079198907,
+    "tech_f1": 0.8381858870923607,
+    "aware_acc": 0.8930359581247155,
+    "aware_f1": 0.7911987535300419
+  },
+  "n_test": 2197
+}

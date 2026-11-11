@@ -1,0 +1,2189 @@
+[
+  {
+    "conversation_id": "yt_0",
+    "true_scam": null,
+    "pred_scam": "investment",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Microsoft, and they are asking for your order ID to steal your personal information. They're trying to trick you into giving them your personal details.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_1",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the British Telecom technical department. They are asking for your account number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_10",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft engineer, and they are trying to trick you into giving them access to your computer. They are asking for your password and control of your computer.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_100",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft support representative, and they are trying to trick you into giving them access to your computer. They are asking for your Windows key, which is a way to gain control of your computer.",
+    "action": "Hang up and do not press any keys.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_101",
+    "true_scam": null,
+    "pred_scam": "romance",
+    "pred_tactic": "over_familiarity",
+    "warning": "This person is pretending to be someone close to you, but they are not who they claim to be. They are trying to trick you into trusting them.",
+    "action": "Hang up and do not give them any information or follow their instructions.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_102",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your personal information and money. They are asking you to type in a code on a fake website.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_103",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to trick you into giving them access to your computer. They are asking for your card number, CVV, and PIN or password.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_104",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon account information. They are asking for your Amazon account number and password, and want you to buy gift cards.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_105",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank, and they are trying to trick you into giving them your computer's login information. They are asking for your password and browser to steal your personal info.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_106",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your card number and CVV code. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_107",
+    "true_scam": null,
+    "pred_scam": "investment",
+    "pred_tactic": "social_proof",
+    "warning": "This is not a trusted investment advisor, and they're trying to get your PIN, password, and OTP to steal your money.",
+    "action": "Hang up and do not give them any personal information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_108",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon customer service, and they are trying to get your card number and ZIP code to steal your money. They are using a fake story to make you trust them.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_109",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the billing department from your bank, and they are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_11",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HMRC department, and they are trying to trick you into giving them your personal information. They are not asking for your name, but they are trying to get you to trust them.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_110",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They are asking for your consent to install an app on your computer.",
+    "action": "Do not click on anything and hang up.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_111",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to trick you into giving them your Google account information. They are asking for your Google account credentials to steal your personal data.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_112",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to trick you into giving them your password and remote access to your computer. They are asking for your password and want you to download something that might harm your computer.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_113",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your bank, and they are trying to trick you into paying a fake fee. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_114",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are asking you to download something from a link they sent you, which is a way to install malware on your computer.",
+    "action": "Hang up and do not click on any links or download anything.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_115",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to trick you into paying for a service you don't need. They are asking for your email address and billing information to steal your personal data.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_116",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Amazon representative, and they are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_117",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your Google account information. They are asking for your Google account password and to open the Google Chrome browser.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_118",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your account. They are asking for your password and a one-time password (OTP) to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_119",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Facebook support representative, and they are trying to trick you into installing a fake app on your phone. They are not asking for your password, but they are trying to get you to give them access to your device.",
+    "action": "Hang up and do not install any apps from this caller.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_12",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are asking for your account number and routing number to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_120",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_121",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your account number and routing number to steal your money. They're asking for your account information to take your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_122",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your PayPal password. They are asking for your password to steal your money.",
+    "action": "Hang up and do not give them your password.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_123",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to trick you into giving them your personal information and money. They are asking for your account number, PIN, password, and possibly your Bitcoin wallet information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_124",
+    "true_scam": null,
+    "pred_scam": "romance",
+    "pred_tactic": "over_familiarity",
+    "warning": "This person is pretending to be a romantic partner, but they are actually trying to trick you into trusting them and potentially giving them access to your computer. They are trying to get you to open your Google Chrome browser.",
+    "action": "Do not give them any information and hang up.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_125",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Windows support team, and they are trying to trick you into giving them your personal information. They are asking for your name.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_126",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into paying for a fake computer subscription. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_127",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to get your email address and phone number to steal your identity. They are not going to help you with your account, they are trying to trick you.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_128",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to trick you into giving them your account number and routing number. They are asking for your account information to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_129",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Malwarebytes customer support call. They are asking for your password and Wi-Fi password to steal your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_13",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon Prime support, and they are trying to trick you into paying a fee you don't owe. They're asking for your account number and routing number to take your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_130",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to trick you into giving them your card number and PIN. They are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_131",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Wi-Fi password. They're asking for your password to steal your personal information.",
+    "action": "Hang up and do not give them your password.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_132",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon account information. They're asking for your account number and password to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_133",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon account information. They are asking for your account number and routing number, and your Amazon password.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_134",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are asking for your card number, CVV, and account information to steal your money.",
+    "action": "Hang up and call the real Amazon at the number on the back of your card.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_135",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your computer's manufacturer or a bank, and they are trying to trick you into paying for something you might not need. They are asking for your card number and CVV code to charge you $299.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_136",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon customer support, and they are trying to trick you into confirming a fake order. They are asking for your account number and routing number to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_137",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon customer support, and they are trying to trick you into confirming a fake order. They are asking for your account information to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_138",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Norton customer service, and they are trying to trick you into giving them your card number and PIN. They are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_139",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon password. They're asking for your Amazon password to steal your account information.",
+    "action": "Hang up and do not give them your password.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_14",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your internet service provider, and they are asking for your account number and routing number to steal your money. They are trying to trick you into giving them your financial information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_140",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your personal information. They're asking for your name and details to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_141",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon account information. They are asking for your account number and routing number, and want you to buy gift cards to pay for a fake problem.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_142",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank's customer service team. They are asking for your card number, account number, and PIN or password to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_143",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon account information. They are asking for your account number and routing number, and possibly your password and OTP.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_144",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to get your card number, CVV, and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_145",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them access to your computer. They are asking for your computer to steal your personal information.",
+    "action": "Hang up and do not give them access to your computer.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_146",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Microsoft refund department. They are asking for your card number and CVV code to refund a payment you don't remember making.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_147",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your personal information. They are asking for your account number and routing number, and a one-time password.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_148",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Vtech representative, and they are trying to trick you into giving them your Google account information. They are asking for your Google account password and OTP to gain access to your account.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_149",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into paying for a fake computer service. They are asking for your card number and CVV code to charge you money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_15",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HM Revenue and Customs, and they are trying to trick you into giving them your personal information. They are asking for your name and your location.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_150",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Microsoft, and they are trying to trick you into giving them access to your computer. They are asking for your computer's desktop to gain control over it.",
+    "action": "Hang up and do not give them any information or access to your computer.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_151",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_152",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your computer's control. They are asking for your computer's control to steal your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_153",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your computer's password and PIN. They are asking for your password and PIN to gain control of your computer.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_154",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your card number and PIN. They are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_155",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them access to your computer. They're asking for your computer to be connected to their accounts department, which is not how Amazon works.",
+    "action": "Hang up and do not give them access to your computer.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_156",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real email from your bank, and they are trying to trick you into paying for a service you may not need. They are asking for your card number and CVV code to steal your money.",
+    "action": "Do not give them any information and hang up.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_157",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to trick you into giving them your account number and routing number. They're asking for your account number and routing number to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_158",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to get your email address to steal your account information.",
+    "action": "Hang up and do not give them your email address.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_159",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HMRC, and they are trying to trick you into paying a fee to resolve a fake tax issue. They are asking for your case ID number and want you to pay a fee with gift cards.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_16",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Department of National Crime Agency. They are asking for your Social Security number and want you to buy gift cards.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_160",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HMRC, and they are asking for your PIN, password, and OTP to steal your money and personal info.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_161",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HMRC, and they are trying to trick you into giving them information about your case. They are not a lawyer and are trying to get you to give them personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_162",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HMRC, and they are trying to get your personal information to steal your identity. They are asking for your name, last name, and postal code.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_163",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HM Revenue and Customs, and they are asking for your personal information to steal it. They are trying to trick you into giving them your name, badge ID number, and other details.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_164",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the government. They are asking for your name and trying to scare you into giving them information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_165",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the government. They are trying to scare you into giving them your Social Security number and money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_166",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HM Revenue and Customs, and they are trying to trick you into giving them personal information. They are asking for your name, postcode, and door number to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_167",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HM Revenue and Customs, and they are trying to get your personal information, including your name and postcode, to steal your identity. They are using a fake automated call to get you to trust them.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_168",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HMRC, and they are trying to trick you into giving them your personal information. They are asking for your PIN, password, and OTP to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_169",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not HMRC, and they are asking for your personal information, including your date of birth and postcode, to steal it.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_17",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from a government program, but they are not. They are asking for your Social Security number and personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_170",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They are asking for your Google account information to steal your personal data.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_171",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call, and they are trying to trick you into paying a fee for a service you may not need. They are asking for your account number and routing number to charge your account.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_172",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Windows Cancellation Department, and they are trying to trick you into paying a fee for a service you might not even have. They're asking for your account number and routing number to take your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_173",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your account number and routing number. They are not asking for your email password, but they are trying to get you to give them your account information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_174",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into paying for a fake service. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_175",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the antivirus company, and they are trying to trick you into paying for a fake service. They are asking for your card number and CVV code to charge you $399.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_176",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into paying for a fake service. They are asking for your account number and routing number to take your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_177",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into paying a fee to keep your computer from being lost. They are asking for your card number and CVV code.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_178",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to get your email address and possibly your password or OTP to steal your account information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_179",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_18",
+    "true_scam": null,
+    "pred_scam": "investment",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Carphone Warehouse employee, and they are trying to sell you something by pretending to be from a well-known company. They are not asking for any specific information, but they are trying to build trust.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_180",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into paying for a fake Amazon Prime subscription. They are asking for your card number and CVV code to charge you $299.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_181",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the bank, and they are asking for your card number and CVV code to refund a payment you made three years ago.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_182",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your card number and PIN. They're asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_183",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the real Norton, and they are trying to get your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_184",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into paying a fake fee. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_185",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your email address. They're asking for your email address to steal your personal information.",
+    "action": "Hang up and do not give them your email address.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_186",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them your personal information. They are asking for your name, phone number, and possibly your account number and routing number.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_187",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from Medicare, but they are not. They are asking for your email address and want you to buy a subscription.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_188",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not McAfee, and they are trying to trick you into paying for a fake renewal of a service you didn't order. They're asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_189",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon's fraud department, and they are trying to trick you into giving them your personal information. They are asking for your order ID, which is a way to steal your account information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_19",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from Medicare, but they are not. They are asking for your account number and sort code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_190",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon customer support, and they are trying to trick you into giving them your Amazon account information. They are asking for your Amazon account number and password to steal your identity and money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_191",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon account information. They are asking for your Amazon account number and password to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_192",
+    "true_scam": null,
+    "pred_scam": "grandparent",
+    "pred_tactic": "over_familiarity",
+    "warning": "This is not your grandchild, and they are trying to trick you into giving them access to your computer. They're asking for your computer's password and to turn it off.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_193",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Norton cancellation department, and they are trying to trick you into giving them your Google Chrome browser access. They are not asking for your account number or PIN, but they want to control your computer.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_194",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They're asking for your account number and routing number, and want you to buy gift cards.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_195",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank representative, and they are trying to get your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_196",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Norton support team, and they are trying to trick you into paying for a fake subscription. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_197",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to trick you into giving them your card number and CVV code to \"renew\" your subscription. They are not asking for an invoice number, but for your card details.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_198",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your internet service provider, and they are trying to trick you into giving them your personal information. They are asking for your account number and routing number, and want you to buy gift cards to reactivate your internet.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_199",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank, and they are trying to trick you into giving them your card number and account information. They are not asking for a specific piece of information, but they are trying to create a sense of urgency.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_2",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Interpol, and they are asking for your PIN, password, and OTP to steal your identity. They are trying to trick you into giving them your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_20",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from HMRC, but they are not. They are asking for your full name and surname, which is a trick to get your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_200",
+    "true_scam": null,
+    "pred_scam": "romance",
+    "pred_tactic": "over_familiarity",
+    "warning": "This person is pretending to be someone from Amazon, but they are not. They are trying to trick you into trusting them and might ask for personal or financial information later.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_201",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from Medicare, but they are not. They are asking for your Social Security number and personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_202",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them access to your computer. They are asking for your Windows key and the R key to be pressed at the same time, which is a way to gain control of your computer.",
+    "action": "Hang up and do not press any keys.",
+    "valid": false
+  },
+  {
+    "conversation_id": "yt_203",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They are asking for your computer's keyboard layout to gain control of your device.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_204",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from Medicare, but they are not. They are asking for your Social Security number and want you to buy a product called Macafee.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_205",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into paying a fake bill. They are asking for your card number and CVV code to charge you money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_206",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Norton support desk, and they are trying to trick you into giving them your card number and CVV code. They are not asking for an order number or reference number, but are trying to get your card details.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_207",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them access to your computer. They are asking for your account number and routing number, and want you to buy gift cards to pay a fake fee.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_208",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon account information. They are asking for your Amazon account number and password to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_209",
+    "true_scam": null,
+    "pred_scam": "investment",
+    "pred_tactic": "social_proof",
+    "warning": "This person is not a real investment advisor and is trying to get you to invest in a fake business opportunity. They're asking for your PIN, password, and OTP to control your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_21",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from Medicare, but they are not. They are asking for your full name and your surname, and want you to pay an upfront fee for a refund of a mis-sold PPI claim.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_210",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_211",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_212",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to get your Amazon account number and order confirmation number to steal your money. They are also trying to get your name and personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_213",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your account number and routing number. They're asking for your account number and routing number to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_214",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Microsoft, and they are trying to trick you into giving them your card number and CVV code. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_215",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them access to your computer. They are asking for your computer's password and trying to scare you into giving them control.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_216",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to get your Google Chrome password and PIN to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_217",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call, and they are trying to trick you into paying a fee to keep your computer working. They are not asking for your card number or PIN, but they want you to pay a fee.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_218",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Windows Defender call, and they're trying to trick you into giving them access to your computer. They're asking for your Windows key, which is a way to gain control of your computer.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_219",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from McAfee, and they are trying to trick you into paying for a fake service. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_22",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank, and they're trying to get your account number and sort code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_220",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them your computer's password and PIN. They are not asking for a specific password, but they are trying to create a sense of urgency to get you to give them information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": false
+  },
+  {
+    "conversation_id": "yt_221",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the real PayPal support team. They are asking for your account number and routing number, and an order number you don't recognize.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_222",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to get your card number, CVV, and account information to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_223",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them access to your computer. They are asking for your computer's brand and model, and want you to open Google and search for something.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_224",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to trick you into giving them access to your computer. They want to install malware on your computer.",
+    "action": "Hang up and do not give them any information or access to your computer.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_225",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Microsoft technical support, and they are trying to trick you into giving them access to your computer. They are asking for your computer's password and one-time password.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_226",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They are asking for your account number and routing number, and want you to buy gift cards to pay a fake fee.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_227",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft technician, and they are trying to trick you into giving them access to your computer. They are asking for your computer's Windows Defender alert, which is a way to gain control of your computer.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_228",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them access to your computer. They are asking for your password and personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_229",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal or Microsoft call, and they are trying to trick you into giving them your product key. They are not going to help you with a problem, but are trying to get your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_23",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are asking for your bank account number and routing number to take your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_230",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_231",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real V-Tech representative, and they are trying to trick you into paying a fake fee for a service you may not need. They are asking for your account number and routing number to take your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_232",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to get your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_233",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into paying a fake fee. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_234",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Microsoft, and they are trying to trick you into giving them access to your computer. They are asking for your password and want you to install a program called AnyDesk.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_235",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them access to your computer. They are asking for your password and to take control of your screen.",
+    "action": "Hang up and do not give them any information or let them take control of your screen.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_236",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Canon support team, and they are trying to trick you into giving them your printer's model number and possibly your personal information. They are not going to help you fix your printer.",
+    "action": "Hang up and call the real Canon support at 1-800-828-2200.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_237",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the government, and they are trying to trick you into paying an upfront fee for a refund. They are asking for your card number and CVV code to take your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_238",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Windows Accounts Team, and they are trying to trick you into paying for a fake service contract. They are asking for your card number and CVV code to charge you money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_239",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from Microsoft, but they are not. They are asking for your printer model and computer model to steal your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_24",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your card number and CVV code. They are not asking for this information to help you, but to steal it.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_240",
+    "true_scam": null,
+    "pred_scam": "romance",
+    "pred_tactic": "over_familiarity",
+    "warning": "This person is pretending to be a friend, but they are actually trying to sell you a puppy and want you to pay for it. They're trying to get you to trust them and send money.",
+    "action": "Don't give out any personal or financial information and do not send any money.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_241",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft support call, and they are trying to trick you into giving them your personal information. They are asking for your Windows key code and other details to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_242",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft support call, and they're trying to trick you into giving them access to your computer. They're asking for your account number and routing number, and possibly your password or PIN.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_25",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to get your card number and PIN to steal your money. They're asking for your card number and PIN to send you a fake cancellation form.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_26",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your personal information. They're asking for your number and personal details to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_27",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Virgin Media, and they are trying to trick you into giving them your card number and PIN. They are not going to disconnect your service, but they might steal your money.",
+    "action": "Hang up and do not press one.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_28",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not HM Revenue & Customs, and they are asking for your phone number to steal your personal information. They are trying to trick you into giving them your number.",
+    "action": "Hang up and do not give them your phone number.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_29",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HMRC, and they are trying to scare you into giving them your personal information. They are asking for your PIN, password, and OTP to steal your money and identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_3",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon customer service, and they are trying to trick you into giving them your card number and CVV code. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_30",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Windows support center, and they are trying to trick you into giving them your card number and PIN. They are not here to help you with a real problem.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_31",
+    "true_scam": null,
+    "pred_scam": "romance",
+    "pred_tactic": "over_familiarity",
+    "warning": "This person is pretending to be a friend or someone you know, but they are actually trying to trick you into trusting them. They are trying to get you to give them access to your computer or personal information.",
+    "action": "Hang up and do not give them any information or access to your devices.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_32",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank, and they are trying to trick you into paying for a fake virus removal service. They are not who they claim to be and want your card number and CVV code.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_33",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Norton help desk, and they are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_34",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon customer service, and they are trying to trick you into giving them your card number and CVV code. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_35",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They're asking for your computer's volume to be lowered, but that's just a way to get you to give them control.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_36",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank, and they are trying to trick you into giving them your computer's password. They are not asking for your password to help you, but to steal it.",
+    "action": "Hang up and do not give them your password.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_37",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Windows support call, and they are trying to trick you into giving them your personal information. They are not asking for your account number or password, but they want you to press 1 to talk to an agent.",
+    "action": "Hang up and do not press 1.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_38",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are asking for your email address and a one-time verification code to steal your account information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_39",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Visa, and they are trying to trick you into giving them your card number and security code. They are asking for your card number and security code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_4",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a call from your vehicle's manufacturer, and they are trying to sell you a warranty you may not need. They are asking you to press a number to renew it, which is a trick to get your money.",
+    "action": "Hang up and do not press any numbers.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_40",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the BT technical department. They are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_41",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_42",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Windows support center, and they are trying to trick you into giving them your card number and PIN. They are not helping you fix your laptop, they are trying to steal your information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_43",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your card number and PIN to refund a payment you didn't make. They are trying to trick you into giving them your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_44",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from Medicare, but they are not. They are asking for your Social Security number and personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_45",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_46",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They are asking for your account number and routing number, and want you to buy gift cards to pay for a fake service.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_47",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Hotmail support call, and they are trying to trick you into giving them your password. They are asking for your email address and password to steal your account information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_48",
+    "true_scam": null,
+    "pred_scam": "investment",
+    "pred_tactic": "social_proof",
+    "warning": "This is not a real technical support team, and they're trying to sell you a fake software license to steal your money. They're asking for your card number and CVV code to charge you.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_49",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the real Microsoft support, and they are asking for your Microsoft account password and security code to steal your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_5",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the government, and they are trying to scare you into paying a fake tax debt. They are asking for your Social Security number and want you to buy gift cards.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_50",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This caller says they are from Medicare, but they are not. They are asking for your Social Security number and personal information to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_51",
+    "true_scam": null,
+    "pred_scam": "romance",
+    "pred_tactic": "over_familiarity",
+    "warning": "This person is pretending to be someone close to you, but they are not who they claim to be. They are trying to trick you into trusting them.",
+    "action": "Don't give them any information and hang up.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_52",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your card number and PIN. They are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_53",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real TD bank representative, and they are trying to trick you into giving them information about your accounts. They are not asking for a specific piece of information, but they are trying to create a sense of urgency.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_54",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Amazon refund department, and they are trying to trick you into giving them access to your computer. They are asking for your computer's access to steal your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_55",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Apple representative, and they are trying to trick you into giving them your Apple ID and password. They are asking for your Apple ID and password to steal your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_56",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your card number and CVV code to \"secure your account.\" They are not asking for a card number, but they are trying to get your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": false
+  },
+  {
+    "conversation_id": "yt_57",
+    "true_scam": null,
+    "pred_scam": "investment",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Geek Squad representative, and they are trying to get you to give them access to your computer. They are not here to help you with a charge, but to steal your personal information.",
+    "action": "Hang up and do not give them access to your computer.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_58",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your Amazon account information. They are asking for your Amazon account number and password.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_59",
+    "true_scam": null,
+    "pred_scam": "medicare",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Medicare agent, and they are trying to sell you something you don't need. They are asking for your personal information and want you to buy a medication.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_6",
+    "true_scam": null,
+    "pred_scam": "government_impersonation",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the HMRC, and they are asking for your PIN, password, and one-time password, which is how they'll steal your money and identity.",
+    "action": "Hang up and do not call the number they gave you.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_60",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank representative, and they are trying to trick you into giving them your password and ID. They are not going to help you with your problem, they are trying to steal your information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_61",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to trick you into giving them your information. They are asking for your card number, CVV, and account number.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_62",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not PayPal, and they are asking for your card number, CVV, and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_63",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from McAfee, and they are trying to trick you into giving them your card number and CVV code. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_64",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are asking for your Amazon account number and a six-digit code, which is how they'll steal your money and personal info.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_65",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Amazon cyber security department. They are asking for your Amazon account information and your IP address, which is a way to gain access to your personal data.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_66",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_67",
+    "true_scam": null,
+    "pred_scam": "investment",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into trusting them. They are not asking for any specific information, but they are trying to build a false sense of trust.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_68",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your bank's name. They are not here to help you, but to steal your information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_69",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft support call, and they are trying to trick you into giving them access to your computer. They are asking for your account number and routing number, and want you to buy gift cards.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_7",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft call, and they are trying to trick you into giving them access to your computer. They are not checking for problems, but trying to get you to let them in.",
+    "action": "Hang up and do not give them any information or let them access your computer.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_70",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your card number and PIN. They're asking for your card number and PIN to cancel a charge you didn't make.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_71",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them information about your computer. They are asking for your computer's make and model to gain access to your personal data.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_72",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your card number and CVV code. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_73",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them information about your computer. They are not helping you, they are trying to steal your personal info.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_74",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your card number and PIN. They are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_75",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank's customer support. They are asking for your card number and PIN to gain access to your account.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_76",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank representative, and they are trying to trick you into giving them your Facebook password and PIN. They are asking for your login credentials to steal your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_77",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Windows Defender message, and they're trying to trick you into giving them your password and other personal info. They're asking for your email credentials, banking passwords, and Facebook password.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_78",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank, and they are trying to trick you into giving them your computer's serial number and possibly your password or PIN. They are not helping you with a real problem, but trying to steal your personal information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_79",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to trick you into paying a fake bill. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_8",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the real fraud prevention team from your bank, and they are trying to trick you into giving them information. They are asking for your PIN, password, and OTP to steal your money.",
+    "action": "Hang up and call the real bank at the number on the back of your card.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_80",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They are asking for your account number and routing number, and want you to click on a link to cancel a fake charge.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_81",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Windows Defender message, and they're trying to trick you into giving them your name and possibly your password. They're not here to help you, they're trying to steal your information.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_82",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Microsoft representative, and they are trying to trick you into giving them access to your computer. They are asking for your account number and routing number, and want you to buy gift cards.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_83",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the bank's support team, and they are trying to trick you into giving them access to your computer. They want you to click on a link to install malware.",
+    "action": "Hang up and do not click on any links.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_84",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them access to your computer. They are asking for your card number, CVV, and PIN or password.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_85",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real McAfee representative, and they are trying to trick you into paying for a service you may not need. They are asking for your card number and CVV code to charge you.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_86",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the Apple System Security Center, and they are trying to trick you into giving them your Apple ID and password. They are not a priest or a preacher, and they are not from a church.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_87",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to trick you into giving them access to your computer. They want to install malware on your computer.",
+    "action": "Hang up and do not give them any information or access to your computer.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_88",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into paying for a fake antivirus service. They are asking you to pay with gift cards.",
+    "action": "Hang up and do not give them any information or money.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_89",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real PayPal representative, and they are trying to trick you into giving them your account number and routing number. They are asking for your account number and routing number to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_9",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not the TSB bank, and they are trying to trick you into giving them your card number and PIN. They are not going to help you, they are trying to steal your money.",
+    "action": "Hang up and call the real TSB bank at the number on the back of your card.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_90",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Mcafee representative, and they are trying to trick you into paying a fake bill. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_91",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Norton representative, and they are trying to trick you into paying for a fake subscription. Norton never auto-renews subscriptions without your permission.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_92",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your card number, CVV, and PIN or password. They are asking for your card number and CVV to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_93",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your bank account information. They are asking you to log into your bank account and check transactions, but this is a way to get your account number and routing number.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_94",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not Amazon, and they are trying to trick you into giving them your personal information. They're asking for your first and last name, which is a way to steal your identity.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_95",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank or McAfee representative, and they are trying to trick you into paying for a fake subscription. They are asking for your card number and CVV code to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_96",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are trying to trick you into giving them your card number and CVV code to steal your money. They're asking for your card number and CVV code to make it look like a real transaction.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_97",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank, and they're trying to trick you into giving them your computer's information. They're asking for your computer's operating system and browser, which is how they'll try to hack into your account.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_98",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they are asking for your computer's TeamViewer access to steal your personal information.",
+    "action": "Hang up and do not give them access to your computer.",
+    "valid": true
+  },
+  {
+    "conversation_id": "yt_99",
+    "true_scam": null,
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your bank, and they are trying to trick you into giving them your card number and PIN. They are asking for your card number and PIN to steal your money.",
+    "action": "Hang up and do not give them any information.",
+    "valid": true
+  }
+]

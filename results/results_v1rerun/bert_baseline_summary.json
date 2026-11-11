@@ -1,0 +1,69 @@
+{
+  "model": "bert-base-uncased",
+  "test_accuracy": 0.9995,
+  "test_f1_macro": 0.9996,
+  "n_test": 2197,
+  "per_class": {
+    "bank": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 272.0
+    },
+    "government_impersonation": {
+      "precision": 1.0,
+      "recall": 0.9967637540453075,
+      "f1-score": 0.9983792544570502,
+      "support": 309.0
+    },
+    "grandparent": {
+      "precision": 0.9963768115942029,
+      "recall": 1.0,
+      "f1-score": 0.9981851179673321,
+      "support": 275.0
+    },
+    "investment": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 195.0
+    },
+    "lottery": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 195.0
+    },
+    "medicare": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 298.0
+    },
+    "romance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 387.0
+    },
+    "virtual_kidnapping": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 266.0
+    },
+    "accuracy": 0.9995448338643604,
+    "macro avg": {
+      "precision": 0.9995471014492754,
+      "recall": 0.9995954692556634,
+      "f1-score": 0.9995705465530478,
+      "support": 2197.0
+    },
+    "weighted avg": {
+      "precision": 0.999546483017026,
+      "recall": 0.9995448338643604,
+      "f1-score": 0.9995448780465385,
+      "support": 2197.0
+    }
+  }
+}

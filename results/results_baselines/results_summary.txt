@@ -1,0 +1,22 @@
+
+PAPER 1: PRIMARY RESULTS SUMMARY
+================================
+Total Conversations Evaluated: 100
+Layer 1 Scam Classification Accuracy: 1.0000
+Mean Confidence (True Class): 0.9940
+Std Confidence: 0.0049
+
+Per-Scam-Type Accuracy:
+  Bank                          : 1.0000
+  Government Impersonation      : 1.0000
+  Grandparent                   : 1.0000
+  Investment                    : 1.0000
+  Lottery                       : 1.0000
+  Medicare                      : 1.0000
+  Romance                       : 1.0000
+  Virtual Kidnapping            : 1.0000
+
+Cognitive Profile Distribution:
+  Trust Level:      Low=10, Moderate=73, High=17
+  Tech Savviness:   Low=62, Moderate=34, High=4
+  Scam Awareness:   Unaware=19, Vaguely Aware=81, Aware=0

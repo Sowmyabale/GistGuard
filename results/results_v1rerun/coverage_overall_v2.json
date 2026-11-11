@@ -1,0 +1,51 @@
+{
+  "v3_prompted": {
+    "ask_pct": 29.5,
+    "ask_den": 1556,
+    "id_pct": 58.6,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "SFT-v1": {
+    "ask_pct": 29.4,
+    "ask_den": 1556,
+    "id_pct": 55.4,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "SFT-v2": {
+    "ask_pct": 65.7,
+    "ask_den": 1556,
+    "id_pct": 93.5,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "SFT-v2s": {
+    "ask_pct": 65.5,
+    "ask_den": 1556,
+    "id_pct": 91.3,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "smishx": {
+    "ask_pct": 60.5,
+    "ask_den": 1556,
+    "id_pct": 59.3,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "ghafariasl": {
+    "ask_pct": 51.7,
+    "ask_den": 1556,
+    "id_pct": 66.5,
+    "id_den": 1870,
+    "n": 2197
+  },
+  "template": {
+    "ask_pct": 76.9,
+    "ask_den": 1556,
+    "id_pct": 100.0,
+    "id_den": 1870,
+    "n": 2197
+  }
+}

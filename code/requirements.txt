@@ -1,0 +1,22 @@
+# GXAI-Elderly v2 Framework Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core
+numpy
+
+# Evaluation & data processing
+pandas
+tqdm
+
+# Optional but recommended for GPU: sentence-transformers for Layer 1 semantic similarity
+# Falls back to word-overlap if not installed
+sentence-transformers
+
+# Optional for GPU: transformers + torch for neural gist generation in Layer 3
+# Falls back to rule-based templates if not installed
+transformers
+torch
+
+# For plotting results (optional)
+matplotlib
+seaborn

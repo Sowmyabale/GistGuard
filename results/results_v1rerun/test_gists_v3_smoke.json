@@ -1,0 +1,2002 @@
+[
+  {
+    "conversation_id": "bank_20260214_090222_7759",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your card number and security code.",
+    "action": "Hang up and call the number on the back of your card to report this call to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_090418_8661",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase employee. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_090630_4624",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your card number and security code.",
+    "action": "Hang up and call the number on the back of your card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_090818_1539",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your card number and security code.",
+    "action": "Hang up and call the number on the back of your card to reach the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_090850_3805",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your card number and security code to steal your money.",
+    "action": "Hang up now and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_090945_8129",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to your bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_091151_8975",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they will never ask for your credit card number on a call you did not start. They are trying to steal your money.",
+    "action": "Hang up and call the number on the back of your credit card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_091227_6635",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your card details.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_091530_9619",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they will never ask for your card number or CVV over the phone. They are trying to steal your money and card information.",
+    "action": "Hang up and call the number on the back of your card to reach the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_091549_2397",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your card details. Real banks will never ask for your card's secret numbers over the phone.",
+    "action": "Hang up and call the number on the back of your card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_091830_3337",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they're trying to get your card number and security code to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_092024_7472",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they will never ask for your card number or CVV code over the phone. They're trying to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_092152_3005",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They are trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_092707_9448",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they will never ask for your card's secret number on a call you did not start. They are trying to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_092744_2455",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your card to reach the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_092825_6969",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to get your bank card details to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_092842_5673",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank. They are trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_092855_6637",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your card number and security code to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_092921_1172",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a call from your bank, and they will not ask for your credit card number over the phone. They're trying to trick you into giving them your information.",
+    "action": "Hang up and call the number on the back of your credit card to reach the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_093247_4078",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_093502_1888",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to get your card number to steal your money. Banks never ask for your card number over the phone.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_093922_5894",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_094423_7372",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank. They're trying to trick you into giving them your personal account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_094646_7381",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your sensitive information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_094810_1929",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they will never ask for your card number and CVV code over the phone. They're trying to trick you into giving them your sensitive information.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_095530_8397",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase's fraud department. They will never ask for your card number and CVV on a call you did not start.",
+    "action": "Hang up and call the number on the back of your Chase card to report the suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_095600_9498",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase employee. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your Chase card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_100407_9576",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your bank card details to steal your money.",
+    "action": "Hang up and call your bank's customer service number from a trusted phone bill.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_100447_9375",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your bank card to report this call as suspicious.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_100554_3454",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your personal information.",
+    "action": "Hang up and call the number on the back of your bank card to reach a real customer service representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_100727_6433",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your card and account numbers.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase Fraud Department.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_100818_8136",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase. They would never ask for your card number or CVV over the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_101504_9929",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase. They will never ask you to give your card number and CVV on a call.",
+    "action": "Hang up and call the number on the back of your Chase card to report this call as a scam.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_101715_2832",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase employee calling. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_101859_5205",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your bank. They will never ask for your card number or CVV over the phone.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_102211_7898",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase Bank. They will never ask for your card number, expiration date, or CVV over the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_102558_1822",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your bank. They will never ask for your card number and security code on a call you did not start.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_103333_3319",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase representative. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the real Chase bank at 1-800-242-7372 to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_103553_3559",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your card number.",
+    "action": "Hang up and call the number on the back of your Chase card to speak with a real customer service representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_103752_8413",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your bank card number to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to speak with a real person.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_104009_1396",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase employee. They're trying to trick you into giving them your card details.",
+    "action": "Hang up and call the number on the back of your Chase card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_104048_7755",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase. They will never ask for your card details or social security number over the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_104153_8027",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_104530_9376",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase employee. They are trying to trick you into giving them your credit card details.",
+    "action": "Hang up and call the real Chase Fraud line at 1-800-935-2622 to verify this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_104745_8703",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your card number.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_104827_7768",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your debit card to reach a real bank representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_104950_5395",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your account number.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_105137_1314",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase representative. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your card to speak with a real Chase representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_105240_3540",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase's Fraud Department. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your Chase card to speak to a real customer service representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_105503_6638",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your bank account information.",
+    "action": "Hang up and call the number on the back of your bank card to speak with a real person.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_105712_6641",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the phone number on the back of your Chase card to reach real customer service.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_105728_8666",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase Bank employee. They are trying to trick you into giving them your card number.",
+    "action": "Hang up and call the number on the back of your card to speak with a real Chase Bank representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_105922_8023",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your card details.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_105959_4264",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase's fraud department. They're trying to trick you into giving them your card details.",
+    "action": "Hang up and call the number on the back of your Chase card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_110106_5371",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to speak with a real customer service representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_110402_5288",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase. They will never ask for your card details over the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to speak with a real person.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_110805_2256",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase's Fraud Department. They're trying to trick you into giving them your card number and security code.",
+    "action": "Hang up and call the number on the back of your Chase card to reach the real fraud department.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_110929_9874",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase. They will never ask for your card number or CVV code over the phone.",
+    "action": "Hang up and call the number on the back of your card to speak with a real Chase representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_111338_2045",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your card to reach the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_111414_3578",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_111552_1511",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase Bank employee. They're trying to trick you into giving them your bank card number.",
+    "action": "Hang up and call the number on the back of your bank card to speak with a real Chase Bank representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_111612_2018",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your credit card number and security code.",
+    "action": "Hang up and call the number on the back of your card to report this to the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_111705_7968",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase. They will never ask for your card number, CVV, or social security number on a call you did not start.",
+    "action": "Hang up and call the number on your bank statement to verify this call is a scam.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_111714_1362",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank, and they're trying to trick you into giving them your card details.",
+    "action": "Hang up and call the number on the back of your card to report this call to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_112247_1292",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your card number.",
+    "action": "Hang up and call the number on the back of your card to reach the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_112346_5426",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your card number.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_112719_8582",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your bank. They will never ask for your card number or CVV over the phone.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_112743_8035",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not your bank. They're trying to trick you into giving them your card number and account details.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase Bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_112930_3657",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase's Fraud Department. They will never ask for your card details over the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_112942_5610",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase's Fraud Department. They would never ask for your Social Security Number on the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_113040_2343",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your card number.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_113059_5697",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this to the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_113324_3916",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal and financial information to steal from you.",
+    "action": "Hang up and call your bank's customer service number to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_113626_3474",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase. They would never ask for your social security number over the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_113636_5344",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase's Fraud Department. They would never ask you for your account details over the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_113719_3907",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_113745_4038",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_114021_8027",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase's Fraud Department. They're trying to trick you into giving them your account details.",
+    "action": "Hang up and call the number on the back of your Chase card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_114238_7897",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_114452_5012",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your credit card number to steal your money.",
+    "action": "Hang up and call the number on the back of your credit card to reach the real Chase Bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_114552_1928",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your card to speak with a real Chase representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_114640_5063",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to get your card number and password to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_114650_4113",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your personal and financial information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_114704_3860",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your bank card number and security code to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_114723_6596",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase employee calling. They are trying to get your credit card number to steal your money.",
+    "action": "Hang up and call the number on the back of your credit card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_130415_4535",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase representative. They are trying to get your bank card numbers to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to Chase directly.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_130634_9139",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real Chase employee, and they're trying to get your bank card number to steal your money.",
+    "action": "Hang up and call the official Chase customer service number on the back of your card.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260214_130657_1818",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to get your card number and security code to steal your money.",
+    "action": "Hang up and call the number on the back of your card to reach the real Chase bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_091134_7610",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_091740_6721",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to trick you into giving them your personal information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_093657_4623",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal info to steal from you.",
+    "action": "Hang up and call the number on the back of your bank card to report this.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_094359_7238",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They are trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_095718_1897",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_100649_4301",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal from you.",
+    "action": "Hang up and call the number on the back of your real bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_101210_5221",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal your identity.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_101539_9128",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They are trying to trick you into giving them your account information.",
+    "action": "Hang up and call your bank's customer service number from a trusted phone bill to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_102314_4107",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to trick you into giving them personal info.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_110149_7809",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They are trying to get your personal info to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_110252_9652",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal your identity.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_110751_7213",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to get your account number to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_110856_3302",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your account information. They're not who they claim to be.",
+    "action": "Hang up and call the real Chase Bank directly at the number on the back of your debit card.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_111543_4027",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal info to steal your money.",
+    "action": "Hang up and call the real Chase Bank directly at the number on your bank card.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_113139_1440",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_120212_7437",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They are trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this call to your bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_121022_5236",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to trick you into giving them your personal info. They're not sending emails or letters, and you should never give out personal info on a phone call you didn't start.",
+    "action": "Hang up now and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_121251_1510",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your personal info. They're not who they claim to be.",
+    "action": "Hang up and call the real Chase Bank at the number on your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_122106_8560",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your account information. They're not who they claim to be.",
+    "action": "Hang up and call your bank's customer service number to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_122917_4976",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_123210_5273",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_124400_9222",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to get your personal info to steal from you.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_124610_5651",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them information about your wife's account. They're not who they claim to be.",
+    "action": "Hang up and call the number on the back of your bank card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_125600_2172",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal information to steal your identity.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_133448_1539",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to trick you into giving them your personal information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_133653_9945",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_133847_2138",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to get your account details to steal your money. Don't give them any information about your accounts.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_133956_7390",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_134109_9627",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to trick you into giving them your personal info. They're not who they claim to be.",
+    "action": "Hang up and call the number on the back of your real bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_134934_8871",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your social security number.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_135244_4530",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They are trying to get your personal information to steal your identity.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_143307_4825",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal info to steal your money.",
+    "action": "Hang up and call the number on the back of your Chase Bank card to verify this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_145147_2980",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank calling to steal your information. They're trying to trick you into giving away your account details.",
+    "action": "Hang up and call the number on the back of your bank card to reach the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_145705_8901",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal your identity.",
+    "action": "Hang up and call the number on your bank statement to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_150453_4006",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to get your card number to steal your money.",
+    "action": "Hang up and call your bank's customer service number to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_151414_5548",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your bank card to speak with a real person.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_153039_8458",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_153632_4997",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your account details to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_153950_6242",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase Bank. They will never ask for your account details over the phone.",
+    "action": "Hang up and call the number on the back of your bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_161706_2529",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to get your personal information to steal your identity and money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_162016_3582",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_163036_4982",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase Bank. They would never ask for account details over the phone.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_165527_7306",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they are trying to get your personal information to steal from you.",
+    "action": "Hang up and call the number on the back of your bank card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_174813_1810",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal from you.",
+    "action": "Hang up and call the bank's customer service number from the back of your card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_175532_4756",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them information about your wife's account. They're not who they claim to be.",
+    "action": "Hang up and call your wife to let her know about this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_180417_7836",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your account number.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_181856_7220",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase Bank. They would never ask for your address or personal details over the phone.",
+    "action": "Hang up and call the number on the back of your Chase Bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_183410_3098",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your account information to steal your money.",
+    "action": "Hang up and call the real Chase Bank at the number on your card or on their official website.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_184010_7816",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase Bank. They would never ask for your account number over the phone without verifying your identity first.",
+    "action": "Hang up and call the number on the back of your bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_184659_9078",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your real bank card to verify.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_185356_4189",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_185945_2367",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_190638_9094",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your personal info. They're not who they claim to be.",
+    "action": "Hang up now and call the real Chase Bank at the number on your card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_191201_8957",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase Bank. They will never ask for your card details over the phone.",
+    "action": "Hang up and call the number on the back of your bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_191718_7802",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your account information. They're not who they claim to be.",
+    "action": "Hang up and call the number on the back of your bank card to speak with a real representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_193358_2019",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank employee trying to trick you into giving your card number. Real banks will never ask for your card number over the phone.",
+    "action": "Hang up and call the number on the back of your card to check.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_193522_8245",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank calling to trick you into giving them information. They're trying to get your personal details to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to verify this is a real call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_201124_8267",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your account information. They're not who they claim to be and are trying to steal your money.",
+    "action": "Hang up and call the real Chase Bank's customer service number, 1-800-242-7392, to verify this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_201534_6742",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your personal info. They're not from Chase Bank, and they're trying to steal your identity.",
+    "action": "Hang up and call Chase Bank's official customer service number to verify this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_201841_6495",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank caller trying to trick you into giving them your personal information. They're not from Chase Bank, and real banks never ask for this kind of information over the phone.",
+    "action": "Hang up and call the number on the back of your Chase card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_202113_9011",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to get your card number to steal your money. Real banks don't ask for personal info over the phone.",
+    "action": "Hang up and call the number on the back of your card to report this to your bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_202205_8119",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your account information. They're not who they claim to be and want to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260329_202723_8341",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them personal information. They're using a fake name and ID to sound official.",
+    "action": "Hang up and call the real Chase Bank at 1-800-242-7372 to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_110327_2618",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_110416_8909",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_110644_8595",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to trick you into giving them your personal information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_111319_8394",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to trick you into giving them your account information. Real banks will never ask you to verify account details over the phone.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_111745_5447",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your account information to steal your money.",
+    "action": "Hang up and call your bank's customer service number from the back of your card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_113824_5242",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your personal information. They're not who they claim to be.",
+    "action": "Hang up and call your bank's customer service number to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_113910_1768",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase Bank. They would never ask you to confirm transactions over the phone.",
+    "action": "Hang up and call the number on the back of your Chase Bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_114915_7123",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your bank. They won't ask you to confirm account details over the phone.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_115134_6512",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your bank account number to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_120149_8409",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your account information. They're not who they claim to be.",
+    "action": "Hang up and call your bank's customer service number to verify if they're trying to contact you.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_120617_9242",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal info to steal your identity.",
+    "action": "Hang up and call your bank's customer service number to verify if they're really calling about your account.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_124823_9768",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to get your full card number to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_125513_3965",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your debit card number to steal your money.",
+    "action": "Hang up and call the number on the back of your debit card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_125616_6907",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your bank. They will never ask you to confirm transactions over the phone.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_125737_9024",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your personal info. They're not really from Chase Bank.",
+    "action": "Hang up and call Wells Fargo directly to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_130138_4793",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your debit card to reach a real bank representative.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_130309_8651",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They are trying to get your personal info to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_130518_9061",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to trick you into giving them your bank card details.",
+    "action": "Hang up and call the number on the back of your bank card to report this to the real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_130611_5562",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal info to steal your identity and money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_131609_7330",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_132100_5838",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_132437_4096",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your personal information. They're making up a story to make you think you have an account with them.",
+    "action": "Hang up and call your bank's customer service number to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_132527_5320",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to the real Chase Bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_133139_2594",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_134811_5564",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They are trying to get your personal information to steal your money.",
+    "action": "Hang up and call your bank's customer service number to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_135552_1758",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your real bank card to verify this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_140747_8699",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them information about your grandson.",
+    "action": "Hang up and call the number on the back of your bank card to report this suspicious call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_140949_3484",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_141108_8832",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from your bank. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_141225_4698",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank calling to trick you into giving them your credit card number. They're trying to steal your money.",
+    "action": "Hang up and call the number on the back of your credit card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_141858_7345",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real call from Chase Bank. They won't ask you for your account number over the phone.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_142234_9381",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to trick you into giving them your account information.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_142858_5015",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal info to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_143243_1545",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to get your personal info to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_143810_5088",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they're trying to trick you into giving them your account information. They're not checking on your account, they're trying to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_144238_6328",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_145552_6039",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank calling to trick you into giving them your account information. They're trying to steal your money.",
+    "action": "Hang up and call the real Chase Bank at the number on the back of your debit card.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_150207_8695",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee, and they are trying to trick you into giving them your personal information to steal your money.",
+    "action": "Hang up and call the number on the back of your debit card to report this to your bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_150722_8848",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your personal info to steal from you.",
+    "action": "Hang up and call the number on the back of your real bank card to confirm.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_151332_2119",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to get your account information to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_152722_5359",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal info to steal from you.",
+    "action": "Hang up now and call the number on the back of your real bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_153059_7843",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your personal info.",
+    "action": "Hang up and call the number on the back of your real bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_153618_9377",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your personal info to steal your identity.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_153701_7936",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee calling. They're trying to get your account details to steal your money.",
+    "action": "Hang up and call the number on the back of your debit card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_154251_9327",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to get your card number to steal your money.",
+    "action": "Hang up and call the number on the back of your card to report this to your real bank.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_154623_2519",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is a fake bank trying to trick you into giving them your account information. They're using a fake name and ID to sound official.",
+    "action": "Hang up and call the real Chase Bank at 1-800-242-7372 to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_155830_6339",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank call. They're trying to trick you into giving them your card number.",
+    "action": "Hang up and call your bank's customer service number from a trusted phone bill.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_161314_7473",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They're trying to get your account details to steal your money.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  },
+  {
+    "conversation_id": "bank_20260331_161410_8896",
+    "true_scam": "bank",
+    "pred_scam": "bank",
+    "pred_tactic": "authority_impersonation",
+    "warning": "This is not a real bank employee. They are trying to trick you into giving them your credit card number.",
+    "action": "Hang up and call the number on the back of your bank card to report this call.",
+    "valid": true,
+    "retried": false
+  }
+]

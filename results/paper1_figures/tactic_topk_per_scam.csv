@@ -1,0 +1,9 @@
+scam_type,n,top1_acc,top2_acc,top3_acc
+bank,272,100.0,100.0,100.0
+government_impersonation,309,99.02912621359224,100.0,100.0
+grandparent,275,100.0,100.0,100.0
+investment,195,100.0,100.0,100.0
+lottery,195,100.0,100.0,100.0
+medicare,298,100.0,100.0,100.0
+romance,387,100.0,100.0,100.0
+virtual_kidnapping,266,100.0,100.0,100.0

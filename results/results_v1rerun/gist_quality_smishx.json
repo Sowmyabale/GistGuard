@@ -1,0 +1,102 @@
+{
+  "smishx": {
+    "per_scam": [
+      {
+        "scam": "bank",
+        "n": 272,
+        "qc_valid": 0.0,
+        "ask_coverage": 100.0,
+        "id_coverage": 100.0,
+        "unique": 100.0,
+        "distinct2": 0.15,
+        "self_sim": 0.14,
+        "fk_grade": 12.0
+      },
+      {
+        "scam": "government_impersonation",
+        "n": 309,
+        "qc_valid": 0.0,
+        "ask_coverage": 100.0,
+        "id_coverage": 100.0,
+        "unique": 100.0,
+        "distinct2": 0.169,
+        "self_sim": 0.115,
+        "fk_grade": 12.1
+      },
+      {
+        "scam": "grandparent",
+        "n": 275,
+        "qc_valid": 0.0,
+        "ask_coverage": 100.0,
+        "id_coverage": 100.0,
+        "unique": 100.0,
+        "distinct2": 0.187,
+        "self_sim": 0.106,
+        "fk_grade": 12.2
+      },
+      {
+        "scam": "investment",
+        "n": 195,
+        "qc_valid": 0.0,
+        "ask_coverage": 100.0,
+        "id_coverage": 100.0,
+        "unique": 100.0,
+        "distinct2": 0.249,
+        "self_sim": 0.102,
+        "fk_grade": 13.6
+      },
+      {
+        "scam": "lottery",
+        "n": 195,
+        "qc_valid": 0.0,
+        "ask_coverage": 100.0,
+        "id_coverage": 100.0,
+        "unique": 99.5,
+        "distinct2": 0.173,
+        "self_sim": 0.138,
+        "fk_grade": 11.5
+      },
+      {
+        "scam": "medicare",
+        "n": 298,
+        "qc_valid": 0.0,
+        "ask_coverage": 100.0,
+        "id_coverage": 100.0,
+        "unique": 100.0,
+        "distinct2": 0.176,
+        "self_sim": 0.123,
+        "fk_grade": 12.9
+      },
+      {
+        "scam": "romance",
+        "n": 387,
+        "qc_valid": 0.0,
+        "ask_coverage": 100.0,
+        "id_coverage": 100.0,
+        "unique": 100.0,
+        "distinct2": 0.205,
+        "self_sim": 0.063,
+        "fk_grade": 13.2
+      },
+      {
+        "scam": "virtual_kidnapping",
+        "n": 266,
+        "qc_valid": 0.0,
+        "ask_coverage": 100.0,
+        "id_coverage": 100.0,
+        "unique": 100.0,
+        "distinct2": 0.172,
+        "self_sim": 0.118,
+        "fk_grade": 10.9
+      }
+    ],
+    "overall": {
+      "n": 2197,
+      "qc_valid": 0.0,
+      "unique": 100.0,
+      "distinct2": 0.107,
+      "self_sim": 0.073,
+      "fk_grade": 12.4
+    }
+  }
+}

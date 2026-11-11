@@ -1,0 +1,2102 @@
+[
+  {
+    "conversation_id": "bank_20260214_110500_8887",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9953559637069702,
+      "government_impersonation": 0.0008590266807004809,
+      "grandparent": 0.00043985398951917887,
+      "investment": 0.0008259154856204987,
+      "lottery": 0.0007181818946264684,
+      "medicare": 0.0005191548843868077,
+      "romance": 0.0008633743855170906,
+      "virtual_kidnapping": 0.0004185028956271708
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This call is from a fake bank representative trying to take your money. There are many people who do this.\n\nBottom-line meanings (bottom lines) help you understand the real message of the communication. They eliminate complicated language and jargon."
+  },
+  {
+    "conversation_id": "virtual_kidnapping_20260425_170847_4256",
+    "true_scam_type": "virtual_kidnapping",
+    "predicted_scam_type": "virtual_kidnapping",
+    "scam_probs": {
+      "bank": 0.0011155690299347043,
+      "government_impersonation": 0.001513840863481164,
+      "grandparent": 0.0008330100099556148,
+      "investment": 0.0004303553723730147,
+      "lottery": 0.000602211628574878,
+      "medicare": 0.0007105680997483432,
+      "romance": 0.0008655136916786432,
+      "virtual_kidnapping": 0.9939289093017578
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your child to get you into some dangerous situation. Your child was not doing anything wrong.\n\nWhy it happens: Scammers use family members as fake victims. Their real victims are people without families."
+  },
+  {
+    "conversation_id": "romance_20260320_200823_1294",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0007887503015808761,
+      "government_impersonation": 0.0005969098419882357,
+      "grandparent": 0.00037775113014504313,
+      "investment": 0.0006384915322996676,
+      "lottery": 0.00031458138255402446,
+      "medicare": 0.0005041352706030011,
+      "romance": 0.9963562488555908,
+      "virtual_kidnapping": 0.00042319073691032827
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to keep you from being safe.\n\nWhy it happens: Scammers use relationship stories and investment promotions."
+  },
+  {
+    "conversation_id": "romance_20260213_061738_4051",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008015257772058249,
+      "government_impersonation": 0.0005672900006175041,
+      "grandparent": 0.00039650104008615017,
+      "investment": 0.0006043550092726946,
+      "lottery": 0.00031055641011334956,
+      "medicare": 0.0004905257956124842,
+      "romance": 0.9964106678962708,
+      "virtual_kidnapping": 0.00041866657556965947
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to keep you from getting the real person.\n\nWhy it matters:\nYou are not alone in experiencing scams. Many people get these calls."
+  },
+  {
+    "conversation_id": "bank_20260331_171118_7254",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9951077699661255,
+      "government_impersonation": 0.0010898727923631668,
+      "grandparent": 0.0004443274228833616,
+      "investment": 0.0008768316474743187,
+      "lottery": 0.0007515060133300722,
+      "medicare": 0.000545051705557853,
+      "romance": 0.000749608501791954,
+      "virtual_kidnapping": 0.00043501381878741086
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This call is from a fake bank representative trying to take your money. Your real bank will contact you later over the phone or email. Be careful of emails that ask for your password or bank number.\n\nWhat does [WHAT]: what happened? and [WHY]: why did it happen?\n\nWhy do scammers choose easy targets like old people or family members?\nTo get as much money as they can fast.\nHow do scam artists make their victims believe there is a problem when there isn't one?\nBy asking questions that pretend to be important.\nDo these same questions in a friend's face to get more answers.\nRemember, no one calls to have fun. Call"
+  },
+  {
+    "conversation_id": "medicare_20260331_134522_3111",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.0005174216348677874,
+      "government_impersonation": 0.000712131557520479,
+      "grandparent": 0.0005720838089473546,
+      "investment": 0.0005790880532003939,
+      "lottery": 0.0007854758878238499,
+      "medicare": 0.9961495399475098,
+      "romance": 0.00040739966789260507,
+      "virtual_kidnapping": 0.00027687105466611683
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This call is from a fake Medicare agent pretending to be real to steal your health information.\n\nBottom-Line Meaning (why it happens) : Many people get these calls, not because they want to lie about their health, but because there is a need for information. Scammers take advantage of that need."
+  },
+  {
+    "conversation_id": "medicare_20260330_101710_9818",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.0005047162994742393,
+      "government_impersonation": 0.0005342185031622648,
+      "grandparent": 0.0005398765788413584,
+      "investment": 0.00056810537353158,
+      "lottery": 0.0007173287449404597,
+      "medicare": 0.9964524507522583,
+      "romance": 0.00040820930735208094,
+      "virtual_kidnapping": 0.00027515162946656346
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to verify this.\n\nWhy it works:\nFuzzy trace theory (FTT) suggests that brain mechanisms respond to risk and need for understanding over hard science concepts. This explanation uses basic language and visual cues to help the client understand the danger."
+  },
+  {
+    "conversation_id": "lottery_20260213_164715_6505",
+    "true_scam_type": "lottery",
+    "predicted_scam_type": "lottery",
+    "scam_probs": {
+      "bank": 0.001630594371818006,
+      "government_impersonation": 0.0013044854858890176,
+      "grandparent": 0.000915280485060066,
+      "investment": 0.0010741271544247866,
+      "lottery": 0.9920642971992493,
+      "medicare": 0.0016764585161581635,
+      "romance": 0.0005662369076162577,
+      "virtual_kidnapping": 0.0007684974116273224
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be from the government to take your money. Your real win is in some distant future when things are different. Real lottery winners are happy and grateful.\n\nBasic explanation:\nThe given number is fake. Someone is pretend playing lottery game. Destructive purpose. Real winner gets many messages, investments, and government help.\nFuzzy trace theory (FTT) is a research method that combines cognitive science and human experience to understand how people make sense of complex information. It helps design explanations that are easy to understand and reassure fears without overwhelming them.\nDo:\n1. Listen carefully to the person's story."
+  },
+  {
+    "conversation_id": "investment_20260401_154111_4269",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0011573440860956907,
+      "government_impersonation": 0.000982144963927567,
+      "grandparent": 0.0009126730146817863,
+      "investment": 0.9941536784172058,
+      "lottery": 0.0006922849570401013,
+      "medicare": 0.0008074903162196279,
+      "romance": 0.0006265511619858444,
+      "virtual_kidnapping": 0.0006678120698779821
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from a regulated investment firm. Your money is not safe with them. Real investments do not promise guaranteed high returns with no risk.\n\nWhy it's wrong to invest in a call:\n- Many calls are designed to take money over the phone.\n- Investors are often asked for huge amounts of money upfront with no guarantee of success.\n - This caller is targeting you with your own fears and needs.\n    \nAction:\nHang up now. Call the official number on your card or statement. Ask a family member or friend to help you if needed."
+  },
+  {
+    "conversation_id": "government_impersonation_20260213_080954_3028",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0008396597113460302,
+      "government_impersonation": 0.9939832091331482,
+      "grandparent": 0.0010243015130981803,
+      "investment": 0.0010416748700663447,
+      "lottery": 0.0007304706959985197,
+      "medicare": 0.0012438244884833694,
+      "romance": 0.0006192289292812347,
+      "virtual_kidnapping": 0.00051769835408777
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your number is protected by a system designed to stop these calls. Many people get them, but they happen to many people too.\n\nWhy it happens: some people want to hide their real outcomes. Government agencies do this for many reasons. Some people need help with things they have done wrong."
+  },
+  {
+    "conversation_id": "romance_20260327_172820_8188",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.000798587454482913,
+      "government_impersonation": 0.000570824311580509,
+      "grandparent": 0.0003528740198817104,
+      "investment": 0.0005775056779384613,
+      "lottery": 0.00028874253621324897,
+      "medicare": 0.00047959733637981117,
+      "romance": 0.9965380430221558,
+      "virtual_kidnapping": 0.0003939234302379191
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to keep you from being careful with your money.\n\nWhy it works:\nSimilar scams occur every day. This visitor has already been tricked by a similar call."
+  },
+  {
+    "conversation_id": "romance_20260327_144802_2832",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0007489419658668339,
+      "government_impersonation": 0.0005319935735315084,
+      "grandparent": 0.0003782502608373761,
+      "investment": 0.0005671057151630521,
+      "lottery": 0.0002958143886644393,
+      "medicare": 0.00048357259947806597,
+      "romance": 0.9965847730636597,
+      "virtual_kidnapping": 0.0004095000331290066
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to keep you from being safe.\n\nBottom-line meanings:\n- This person is not who they say they are.\n- Your relationship is not important compared to getting money.\n - Do not panic. Many people get these calls.\n \n Reasons:\n - Romantic interest, not investment.\n   - Most scammers are not professional investors. They just want to get your money. \n - Government agency, not grandchild.\n    - Scammers do not care about family members. They only care about their own greed.\n    \n Action:\n Hang up now. Call"
+  },
+  {
+    "conversation_id": "romance_20260401_020207_2242",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008947377209551632,
+      "government_impersonation": 0.0007141316309571266,
+      "grandparent": 0.00038802859489805996,
+      "investment": 0.0007096342160366476,
+      "lottery": 0.0003642028896138072,
+      "medicare": 0.0006074142875149846,
+      "romance": 0.9958454966545105,
+      "virtual_kidnapping": 0.0004763206816278398
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money from you. They will ask for bank details or investments.\n\nWhy it happens: Scammers research individuals online to create fake stories."
+  },
+  {
+    "conversation_id": "investment_20260213_132651_2934",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0010806045029312372,
+      "government_impersonation": 0.0009906019549816847,
+      "grandparent": 0.0009743850096128881,
+      "investment": 0.9938670992851257,
+      "lottery": 0.0007413819548673928,
+      "medicare": 0.0009124799398705363,
+      "romance": 0.0007494296878576279,
+      "virtual_kidnapping": 0.000684026803355664
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This call is designed to take your savings. Your investments are not fake - they are real. Many people get these calls, even those with higher trust levels.\n\nWhy it works:\nMany scammers use past relationships or job experiences to make you think you know someone. This call is built on trust rather than reality."
+  },
+  {
+    "conversation_id": "bank_20260214_093819_1670",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9948818683624268,
+      "government_impersonation": 0.001067893928848207,
+      "grandparent": 0.00044116866774857044,
+      "investment": 0.0009311824105679989,
+      "lottery": 0.0007628852617926896,
+      "medicare": 0.000569941708818078,
+      "romance": 0.0009298964287154377,
+      "virtual_kidnapping": 0.00041529478039592505
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This call is from a fake bank representative trying to take your money. Your real bank will not ask for your card number over the phone.\n\nWhy it happens: scammers use fear and urgency to stop people from thinking clearly."
+  },
+  {
+    "conversation_id": "romance_20260401_014932_6473",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008423896506428719,
+      "government_impersonation": 0.0006103637861087918,
+      "grandparent": 0.00037420098669826984,
+      "investment": 0.0006453710957430303,
+      "lottery": 0.0003107274533249438,
+      "medicare": 0.0005118729895912111,
+      "romance": 0.9962562322616577,
+      "virtual_kidnapping": 0.0004488864215090871
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to steal your joy and happiness.\n\nWhy it happens: Scammers create fear and urgency with fake emergencies."
+  },
+  {
+    "conversation_id": "medicare_20260331_133108_7528",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.00048688368406146765,
+      "government_impersonation": 0.000621726387180388,
+      "grandparent": 0.0005368863348849118,
+      "investment": 0.0005790420109406114,
+      "lottery": 0.0007196335936896503,
+      "medicare": 0.9963796734809875,
+      "romance": 0.00041654560482129455,
+      "virtual_kidnapping": 0.00025962915970012546
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to verify this.\n\nWhy it works:\nFuzzy trace theory (FTT) suggests that brain mechanisms involved in understanding language and thinking do not follow strict rules. Instead, they create complex, meaningful connections between ideas. This explanation uses the same basic information (caller is a scammer) and simple meaning (feel reassured) to connect with the client's level of trust and knowledge."
+  },
+  {
+    "conversation_id": "investment_20260401_190616_7558",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0012014894746243954,
+      "government_impersonation": 0.0009746288997121155,
+      "grandparent": 0.0008646636852063239,
+      "investment": 0.9941011071205139,
+      "lottery": 0.00074001430766657,
+      "medicare": 0.0008717948803678155,
+      "romance": 0.0006271902821026742,
+      "virtual_kidnapping": 0.0006190670537762344
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 2,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from a respected company with great investment opportunities. They are not asking you to invest your money; they are promoting their own products.\n\nWhy do these calls happen?\nSome people get them because they are easy to understand or because they have heard them before. Others get them as a result of being more careful about their online activities."
+  },
+  {
+    "conversation_id": "virtual_kidnapping_20260425_050943_2011",
+    "true_scam_type": "virtual_kidnapping",
+    "predicted_scam_type": "virtual_kidnapping",
+    "scam_probs": {
+      "bank": 0.0010943649103865027,
+      "government_impersonation": 0.0017279142048209906,
+      "grandparent": 0.0010206139413639903,
+      "investment": 0.000461737799923867,
+      "lottery": 0.0006726502906531096,
+      "medicare": 0.0007615956710651517,
+      "romance": 0.0009297209326177835,
+      "virtual_kidnapping": 0.9933313727378845
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your child to stop you from doing something dangerous. Your child is safe in their home.\n\nWhy it works:\nFuzzy trace theory ideas (bottom-line meanings) are generated based on the listener's own thoughts and experiences. This explanation fits the listener’s fear of losing children."
+  },
+  {
+    "conversation_id": "romance_20260213_065649_5710",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0007869504624977708,
+      "government_impersonation": 0.0006326072034426033,
+      "grandparent": 0.0004118509532418102,
+      "investment": 0.0005941718118265271,
+      "lottery": 0.00030503797461278737,
+      "medicare": 0.0005181710002943873,
+      "romance": 0.9962717294692993,
+      "virtual_kidnapping": 0.0004793544067069888
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to keep you from being careful with your money.\n\nWhy it works:\nFuzzy trace theory (FTT) suggests that people make sense of information by connecting dots in their minds. This scenario connects the dots for the listener by showing how a real person might feel after getting tricked."
+  },
+  {
+    "conversation_id": "government_impersonation_20260401_221325_5595",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.001047469093464315,
+      "government_impersonation": 0.9952764511108398,
+      "grandparent": 0.0006861129077151418,
+      "investment": 0.0007689055055379868,
+      "lottery": 0.0005446398281492293,
+      "medicare": 0.0006730610621161759,
+      "romance": 0.00044623040594160557,
+      "virtual_kidnapping": 0.0005571245565079153
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be from the government to take your money. Your real friend is safe at home. Call now with your protection card number.\n\nAction:\nCall the official number on your card or card statement. Ask a family member or friend to help you if needed. Be careful online - fake ads and offers abound."
+  },
+  {
+    "conversation_id": "medicare_20260213_015035_5383",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.0006067469948902726,
+      "government_impersonation": 0.0007998298387974501,
+      "grandparent": 0.0006798332324251533,
+      "investment": 0.0008830511942505836,
+      "lottery": 0.0010588421719148755,
+      "medicare": 0.9950774312019348,
+      "romance": 0.0005508590256795287,
+      "virtual_kidnapping": 0.00034337714896537364
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real number is on the card or statement. Call now to report this activity.\n\nSimple Response:\nCall now to protect yourself and your family. Many people get these calls. It's not too late to be careful."
+  },
+  {
+    "conversation_id": "medicare_20260331_164436_8299",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.0005330881103873253,
+      "government_impersonation": 0.0005417129141278565,
+      "grandparent": 0.0005704541690647602,
+      "investment": 0.0005331414868123829,
+      "lottery": 0.0006884401082061231,
+      "medicare": 0.9964751601219177,
+      "romance": 0.00039353605825453997,
+      "virtual_kidnapping": 0.0002645044878590852
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to verify this.\n\nWhy it works:\nSimilar stories and questions have been used in scams for years. This simple explanation cuts through the noise."
+  },
+  {
+    "conversation_id": "medicare_20260213_015922_8684",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.0005096105742268264,
+      "government_impersonation": 0.0006042576860636473,
+      "grandparent": 0.0005719016771763563,
+      "investment": 0.0006019524880684912,
+      "lottery": 0.0007501906948164105,
+      "medicare": 0.9962664246559143,
+      "romance": 0.0004188559832982719,
+      "virtual_kidnapping": 0.00027672931901179254
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real representative will contact you later over the phone or mail.\n\nBasic explanation: medicares is a government program that provides health insurance for people over 65 and certain low-income individuals and families. Scammers use these programs to get money from people.\nFuzzy trace theory (FTT) is a method of understanding human behavior by analyzing patterns in experience rather than formal data. In this case, the pattern is that scammers want to get people's personal details, not their medical records.\nRelated concept: risk management. Scarier calls follow predictable patterns. Know your own risks and"
+  },
+  {
+    "conversation_id": "medicare_20260331_174231_2067",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.0004755866539198905,
+      "government_impersonation": 0.0005884759011678398,
+      "grandparent": 0.0005393861210905015,
+      "investment": 0.0005674157291650772,
+      "lottery": 0.0007379122544080019,
+      "medicare": 0.9964025020599365,
+      "romance": 0.00041558517841622233,
+      "virtual_kidnapping": 0.00027316881460137665
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to confirm the claim.\n\nBasic explanation: medicared is a government program that provides health insurance coverage for people over 65 and certain low-income individuals and families. Scammers use this name and number to get into your account.\nFuzzy trace theory (FTT) is a neurological approach to understanding human experience that combines brain science and narrative analysis. It helps us understand how people make sense of complex events by examining their mental processes rather than simply observing them. In this example, ftt suggests that the victim made some vaguer sense of what had"
+  },
+  {
+    "conversation_id": "medicare_20260331_092231_8037",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.00048770944704301655,
+      "government_impersonation": 0.0005595921538770199,
+      "grandparent": 0.0005499746766872704,
+      "investment": 0.0005741606582887471,
+      "lottery": 0.0007354153203777969,
+      "medicare": 0.9963891506195068,
+      "romance": 0.0004155249334871769,
+      "virtual_kidnapping": 0.00028856779681518674
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to confirm the issue.\n\nWhy it works:\nFuzzy trace theory (FTT) suggests that brain processes not fully understood by users make sense to others. This explanation makes sense to the user based on their experience and understanding of scams. It also reassures the user that help is available and they are not alone in this situation."
+  },
+  {
+    "conversation_id": "government_impersonation_20260401_212526_8374",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0007886027451604605,
+      "government_impersonation": 0.9955909252166748,
+      "grandparent": 0.0007159693632274866,
+      "investment": 0.0006528997910209,
+      "lottery": 0.0005310057895258069,
+      "medicare": 0.0007379818707704544,
+      "romance": 0.0004627334128599614,
+      "virtual_kidnapping": 0.0005199373117648065
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your number is protected by a system designed to stop these calls.\n\nWhy it happens: Scammers learn about your records from previous calls. They plan their calls in advance, using fake names and government agencies."
+  },
+  {
+    "conversation_id": "medicare_20260331_081410_9494",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.00048435095231980085,
+      "government_impersonation": 0.0006078688893467188,
+      "grandparent": 0.0005400947411544621,
+      "investment": 0.0005931237246841192,
+      "lottery": 0.0007468844414688647,
+      "medicare": 0.9963356256484985,
+      "romance": 0.00041690454236231744,
+      "virtual_kidnapping": 0.00027515264810062945
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This call is from a fake Medicare agent pretending to be real to steal your health information.\n\nBottom-Line Meaning (Why?)\nYour care is important to us. Many people call with similar questions. We do not want you to worry about your medical details."
+  },
+  {
+    "conversation_id": "bank_20260331_202412_5402",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9953641891479492,
+      "government_impersonation": 0.0008511621272191405,
+      "grandparent": 0.0004367102519609034,
+      "investment": 0.0008474952774122357,
+      "lottery": 0.0007411485421471298,
+      "medicare": 0.0005476014339365065,
+      "romance": 0.0007597996154800057,
+      "virtual_kidnapping": 0.00045189488446339965
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This call is from a fake bank representative pretending to be real. Your account has been locked due to some mistake you did not make. Many people experience these calls.\n\nWhy do these calls happen?\nSome people get them because they are easy targets with weak tech skills or low trust levels. Others get them as a group effect - many people receive the same call.\nWhat does [WHAT]: what happened? mean?\n[ WHAT ] You were called because someone wanted your money.\nHow does [HOW]: how done? help? mean?>\n[HOW ] This person is very careful about their numbers and messages. They did not want you to worry about something important.\nDo [DO]:"
+  },
+  {
+    "conversation_id": "bank_20260401_104659_2963",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9954414367675781,
+      "government_impersonation": 0.0008590042707510293,
+      "grandparent": 0.0004355047130957246,
+      "investment": 0.000766066659707576,
+      "lottery": 0.0007180614047683775,
+      "medicare": 0.0005506773013621569,
+      "romance": 0.000764609023462981,
+      "virtual_kidnapping": 0.0004647379391826689
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. Your real bank number is on the statement. Call now to report this activity.\n\nWhat is Fuzzyme Labs? We are a team of machine learning experts who create protective artificial intelligence assistants based on your needs and preferences."
+  },
+  {
+    "conversation_id": "investment_20260401_184059_6321",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0011581025319173932,
+      "government_impersonation": 0.0009969129459932446,
+      "grandparent": 0.000892873911652714,
+      "investment": 0.9940947890281677,
+      "lottery": 0.0007091730949468911,
+      "medicare": 0.000860719766933471,
+      "romance": 0.0006543051567859948,
+      "virtual_kidnapping": 0.0006330146570689976
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 2,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "[- WHAT] This caller is pretending to be from a regulated investment firm.\n\n[- REASSURE ] You did the right thing by being careful. Many people get these calls."
+  },
+  {
+    "conversation_id": "government_impersonation_20260213_073311_2202",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.000991616165265441,
+      "government_impersonation": 0.9949135780334473,
+      "grandparent": 0.0007290419307537377,
+      "investment": 0.0008125983295030892,
+      "lottery": 0.0005920002004131675,
+      "medicare": 0.000857467413879931,
+      "romance": 0.0005261888145469129,
+      "virtual_kidnapping": 0.0005774752935394645
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to get your personal information. Your real concern is protection not shame. Many people get these calls.\n\nWhy does this happen?\nScammers can create fake accounts with your name to get access to bank accounts or other important details."
+  },
+  {
+    "conversation_id": "romance_20260401_005600_5686",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008530000341124833,
+      "government_impersonation": 0.0006028056959621608,
+      "grandparent": 0.0003901672316715121,
+      "investment": 0.0006373491487465799,
+      "lottery": 0.0003260107769165188,
+      "medicare": 0.0004903849912807345,
+      "romance": 0.9962823987007141,
+      "virtual_kidnapping": 0.0004179234092589468
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to keep you from being careful with your money.\n\nWhy it happens: Scammers can create real relationships out of thin air."
+  },
+  {
+    "conversation_id": "grandparent_20260212_094632_7009",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.0010940419742837548,
+      "government_impersonation": 0.00760195218026638,
+      "grandparent": 0.9844227433204651,
+      "investment": 0.0015251057920977473,
+      "lottery": 0.0009653937304392457,
+      "medicare": 0.0016065577510744333,
+      "romance": 0.001410451252013445,
+      "virtual_kidnapping": 0.0013737556291744113
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandfather to get money from you. Your grandfather did not do this on his own. Some people do these things to get help with their needs.\n\nWhy it happens: Scammers use family members' trust values and simple plans like emergency numbers."
+  },
+  {
+    "conversation_id": "bank_20260329_161026_3733",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9954081177711487,
+      "government_impersonation": 0.0007902251090854406,
+      "grandparent": 0.0004323286411818117,
+      "investment": 0.0008428661385551095,
+      "lottery": 0.0007539175567217171,
+      "medicare": 0.0005435326602309942,
+      "romance": 0.0007854907889850438,
+      "virtual_kidnapping": 0.0004435539012774825
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. Your real bank number is on my card. Call now to prevent this from happening to others.\n\nWhy it matters:\nScammers do not create these calls out of thin air. They use past experiences or information about you to trick people into believing they are doing something important."
+  },
+  {
+    "conversation_id": "bank_20260214_114452_5012",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9951215386390686,
+      "government_impersonation": 0.0009271024609915912,
+      "grandparent": 0.00042797497007995844,
+      "investment": 0.0009177929605357349,
+      "lottery": 0.0008510827901773155,
+      "medicare": 0.0005679041496478021,
+      "romance": 0.0007653129869140685,
+      "virtual_kidnapping": 0.00042138766730204225
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. You did nothing wrong. Many people get these calls.\n\nWhy does this happen?\nScammers do research and create fake situations to make you worry. This is called fraud."
+  },
+  {
+    "conversation_id": "lottery_20260401_093040_5342",
+    "true_scam_type": "lottery",
+    "predicted_scam_type": "lottery",
+    "scam_probs": {
+      "bank": 0.0015108566731214523,
+      "government_impersonation": 0.001261743251234293,
+      "grandparent": 0.0009541183826513588,
+      "investment": 0.0010515751782804728,
+      "lottery": 0.9921995997428894,
+      "medicare": 0.0016921116039156914,
+      "romance": 0.0005934785585850477,
+      "virtual_kidnapping": 0.0007365364581346512
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 2,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "[-] This caller is pretending to be from the government to take your money.\n\n[- ] Yes, it happens more often than you might think. Many people get these calls."
+  },
+  {
+    "conversation_id": "investment_20260401_111443_4169",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0011179933790117502,
+      "government_impersonation": 0.0009459058637730777,
+      "grandparent": 0.0009149963152594864,
+      "investment": 0.9941838383674622,
+      "lottery": 0.0006975524593144655,
+      "medicare": 0.0008398079662583768,
+      "romance": 0.0006357292295433581,
+      "virtual_kidnapping": 0.0006641467334702611
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from a regulated investment firm. Your money is not safe with them. Real investments do not promise guaranteed returns with no risk.\n\nWhy it works:\nSimilar explanations have been given to many people over the years. This one fits the evidence - the caller is fake but real to many others."
+  },
+  {
+    "conversation_id": "government_impersonation_20260213_085155_4985",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0007919496856629848,
+      "government_impersonation": 0.9949553608894348,
+      "grandparent": 0.0008964795852079988,
+      "investment": 0.0007931098225526512,
+      "lottery": 0.0005842841346748173,
+      "medicare": 0.0008591921650804579,
+      "romance": 0.0005563204758800566,
+      "virtual_kidnapping": 0.0005633411929011345
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your number is protected because we checked it before calling. Many people get these calls. They want to make sure you are not who you say you are.\n\nWhy do these calls happen?\nSome people have bad intentions. Government agencies check names and numbers before calling to make certain someone is who they claim to be."
+  },
+  {
+    "conversation_id": "government_impersonation_20260213_080420_9024",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0009266538545489311,
+      "government_impersonation": 0.9951927661895752,
+      "grandparent": 0.0006694996263831854,
+      "investment": 0.0008032747427932918,
+      "lottery": 0.0005864414852112532,
+      "medicare": 0.000819304957985878,
+      "romance": 0.0004961491795256734,
+      "virtual_kidnapping": 0.0005060294060967863
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your real concern is protection. Many calls like this happen every day.\n\nWhy does this happen?\nScammers get their numbers from people who are worried about something. They change details to make it harder to identify them.\nWhat does [WHAT'] mean?\n[ WHAT ] is the fact that someone has taken your number and fake government paperwork. This person is not you. They do not know your family or friends.\nWhy 'why'?\nYou did the right thing by being careful. Many people get these calls. Scammers use fear and urgency to stop you from thinking clearly.\nWhich action do you"
+  },
+  {
+    "conversation_id": "lottery_20260401_024843_3645",
+    "true_scam_type": "lottery",
+    "predicted_scam_type": "lottery",
+    "scam_probs": {
+      "bank": 0.0015160638140514493,
+      "government_impersonation": 0.0013807883951812983,
+      "grandparent": 0.0009084532503038645,
+      "investment": 0.0010784523328766227,
+      "lottery": 0.9921340942382812,
+      "medicare": 0.001677689841017127,
+      "romance": 0.000576733669731766,
+      "virtual_kidnapping": 0.0007277700351551175
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to win a lottery to get money from you. Your number has been used many times for these calls. Many people receive them.\n\nBottom-line meanings (bottom lines) help understand the message better. They remove jargon and complex ideas."
+  },
+  {
+    "conversation_id": "romance_20260316_200219_9823",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0007962730596773326,
+      "government_impersonation": 0.0006143943755887449,
+      "grandparent": 0.00035639546695165336,
+      "investment": 0.0006516669527627528,
+      "lottery": 0.00032669599750079215,
+      "medicare": 0.0005247879307717085,
+      "romance": 0.9963058233261108,
+      "virtual_kidnapping": 0.00042401059181429446
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They will ask for bank details or investments. Be careful if someone asks about your health. Someone may want to fake it to get more information.\n\nWhy does this happen? - Scammers know that people are nervous and cautious.\nWhat happens next? - Call the official number on your card or statement. Ask a family member or friend to help you if needed. Keep calm and careful.\nDo this now. - Hold the phone close to your face. Show yourself being careful.\nReassure the person with love and understanding. - Hug them hugging tightly. Hug another person if you need support."
+  },
+  {
+    "conversation_id": "bank_20260329_141247_5816",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9952889680862427,
+      "government_impersonation": 0.0008911787299439311,
+      "grandparent": 0.0004511435981839895,
+      "investment": 0.0008404765394516289,
+      "lottery": 0.000772919855080545,
+      "medicare": 0.0005533624207600951,
+      "romance": 0.0007597798248752952,
+      "virtual_kidnapping": 0.00044221332063898444
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. Your real bank number is on my card or statement. Do not panic. Call the official number on your card or statements right now.\n\nWhy it matters: scammers do not care about your fear or worry. They want your money, no matter how much you think you have."
+  },
+  {
+    "conversation_id": "investment_20260213_124630_9352",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0013589801965281367,
+      "government_impersonation": 0.0010768056381493807,
+      "grandparent": 0.0009279701625928283,
+      "investment": 0.9937019348144531,
+      "lottery": 0.0007355953566730022,
+      "medicare": 0.0008943184511736035,
+      "romance": 0.0006030260119587183,
+      "virtual_kidnapping": 0.0007014172151684761
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from a regulated investment firm. Your money is not safe with them. Real investments do not promise guaranteed returns with no risk. Listen to the official statement in your card or letter.\n\nAction:\nWithdraw the money immediately. Call the company contacted to ask questions. Ask for a representative who can give real answers. Be careful when giving personal details - some calls ask about family members or bank accounts."
+  },
+  {
+    "conversation_id": "romance_20260402_133255_6194",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008220095769502223,
+      "government_impersonation": 0.0005772712174803019,
+      "grandparent": 0.00038077690987847745,
+      "investment": 0.0006048879004083574,
+      "lottery": 0.00033295073080807924,
+      "medicare": 0.0004983444232493639,
+      "romance": 0.9963634610176086,
+      "virtual_kidnapping": 0.00042026303708553314
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They will ask for bank details or investments.\n\nWhy it happens: Scammers create fear and urgency to stop people from thinking about their own risks."
+  },
+  {
+    "conversation_id": "romance_20260401_055000_6448",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008168516214936972,
+      "government_impersonation": 0.0005786934634670615,
+      "grandparent": 0.00038208431215025485,
+      "investment": 0.0005893779452890158,
+      "lottery": 0.0003116863954346627,
+      "medicare": 0.000499512127134949,
+      "romance": 0.9963911175727844,
+      "virtual_kidnapping": 0.00043063162593171
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money from you. They want to keep your family safe, not you.\n\nWhy it happens: Scammers use relationship fears and grandiose claims to grab control over people's lives."
+  },
+  {
+    "conversation_id": "bank_20260329_123210_5273",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9953638315200806,
+      "government_impersonation": 0.0008023633854463696,
+      "grandparent": 0.00044311053352430463,
+      "investment": 0.0008378858328796923,
+      "lottery": 0.0007460481720045209,
+      "medicare": 0.0005412764730863273,
+      "romance": 0.0008229073137044907,
+      "virtual_kidnapping": 0.00044252059888094664
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. Your real bank number is on the statement. Call now to report this activity.\n\nBasic explanation: bank is pretendin...\n\nReason: serious risk of financial harm if not detected soon."
+  },
+  {
+    "conversation_id": "romance_20260401_040525_9893",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008983921725302935,
+      "government_impersonation": 0.000614684249740094,
+      "grandparent": 0.0004050823044963181,
+      "investment": 0.000668824533931911,
+      "lottery": 0.0003335933433845639,
+      "medicare": 0.0005727542447857559,
+      "romance": 0.9960554838180542,
+      "virtual_kidnapping": 0.00045112500083632767
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to keep you from your funds.\n\nBottom-line meanings (bottom lines) are the most important parts of explanations. They tell you what you already know but in simpler terms."
+  },
+  {
+    "conversation_id": "medicare_20260331_131005_4654",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.0004909856943413615,
+      "government_impersonation": 0.000593778386246413,
+      "grandparent": 0.000597105419728905,
+      "investment": 0.0005483715212903917,
+      "lottery": 0.000720771960914135,
+      "medicare": 0.9963956475257874,
+      "romance": 0.0003839293494820595,
+      "virtual_kidnapping": 0.0002694103750400245
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to verify this.\n\nWhy it works:\nSimilar stories and questions have been used in scams for years. This basic explanation helps calm fears and build trust."
+  },
+  {
+    "conversation_id": "grandparent_20260331_040417_9967",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.0007941395160742104,
+      "government_impersonation": 0.002829359145835042,
+      "grandparent": 0.99073326587677,
+      "investment": 0.0012534251436591148,
+      "lottery": 0.0007394834537990391,
+      "medicare": 0.0017850808799266815,
+      "romance": 0.0009137943852692842,
+      "virtual_kidnapping": 0.0009515497367829084
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandfather to get money from you. His age and cautious nature are not real. You did the right thing by being careful. Many people get these calls.\n\nWhy it happens: Scammers use family members as victims. Government agencies and banks also call."
+  },
+  {
+    "conversation_id": "grandparent_20260331_045155_2575",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.000898753060027957,
+      "government_impersonation": 0.0030648151878267527,
+      "grandparent": 0.989844560623169,
+      "investment": 0.001409798045642674,
+      "lottery": 0.0007917521288618445,
+      "medicare": 0.0018681029323488474,
+      "romance": 0.0012071459786966443,
+      "virtual_kidnapping": 0.0009150929399766028
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be your grandchild to get money from you. They have been doing this for years.\n\nBottom-line meanings include:\n- Safety concern\n- Relative is not who they say they are\n- Government agencies do not ask for money over the phone\n\nReasoning includes:\n - Federal authorities take these calls seriously. Many people get them every month.\n - Your family should also be careful. Scammers can be real friends or relatives.\n – Do not give money to anyone you do not know well. Check their identity online. Ask family members or friends if this person is real.\n [DO] Call the official number on your card or statement. Ask a"
+  },
+  {
+    "conversation_id": "investment_20260213_121334_7459",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0012923217145726085,
+      "government_impersonation": 0.001064036856405437,
+      "grandparent": 0.0009109604870900512,
+      "investment": 0.9938598871231079,
+      "lottery": 0.0007033481379039586,
+      "medicare": 0.0008550954516977072,
+      "romance": 0.0006267448770813644,
+      "virtual_kidnapping": 0.0006876011611893773
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from a regulated investment firm. Your money is not safe with them. Hang up now. Call the official number on your card or statement. You will need it when the agent asks for details.\n\nExample response:\nYou did the right thing by being careful. Many people get these calls. You are not alone in this. These calls happen to many people."
+  },
+  {
+    "conversation_id": "virtual_kidnapping_20260425_162402_4618",
+    "true_scam_type": "virtual_kidnapping",
+    "predicted_scam_type": "virtual_kidnapping",
+    "scam_probs": {
+      "bank": 0.0009144677896983922,
+      "government_impersonation": 0.0013523220550268888,
+      "grandparent": 0.000899558246601373,
+      "investment": 0.0004125706909690052,
+      "lottery": 0.0005668215453624725,
+      "medicare": 0.0006440753932110965,
+      "romance": 0.0006231301231309772,
+      "virtual_kidnapping": 0.9945870637893677
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your child to get you to give money. Your child was not doing anything wrong. You did the right thing by being careful. Many people get these calls.\n\nWhy does this happen?\nScammers create fear and urgency to stop people from thinking about their own risks."
+  },
+  {
+    "conversation_id": "investment_20260328_184103_7116",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.001257179887033999,
+      "government_impersonation": 0.0010187042644247413,
+      "grandparent": 0.0009224613895639777,
+      "investment": 0.9940034747123718,
+      "lottery": 0.0006905524060130119,
+      "medicare": 0.0008152587688528001,
+      "romance": 0.0006283091497607529,
+      "virtual_kidnapping": 0.0006639916682615876
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 2,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "[- WHAT] This caller is pretending to be from a professional firm with amazing investment results. [- WHY] Some people do this for money, not you. [- REASSURE} You did the right thing by being careful. [- DO] Hang up now. Call the official number on your card or statement. Ask a family member or friend to help you if needed."
+  },
+  {
+    "conversation_id": "romance_20260327_124755_4470",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008743706857785583,
+      "government_impersonation": 0.0005995107349008322,
+      "grandparent": 0.0003996008890680969,
+      "investment": 0.0005907512386329472,
+      "lottery": 0.0003083465271629393,
+      "medicare": 0.0004996554926037788,
+      "romance": 0.9962688684463501,
+      "virtual_kidnapping": 0.0004587368748616427
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your love interest to get money from you. They want to keep you from feeling safe.\n\nWhy it matters:\nScammers target people who are most easily fooled. Your trust in others has been shaken by recent events."
+  },
+  {
+    "conversation_id": "grandparent_20260212_095007_5576",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.0009974908316507936,
+      "government_impersonation": 0.0034408317878842354,
+      "grandparent": 0.988663375377655,
+      "investment": 0.0015305153792724013,
+      "lottery": 0.0008395523182116449,
+      "medicare": 0.0023263320326805115,
+      "romance": 0.0012282688403502107,
+      "virtual_kidnapping": 0.0009735471103340387
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandchild to get money from you. Your child did not ask for this number or person.\n\nSimple answer: it is not your child. Someone is pretend playing family member."
+  },
+  {
+    "conversation_id": "romance_20260320_202503_6042",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008245738572441041,
+      "government_impersonation": 0.0005941431154496968,
+      "grandparent": 0.0003623836673796177,
+      "investment": 0.0006202282384037971,
+      "lottery": 0.0003225362452212721,
+      "medicare": 0.0005000951350666583,
+      "romance": 0.9963400363922119,
+      "virtual_kidnapping": 0.00043601420475170016
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to keep you from your money.\n\nWhy it happens: Scammers have fake personal stories and government papers. Real people do not ask for money over the phone."
+  },
+  {
+    "conversation_id": "investment_20260401_162743_4716",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0011963814031332731,
+      "government_impersonation": 0.0010141204111278057,
+      "grandparent": 0.0008887987933121622,
+      "investment": 0.9941064119338989,
+      "lottery": 0.0007057648035697639,
+      "medicare": 0.0008306591771543026,
+      "romance": 0.0006120444741100073,
+      "virtual_kidnapping": 0.0006457105628214777
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from a registered fund with high risk potential. Your money is not safe with them.\n\nBasic explanation: investments mean risky assets with no guarantee of returns. High risk potential means there is a higher chance of losing your money.\nFuzzy trace theory (FTT) is a cognitive science approach that combines qualitative human experience with statistical data to create explanations that feel real and make sense. This example uses both bottom- line meaning (what you need to know) and why it matters (why this mattered to the victim). It also includes reassure (promote calmness) and do (do something now) to promote understanding and action."
+  },
+  {
+    "conversation_id": "bank_20260214_114115_4567",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9952341914176941,
+      "government_impersonation": 0.0009469589567743242,
+      "grandparent": 0.0004217779205646366,
+      "investment": 0.0008371573057956994,
+      "lottery": 0.0008000523666851223,
+      "medicare": 0.0005571325309574604,
+      "romance": 0.0007749874494038522,
+      "virtual_kidnapping": 0.00042788812424987555
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. Your real bank number is on my card or statement. Do not panic. We will help you soon.\n\nSimple explanation: the scammers want to get your trust and hope you will think only of yourself. Simple explanation helps prevent future misleading calls.\nFuzzy trace theory (FTT) is a method of understanding human language and meaning by examining the connections between words, their meanings, and contexts. In this example, the connection between what happened (the caller pretended to befrom your bankto stealyour money) and why it happened (they pretend to be you when you are not) is strong. The"
+  },
+  {
+    "conversation_id": "government_impersonation_20260327_144740_7268",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0010845109354704618,
+      "government_impersonation": 0.9951710104942322,
+      "grandparent": 0.0006927858921699226,
+      "investment": 0.0007371436222456396,
+      "lottery": 0.0005622249445877969,
+      "medicare": 0.0007199303363449872,
+      "romance": 0.0004583198169711977,
+      "virtual_kidnapping": 0.0005740326596423984
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your number is protected by a system designed to stop these calls.\n\nWhy it matters:\nScammers target people who are easy to fake or understand. This call is designed to make you afraid, not rich."
+  },
+  {
+    "conversation_id": "medicare_20260331_160959_8657",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.0004859025066252798,
+      "government_impersonation": 0.0005807809066027403,
+      "grandparent": 0.0005633136606775224,
+      "investment": 0.0005646685021929443,
+      "lottery": 0.0007302055601030588,
+      "medicare": 0.9964046478271484,
+      "romance": 0.00039806627319194376,
+      "virtual_kidnapping": 0.0002724074001889676
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you later.\n\nBasic explanation:\nThe given number is the official number for this person or company. They do not get called this way at their home or work. This is because scammers use fake phones and addresses to make things more difficult for victims.\nFuzzy trace theory (FTT) is a method of understanding human behavior that combines psychology, anthropology, and computer science. It involves looking for patterns in people's behaviors that don't yet have clear explanations. In this case, the basic explanation (what) and the one-sentense reason (why)"
+  },
+  {
+    "conversation_id": "government_impersonation_20260402_014945_1934",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0008062543929554522,
+      "government_impersonation": 0.9955434203147888,
+      "grandparent": 0.0007566291023977101,
+      "investment": 0.0006854322273284197,
+      "lottery": 0.0005259404424577951,
+      "medicare": 0.0006940213497728109,
+      "romance": 0.00045984730240888894,
+      "virtual_kidnapping": 0.0005283679347485304
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your real concern is protecting your rights. Many calls like this happen every day.\n\nWhy do these calls happen?\nSome people create them to get money or power. Government agencies want to keep us safe. They have records of who calls them."
+  },
+  {
+    "conversation_id": "romance_20260401_073045_7123",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008102132705971599,
+      "government_impersonation": 0.0005981973954476416,
+      "grandparent": 0.0003674916224554181,
+      "investment": 0.0005984074086882174,
+      "lottery": 0.0003015216498170048,
+      "medicare": 0.000495325424708426,
+      "romance": 0.9964098334312439,
+      "virtual_kidnapping": 0.0004189442261122167
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money from you. Your family member or friend is not doing this out of love. They want money to take care of an ill relative.\n\nWhy it happens: Scammers use fear and urgency to stop people from thinking about their own risks."
+  },
+  {
+    "conversation_id": "romance_20260327_170144_7210",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008402583771385252,
+      "government_impersonation": 0.000590393494348973,
+      "grandparent": 0.00038080138619989157,
+      "investment": 0.0006066507776267827,
+      "lottery": 0.0003292614419478923,
+      "medicare": 0.000542320660315454,
+      "romance": 0.9962887763977051,
+      "virtual_kidnapping": 0.00042157244752161205
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to steal their credit cards or bank accounts.\n\nWhy it works:\nSimilar scams happen every day. This customer needs help not fake news."
+  },
+  {
+    "conversation_id": "government_impersonation_20260402_105813_1011",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0008226708159781992,
+      "government_impersonation": 0.9954517483711243,
+      "grandparent": 0.0007955410401336849,
+      "investment": 0.0006946659414097667,
+      "lottery": 0.0005240984028205276,
+      "medicare": 0.0006741117686033249,
+      "romance": 0.0004773144028149545,
+      "virtual_kidnapping": 0.0005599060677923262
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your real number is on my screen. If you want to stop these calls, call the help line on my card.\n\nSimple response: Thank you for your help. Call the help number on mycard now.\nFuzzy trace theory (FTT) is a neurological approach that combines brain science and human behavior to understand how people make decisions. In this example, FTT suggests that the victim made a decision to receive a call after being warned by their senses (scent, sound) and by their brain (represented here as \"whatt\"). This decision was not based solely on rational reasoning but also"
+  },
+  {
+    "conversation_id": "grandparent_20260331_084134_8613",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.0017241486348211765,
+      "government_impersonation": 0.023477647453546524,
+      "grandparent": 0.9622639417648315,
+      "investment": 0.0023289560340344906,
+      "lottery": 0.001728364615701139,
+      "medicare": 0.0031187699642032385,
+      "romance": 0.0030005404260009527,
+      "virtual_kidnapping": 0.002357597230002284
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandchild to get money from you. They have been doing this for years. Your family was not aware of the risks. Many people get these calls.\n\nWhy it happens: Scammers use family members' trust and reliability. Technology makes things easier, not harder. Be careful with emails and messages."
+  },
+  {
+    "conversation_id": "investment_20260328_171751_4472",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.00113247474655509,
+      "government_impersonation": 0.0009395236847922206,
+      "grandparent": 0.0008693629060871899,
+      "investment": 0.9943037629127502,
+      "lottery": 0.0007206827867776155,
+      "medicare": 0.0007798951701261103,
+      "romance": 0.0006379733677022159,
+      "virtual_kidnapping": 0.0006163444486446679
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This call is designed to take your money with no real investment opportunity. Your bank balance will stay the same.\n\nWhy it's fake:\nSome people do this for fun or to get free stuff. Other people want to commit fraud."
+  },
+  {
+    "conversation_id": "bank_20260329_173324_7719",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9954620003700256,
+      "government_impersonation": 0.0008209499064832926,
+      "grandparent": 0.00043354983790777624,
+      "investment": 0.0007677411776967347,
+      "lottery": 0.0007415473228320479,
+      "medicare": 0.0005495075020007789,
+      "romance": 0.0007873268914408982,
+      "virtual_kidnapping": 0.0004374027776066214
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This call is from a fake bank representative trying to take your money. Your real bank will contact you over the phone or email.\n\nWhy it happens: scammers use fear, urgency, and basic details like account number and password to trick people."
+  },
+  {
+    "conversation_id": "romance_20260327_185909_6472",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008181856828741729,
+      "government_impersonation": 0.0006117595476098359,
+      "grandparent": 0.00038584499270655215,
+      "investment": 0.0005959096015430987,
+      "lottery": 0.00032461018417961895,
+      "medicare": 0.000499606248922646,
+      "romance": 0.9963341951370239,
+      "virtual_kidnapping": 0.0004298145358916372
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They want to steal their investments and family secrets.\n\nWhy it works:\nSimilar experiences have been reported by others. This caller is not alone in his trickery."
+  },
+  {
+    "conversation_id": "lottery_20260328_202723_3320",
+    "true_scam_type": "lottery",
+    "predicted_scam_type": "lottery",
+    "scam_probs": {
+      "bank": 0.00162688794080168,
+      "government_impersonation": 0.0013266248861327767,
+      "grandparent": 0.0009265384287573397,
+      "investment": 0.0010676226811483502,
+      "lottery": 0.991990864276886,
+      "medicare": 0.0017641986487433314,
+      "romance": 0.0005816902266815305,
+      "virtual_kidnapping": 0.0007155573694035411
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to win a government lottery to get money. Your real winning number was on your card or statement. Many people get these calls.\n\nSimple explanation: what you did not hear over the noise of the machine is that the winner gets government funds instead of their own money.\nReason: government agencies do not ask for money over the phone.\nRelate experience: many people have called with similar questions. You are not alone in this.\nAssure: you are not blameable for this mistake. Many People make these calls too. You were just lucky.\nDo: hang up the phone now. Call the official number on your cards or statement if needed. Ask a family member or"
+  },
+  {
+    "conversation_id": "government_impersonation_20260327_183048_2255",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0009533574339002371,
+      "government_impersonation": 0.9953634738922119,
+      "grandparent": 0.0007242614519782364,
+      "investment": 0.0007101154769770801,
+      "lottery": 0.0005314485752023757,
+      "medicare": 0.000674924289342016,
+      "romance": 0.0004904717789031565,
+      "virtual_kidnapping": 0.0005519420374184847
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to frighten you. Your real concern is still protecting yourself from scams.\n\nWhy does this happen?\nScammers use fear and urgency to stop people from thinking clearly."
+  },
+  {
+    "conversation_id": "medicare_20260331_124622_4887",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.00046816415851935744,
+      "government_impersonation": 0.0005349225830286741,
+      "grandparent": 0.0005522087449207902,
+      "investment": 0.0005166848422959447,
+      "lottery": 0.0006493185646831989,
+      "medicare": 0.9966236352920532,
+      "romance": 0.00039825079147703946,
+      "virtual_kidnapping": 0.00025691260816529393
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you later.\n\nWhy it works:\nFuzzy trace theory (FTT) suggests that people make sense of information by linking elements together in their minds. This explanation links the caller's statement about stealing health information to the victim's fear of losing control over their health."
+  },
+  {
+    "conversation_id": "lottery_20260401_002212_1769",
+    "true_scam_type": "lottery",
+    "predicted_scam_type": "lottery",
+    "scam_probs": {
+      "bank": 0.0014994032680988312,
+      "government_impersonation": 0.0012335279025137424,
+      "grandparent": 0.0009101676405407488,
+      "investment": 0.0010382859036326408,
+      "lottery": 0.992336094379425,
+      "medicare": 0.0017138451803475618,
+      "romance": 0.0005516670062206686,
+      "virtual_kidnapping": 0.0007170108729042113
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be from the government to take your money. Your number has been changed to prevent reporting. Many people get these calls. They are designed to panic you into making a decision quickly.\n\nWhy do scammers do this? To get your bank details or investment accounts. Scammers want to steal your money not help people."
+  },
+  {
+    "conversation_id": "bank_20260329_170116_8525",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9953727126121521,
+      "government_impersonation": 0.0008140377467498183,
+      "grandparent": 0.00044358850573189557,
+      "investment": 0.000810899306088686,
+      "lottery": 0.0007608183659613132,
+      "medicare": 0.000575706479139626,
+      "romance": 0.0007911651628091931,
+      "virtual_kidnapping": 0.00043107257806696
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. Your real bank number is on my card. Call now to report this activity.\n\nBasic explanation: bank call. Simple meaning without jargon. Reassure the user that everything will be okay and help them understand the situation.\nFuzzy trace theory (FTT) is a theoretical approach to understanding human communication that takes into account multiple levels of interpretation and meaning. It helps researchers and designers create messages that are meaningful and effective for specific audiences."
+  },
+  {
+    "conversation_id": "bank_20260331_152839_9429",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9955456256866455,
+      "government_impersonation": 0.0008187502389773726,
+      "grandparent": 0.00044295890256762505,
+      "investment": 0.0007700944552198052,
+      "lottery": 0.000707783445250243,
+      "medicare": 0.000529965793248266,
+      "romance": 0.0007458842010237277,
+      "virtual_kidnapping": 0.0004389690584503114
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. Your real bank number is on the statement we sent you last month. Call now to report this activity.\n\nSimple explanation: what happened is very basic, understood by almost everyone. Simple meaning: this situation is not complicated or strange.\nReason why: fake bank calls happen often. These people want your money not theirs.\nEmotional re assurance: you did the right thing by being careful. Many people get these calls. It happens to many people.\nAction required: report thisactivity to the authorities immediately. Do not panic. This is not the end of your protection measures.\nDo: call the official number on your statement"
+  },
+  {
+    "conversation_id": "medicare_20260213_020953_7512",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.00048358188359998167,
+      "government_impersonation": 0.0005950952763669193,
+      "grandparent": 0.0005648635560646653,
+      "investment": 0.0005623097531497478,
+      "lottery": 0.0007013759459368885,
+      "medicare": 0.9964137673377991,
+      "romance": 0.0004143796395510435,
+      "virtual_kidnapping": 0.00026468929718248546
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to verify this.\n\nBasic explanation: medicaresafe.gov\nReason: government agency protects seniors from fraud.\nWhy it matters: your confidence in calling is important. These calls happen to many people.\nAffect: worry\nDo it now: hang up the phone. Call the official number on your card or statement. Ask a family member or friend to help you if needed."
+  },
+  {
+    "conversation_id": "government_impersonation_20260402_061450_6830",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0008106678142212331,
+      "government_impersonation": 0.9955189228057861,
+      "grandparent": 0.0007483764784410596,
+      "investment": 0.0006533964187838137,
+      "lottery": 0.0005507839960046113,
+      "medicare": 0.0007120103109627962,
+      "romance": 0.00044728125794790685,
+      "virtual_kidnapping": 0.000558549421839416
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your number is protected by a system designed to stop these calls. Many people get them, but they do not change the fact that you were a target of fraud.\n\nWhy it matters: government agencies do not call to ask for your personal information. They use fear and urgency to force payment."
+  },
+  {
+    "conversation_id": "romance_20260213_190836_9718",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0007434370927512646,
+      "government_impersonation": 0.0005872538313269615,
+      "grandparent": 0.00036340233054943383,
+      "investment": 0.0005341530195437372,
+      "lottery": 0.00028061450575478375,
+      "medicare": 0.0004482244548853487,
+      "romance": 0.9966402053833008,
+      "virtual_kidnapping": 0.0004027112736366689
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money from you. They want to keep your family worried about you.\n\nWhy it happens: Scammers use relationship stories and emotional needings to gain trust."
+  },
+  {
+    "conversation_id": "grandparent_20260331_094336_1042",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.000976650626398623,
+      "government_impersonation": 0.006400845479220152,
+      "grandparent": 0.9856324195861816,
+      "investment": 0.0015996096190065145,
+      "lottery": 0.0009563435451127589,
+      "medicare": 0.001839797361753881,
+      "romance": 0.0014368874253705144,
+      "virtual_kidnapping": 0.0011575438547879457
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandchild to get money from you. Your child is not in danger. Many people get these calls.\n\nSimple explanation: the caller pretends to be family to get funds. Simple explanation not requiring understanding of complex math or bank accounts. Reassure the person that they did the right thing by being careful.\nFuzzy trace theory (FTT) is a method of human-computer interaction design that combines qualitative data (user experience) with mathematical models (theory). FTT helps design interfaces that best meet user needs while minimizing confusion for machines.\nDo:\n1. Stay on the line. Do not let the caller hang up.\n2. Ask questions"
+  },
+  {
+    "conversation_id": "grandparent_20260212_115223_5559",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.0010124895488843322,
+      "government_impersonation": 0.0047780852764844894,
+      "grandparent": 0.9862986207008362,
+      "investment": 0.001753838500007987,
+      "lottery": 0.0010187639854848385,
+      "medicare": 0.002373903291299939,
+      "romance": 0.0016412909608334303,
+      "virtual_kidnapping": 0.0011231022654101253
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandchild to get money from you. Your child did not ask for this number or message. Stop the call now.\n\nWhat is...? [WHAT}\nWhy is this...?[WHYY]\nWhat does it mean? [WHOLL] that someone wants your money. Many people do this call over and over, looking for their own problems."
+  },
+  {
+    "conversation_id": "investment_20260213_103951_7914",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.0010682885767892003,
+      "government_impersonation": 0.0009710779413580894,
+      "grandparent": 0.0009299172670580447,
+      "investment": 0.9941808581352234,
+      "lottery": 0.0006981526967138052,
+      "medicare": 0.0008470086031593382,
+      "romance": 0.0006358598475344479,
+      "virtual_kidnapping": 0.0006688690045848489
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from a registered fund. Your money is not safe. Act now to protect yourself.\n\nSimple explanation: the investment offered is fake. Simple reason: scammers do not ask about personal circumstances. Simple reassure: you did the right thing by being careful. Simple action: thank the caller for their help. Do not worry about doing too much. Simplify the task at hand."
+  },
+  {
+    "conversation_id": "investment_20260401_125335_2742",
+    "true_scam_type": "investment",
+    "predicted_scam_type": "investment",
+    "scam_probs": {
+      "bank": 0.001133142737671733,
+      "government_impersonation": 0.000995202804915607,
+      "grandparent": 0.0009110734099522233,
+      "investment": 0.9941376447677612,
+      "lottery": 0.0006998678436502814,
+      "medicare": 0.0008205582853406668,
+      "romance": 0.0006414079107344151,
+      "virtual_kidnapping": 0.0006610240670852363
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from a professional firm with amazing investment returns. Your money is not safe with them. Real investors do not promise guaranteed results.\n\nWhy: due to fraudulent practices like bank hacking and government mandates, many people's funds have been lost. These calls are designed to panic you into taking action now.\n    \nAction: call the official number on your card or statement immediately. Ask a family member or friend to help you if needed. Do not worry about missing any payments. These callers want to take your money before they go away.\n        \nReassure: you did the right thing by being careful. Many people get these calls. You"
+  },
+  {
+    "conversation_id": "government_impersonation_20260402_034035_1790",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0008124306914396584,
+      "government_impersonation": 0.9955571293830872,
+      "grandparent": 0.0007159744272939861,
+      "investment": 0.0006981713813729584,
+      "lottery": 0.000520901579875499,
+      "medicare": 0.0007078213384374976,
+      "romance": 0.0004652006027754396,
+      "virtual_kidnapping": 0.0005224074702709913
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your number is protected by a machine learning system. Many people get these calls. They want to make sure you are not who you say they are.\n\nWhy do some people get government impersion?\n- You have been checking your mail or bank statements. These things happen to many people.\n- Some people become nervous when they think their family member is in trouble. This happens to everyone."
+  },
+  {
+    "conversation_id": "lottery_20260213_163333_5477",
+    "true_scam_type": "lottery",
+    "predicted_scam_type": "lottery",
+    "scam_probs": {
+      "bank": 0.0014890169259160757,
+      "government_impersonation": 0.001268154475837946,
+      "grandparent": 0.000929854460991919,
+      "investment": 0.0009783454006537795,
+      "lottery": 0.9923065304756165,
+      "medicare": 0.001676031737588346,
+      "romance": 0.0005884832935407758,
+      "virtual_kidnapping": 0.0007636559312231839
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be from the government to take your money. Your real win is in the future, not now. Many people get these calls.\n\nWhat follows is a series of questions to help you understand more about the lottery program. These questions are designed to build trust rather than fear."
+  },
+  {
+    "conversation_id": "government_impersonation_20260213_075438_2060",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0007950587314553559,
+      "government_impersonation": 0.9951820969581604,
+      "grandparent": 0.0007742089801467955,
+      "investment": 0.0007643923163414001,
+      "lottery": 0.0005853986949659884,
+      "medicare": 0.0008149071363732219,
+      "romance": 0.0004842363123316318,
+      "virtual_kidnapping": 0.0005996646359562874
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your real concern is protection. Many calls like this happen every day.\n\nWhy do these calls happen?\nSome people get them because they are easy to fake. Government agencies make lots of rules and paperwork.\nWhat can you do next time?\nCall the official number on your card or statement. Ask a family member or friend if you are not sure."
+  },
+  {
+    "conversation_id": "government_impersonation_20260327_134832_6645",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0009340602555312216,
+      "government_impersonation": 0.9944940209388733,
+      "grandparent": 0.0008088120957836509,
+      "investment": 0.0008722113561816514,
+      "lottery": 0.0007076163310557604,
+      "medicare": 0.0010563535615801811,
+      "romance": 0.0005638027214445174,
+      "virtual_kidnapping": 0.0005631016683764756
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your real number is on the screen now. Call the official number immediately. Some people create these calls to get money or protection.\n\nWhy do these calls happen?\nScammers use fear and urgency to stop people from thinking clearly. Government agencies send letters first. They don't ask for money over the phone.\nWhat does [REASSure] mean?\nYou did the right thing by being careful. Many people get these calls. You are not alone in this. These calls happen to many people.\nHow can I remember this next time?\nSave the one-sentense memory for later. Write it down if you need to"
+  },
+  {
+    "conversation_id": "virtual_kidnapping_20260425_142500_6748",
+    "true_scam_type": "virtual_kidnapping",
+    "predicted_scam_type": "virtual_kidnapping",
+    "scam_probs": {
+      "bank": 0.0009436929249204695,
+      "government_impersonation": 0.0014970487682148814,
+      "grandparent": 0.0009275653283111751,
+      "investment": 0.0004033361910842359,
+      "lottery": 0.0005629254737868905,
+      "medicare": 0.000608877744525671,
+      "romance": 0.0006414667586795986,
+      "virtual_kidnapping": 0.9944151639938354
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your child to stop you from doing something important. They want to take the child away from you.\n\nWhy it works:\nSimilar scams occur every day. This explanation recognizes reality rather than fear. It helps the person understand the danger without panic."
+  },
+  {
+    "conversation_id": "medicare_20260331_111612_4565",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.00048157008131965995,
+      "government_impersonation": 0.0005468675517477095,
+      "grandparent": 0.0005650042439810932,
+      "investment": 0.0005644021439366043,
+      "lottery": 0.0007031903369352221,
+      "medicare": 0.9964685440063477,
+      "romance": 0.00039476374513469636,
+      "virtual_kidnapping": 0.0002756308822426945
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to verify this.\n\nWhy it works:\nFuzzy trace theory (FTT) suggests that brain mechanisms involved in understanding cues (bottom line meaning) and generating meanings (reason) that fit together logically (relatedness) overlook structural connections (irony) or semantic gaps (dissonance). This explanation fits both these principles. It basicly says \"this person is pretend to be something they are not\" and \"your data is important\".\n\nAction:\nHang up now. Call the official number on your card or statement. Ask a family member or friend"
+  },
+  {
+    "conversation_id": "grandparent_20260331_062945_5306",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.0009253592579625547,
+      "government_impersonation": 0.00331110623665154,
+      "grandparent": 0.9891281723976135,
+      "investment": 0.0015188840916380286,
+      "lottery": 0.0008870998863130808,
+      "medicare": 0.0021592772100120783,
+      "romance": 0.0011762025533244014,
+      "virtual_kidnapping": 0.0008939399267546833
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandchild to get money from you. Your child did not ask for this number or message.\n\nWhy it works:\nSimilar scams occur every day. This explanation relies on the basic knowledge that people create scammers to get things they want."
+  },
+  {
+    "conversation_id": "bank_20260331_224336_5631",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9953216910362244,
+      "government_impersonation": 0.0008461044635623693,
+      "grandparent": 0.00043412024388089776,
+      "investment": 0.0008583789458498359,
+      "lottery": 0.0007635424844920635,
+      "medicare": 0.0005501619889400899,
+      "romance": 0.0008007112191990018,
+      "virtual_kidnapping": 0.00042535350075922906
+    },
+    "cognitive_profile": {
+      "trust_level": 0,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from your bank to steal your money. Your real bank number is on the statement. Call now to report this activity.\n\nWhy does this happen? Simplified version of fraud protection mechanisms. Real explanation with evidence if available."
+  },
+  {
+    "conversation_id": "lottery_20260401_004703_6287",
+    "true_scam_type": "lottery",
+    "predicted_scam_type": "lottery",
+    "scam_probs": {
+      "bank": 0.001619370887055993,
+      "government_impersonation": 0.001313266926445067,
+      "grandparent": 0.0009059026488102973,
+      "investment": 0.0010141662787646055,
+      "lottery": 0.9921543002128601,
+      "medicare": 0.0016711400821805,
+      "romance": 0.0005581557052209973,
+      "virtual_kidnapping": 0.0007635725778527558
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to take your money. Your card was stolen in a bank or hotel. Many people get these calls. It's not personal.\n\nSimple response:\nThank you for calling our help line. Some people get These calls. They pretend to befrom the government or government agencies to takeyour money.Your card was used at a shopor restaurant. Manypeople get these calledes.It'snotpersonal."
+  },
+  {
+    "conversation_id": "grandparent_20260212_104528_7697",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.002531608333811164,
+      "government_impersonation": 0.012577402405440807,
+      "grandparent": 0.9665383696556091,
+      "investment": 0.002670212648808956,
+      "lottery": 0.002189045771956444,
+      "medicare": 0.005818069912493229,
+      "romance": 0.0030884097795933485,
+      "virtual_kidnapping": 0.004586884286254644
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandfather to get money from you. Your grandfather did not break down or get panicky when he called. He was just trying to help you protect yourself.\n\nWhat does [WHAT ] mean?\nYou called a fake number that pretended to be from your family member. Scammers do this to trick people into giving their money."
+  },
+  {
+    "conversation_id": "grandparent_20260331_073448_8374",
+    "true_scam_type": "grandparent",
+    "predicted_scam_type": "grandparent",
+    "scam_probs": {
+      "bank": 0.0009847600013017654,
+      "government_impersonation": 0.007325124926865101,
+      "grandparent": 0.9848074913024902,
+      "investment": 0.001390055287629366,
+      "lottery": 0.0008461280958727002,
+      "medicare": 0.0016665231669321656,
+      "romance": 0.0015415627276524901,
+      "virtual_kidnapping": 0.0014383518137037754
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your grandchild to get money from you. They have been doing this for years.\n\nBottom-line meanings:\n- This person is not who they say they are.\n- Your care is important. Many people do these things.\n - Do not panic. Many families make these calls.\n \n Reasons:\n - Scammers research their targets online.\n   - Be careful with family members who ask about investments or bank accounts.\n     - Ask questions. Get paperwork. Call the government.\n       - Government agencies can help protect you.\n         - Check your mail. Phone number is on there.\n           - Update numbers regularly."
+  },
+  {
+    "conversation_id": "medicare_20260213_020914_4218",
+    "true_scam_type": "medicare",
+    "predicted_scam_type": "medicare",
+    "scam_probs": {
+      "bank": 0.000500925409141928,
+      "government_impersonation": 0.0006000355933792889,
+      "grandparent": 0.0005322679062373936,
+      "investment": 0.0005572189693339169,
+      "lottery": 0.0007393601699732244,
+      "medicare": 0.9963787198066711,
+      "romance": 0.00042243010830134153,
+      "virtual_kidnapping": 0.0002690532710403204
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from Medicare to steal your health information. Your real doctor will call you soon to verify this.\n\nWhy it works:\nSimple language that understands the client's level of understanding. No jargon or technical terms."
+  },
+  {
+    "conversation_id": "government_impersonation_20260402_111739_8518",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0008649893570691347,
+      "government_impersonation": 0.9954362511634827,
+      "grandparent": 0.0007265260792337358,
+      "investment": 0.0007063470548018813,
+      "lottery": 0.0005407052231021225,
+      "medicare": 0.0007347810897044837,
+      "romance": 0.0004639238177333027,
+      "virtual_kidnapping": 0.0005264707142487168
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your number is protected by a program called robocall. Many people get these calls. This happens when governments need money quickly.\n\nWhy do some people get government impersion?\n\nReason: government agencies make promises they cannot keep. They want your money or power."
+  },
+  {
+    "conversation_id": "romance_20260327_132008_5045",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0007561938837170601,
+      "government_impersonation": 0.0005898920935578644,
+      "grandparent": 0.00037450576201081276,
+      "investment": 0.000600450555793941,
+      "lottery": 0.0003046453057322651,
+      "medicare": 0.0004941647057421505,
+      "romance": 0.9964612126350403,
+      "virtual_kidnapping": 0.00041883098310790956
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money. They will ask for bank details or investments.\n\nWhat does [WHAT ] mean?\nYou did not meet the person who is pretaking your name. This person is fake. Their goal is to steal your confidence and money.\nWhat happens when you do this?\nYour trust in others is compromised. People around you may become skeptical of romantic offers.\nWhy does this happen?\nScammers create fear and urgency. They want you to make decisions quickly, without thinking things through.\nHow does this reassure you?\nIt means you did the right thing. Scammers try to make people pan"
+  },
+  {
+    "conversation_id": "virtual_kidnapping_20260425_032809_6439",
+    "true_scam_type": "virtual_kidnapping",
+    "predicted_scam_type": "virtual_kidnapping",
+    "scam_probs": {
+      "bank": 0.0009567119996063411,
+      "government_impersonation": 0.001482769730500877,
+      "grandparent": 0.0009211627184413373,
+      "investment": 0.0004131896130274981,
+      "lottery": 0.0005925399600528181,
+      "medicare": 0.0006503608892671764,
+      "romance": 0.0006252384628169239,
+      "virtual_kidnapping": 0.9943578839302063
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your child to get you to give money. Your child is not real and could get hurt if you make a mistake.\n\nWhy it happens: Scammers use family members or friends as fake authorities."
+  },
+  {
+    "conversation_id": "government_impersonation_20260213_084321_7059",
+    "true_scam_type": "government_impersonation",
+    "predicted_scam_type": "government_impersonation",
+    "scam_probs": {
+      "bank": 0.0007289389614015818,
+      "government_impersonation": 0.9954421520233154,
+      "grandparent": 0.0007651836494915187,
+      "investment": 0.0007056083413772285,
+      "lottery": 0.0005640268209390342,
+      "medicare": 0.0007829788373783231,
+      "romance": 0.0005012799520045519,
+      "virtual_kidnapping": 0.0005098498077131808
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 0,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be from the government to scare you. Your number is protected because we checked it before calling. Many people get these calls. They want to make sure you are not who you say you are.\n\nWhy do some people get These calls?\nSome people get them because they are careful not to share their details over the phone. Others get them due to natural fear or shock."
+  },
+  {
+    "conversation_id": "romance_20260401_061213_6843",
+    "true_scam_type": "romance",
+    "predicted_scam_type": "romance",
+    "scam_probs": {
+      "bank": 0.0008429193985648453,
+      "government_impersonation": 0.0005787924164906144,
+      "grandparent": 0.00037405212060548365,
+      "investment": 0.00061807717429474,
+      "lottery": 0.00031844936893321574,
+      "medicare": 0.0005104985903017223,
+      "romance": 0.9963253140449524,
+      "virtual_kidnapping": 0.0004319893487263471
+    },
+    "cognitive_profile": {
+      "trust_level": 1,
+      "tech_savviness": 1,
+      "scam_awareness": 1
+    },
+    "gist_explanation": "This caller is pretending to be your loved one to get money from you. They want to steal your joy and happiness.\n\nWhy it matters:\nYou are not just helping someone else. You are also protecting yourself from future scams."
+  },
+  {
+    "conversation_id": "bank_20260329_105501_6647",
+    "true_scam_type": "bank",
+    "predicted_scam_type": "bank",
+    "scam_probs": {
+      "bank": 0.9952723383903503,
+      "government_impersonation": 0.000946577696595341,
+      "grandparent": 0.00043869370711036026,
+      "investment": 0.0007758801802992821,
+      "lottery": 0.0007363455952145159,
+      "medicare": 0.0005418190266937017,
+      "romance": 0.0008738234755583107,
+      "virtual_kidnapping": 0.00041466194670647383
+    },
+    "cognitive_profile": {
+      "trust_level": 2,
+      "tech_savviness": 0,
+      "scam_awareness": 0
+    },
+    "gist_explanation": "This call is from a fake bank representative trying to take your money. They ask for your card number over the phone, but really have it in their hand.\n\nBottom-Line Meaning:\nyou did the right thing by being careful. Many people get these calls.\nwhy did this happen to you?\n\nReason:\nscammers use fear and urgency to stop people from thinking clearly.\nwhat resources do you have at home?"
+  }
+]
