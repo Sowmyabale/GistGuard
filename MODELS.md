@@ -17,11 +17,13 @@ training machine and will be added here when transferred.
 
 ## Trained weights
 
+All checksums below are now recorded — no placeholders remain.
+
 | Model | Role | File | SHA-256 | Size |
 |---|---|---|---|---|
 | Layer 1 multitask (scam 8-class + tactic head) | detection | `layer1_multitask/layer1_multitask.pt` | `013e010b91cb3f7c…` | 498.7 MB |
 | Layer 1 full checkpoint (ckpt-2472) | detection | `layer1_multitask/trainer/checkpoint-2472/model.safetensors` | `3ab6e4c966fd744b…` | 498.6 MB |
-| Layer 1 tactic-v2 (7-class, LLM-annotation retrain; full RoBERTa model, not a LoRA adapter) | detection | `layer1_multitask_tacticv2/model.safetensors` | *(hash pending)* | 498.7 MB |
+| Layer 1 tactic-v2 (7-class, LLM-annotation retrain; full RoBERTa model, not a LoRA adapter) | detection | `layer1_multitask_tacticv2/model.safetensors` | `eb5f3dc6e24099985…` | 498.7 MB |
 | GistGuard adapter = SFT-v2s (LoRA on Llama-3.1-8B, `silver_v2_short`) | gist generation | `l3_gist_lora_v4b/adapter_model.safetensors` | `fcc396c0404867c9…` | 167.8 MB |
 | GistGuard adapter config | — | `l3_gist_lora_v4b/adapter_config.json` | `688799ea2b1fe0cf…` | 1 KB |
 | SFT-v1 adapter (LoRA, `silver_train`, ckpt-824) | gist generation | `l3_gist_lora/trainer/checkpoint-824/adapter_model.safetensors` | `dd5fd523b3c61cf0…` | 167.8 MB |

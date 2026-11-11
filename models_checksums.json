@@ -41,7 +41,7 @@
   },
   "Layer 1 tactic-v2 (7-class full model)": {
     "file": "layer1_multitask_tacticv2/model.safetensors",
-    "sha256": "(pending: run sha256sum on training host)",
+    "sha256": "eb5f3dc6e24099985c4f7183e090db15394fc3d680072588c964a3cbe697fc80",
     "bytes": 498652980
   }
 }
