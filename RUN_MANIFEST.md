@@ -60,6 +60,18 @@ print(len(rows),'->',len(keep))"
 | Per-scam quality table (qc, uniq, distinct-2, self-sim, FK) | `results/results_v1rerun/gist_quality_summary_v3.json` |
 | Scorer regression tests | `code/tests/test_coverage_scorer.py` (24/24) |
 | Evidence cards | `results/results_v1rerun/evidence_cards.jsonl` |
+| Human evaluation (pilot, n=1) | `results/human_eval_ratings_item_level.csv` + `results/human_eval_pilot_summary.json` (see `code/human_eval_protocol.md`, pilot section) |
+
+## Readability-metric validation
+
+The FK grade reported in our quality tables is computed by a self-contained
+heuristic in `code/eval_gist_quality.py` (`fk_grade`), so results are
+reproducible without optional dependencies. Validated against the
+`textstat` reference implementation (`flesch_kincaid_grade`) on a random
+sample of 200 GistGuard test warnings (seed 42): mean FK 7.34 (ours) vs
+7.66 (textstat), MAE 0.43 grade levels, 199/200 (99.5%) within 1.5 grade
+levels, max deviation 2.15. Conclusion: the two implementations agree
+closely and rankings between systems are unaffected.
 
 ## Detection baselines
 
@@ -74,5 +86,5 @@ print(len(rows),'->',len(keep))"
 1. RoBERTa macro F1: manuscript 99.6% -> artifact 99.87% (`test_metrics.json`).
 2. Train/val/test counts: manuscript 6,588/2,200/2,197 -> artifact 6,591/2,197/2,197.
 3. LoRA LR 2e-4 with cosine schedule + warmup (script defaults/logs), not 1e-4 linear.
-4. Tactic head has 6 category-derived outputs; the 7th (`none`) exists only in the LLM annotation scheme.
+4. Tactic head was originally 6 category-derived outputs; per review we retrained a 7-class head on LLM tactic annotations (`models/layer1_multitask_tacticv2`, `results/results_v1rerun/tactic_v2_summary.json`): top-1 62.5% / top-2 79.3% / top-3 89.2% vs annotations (the old head's 53.1/62.2/74.0 was vs category-derived labels).
 5. All ask/id coverage numbers recomputed with the corrected scorer (see table above).
