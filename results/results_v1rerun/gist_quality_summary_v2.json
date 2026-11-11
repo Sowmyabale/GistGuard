@@ -407,10 +407,10 @@
         "qc_valid": 100.0,
         "ask_coverage": 100.0,
         "id_coverage": 100.0,
-        "unique": 7.0,
-        "distinct2": 0.008,
-        "self_sim": 0.752,
-        "fk_grade": 3.1
+        "unique": 7.4,
+        "distinct2": 0.009,
+        "self_sim": 0.729,
+        "fk_grade": 3.7
       },
       {
         "scam": "government_impersonation",
@@ -418,10 +418,10 @@
         "qc_valid": 100.0,
         "ask_coverage": 100.0,
         "id_coverage": 100.0,
-        "unique": 10.7,
+        "unique": 11.0,
         "distinct2": 0.011,
-        "self_sim": 0.636,
-        "fk_grade": 3.8
+        "self_sim": 0.621,
+        "fk_grade": 5.2
       },
       {
         "scam": "grandparent",
@@ -429,10 +429,10 @@
         "qc_valid": 100.0,
         "ask_coverage": 100.0,
         "id_coverage": 100.0,
-        "unique": 8.0,
-        "distinct2": 0.011,
-        "self_sim": 0.796,
-        "fk_grade": 2.6
+        "unique": 8.4,
+        "distinct2": 0.012,
+        "self_sim": 0.785,
+        "fk_grade": 3.0
       },
       {
         "scam": "investment",
@@ -441,9 +441,9 @@
         "ask_coverage": 100.0,
         "id_coverage": 100.0,
         "unique": 12.3,
-        "distinct2": 0.019,
-        "self_sim": 0.68,
-        "fk_grade": 3.3
+        "distinct2": 0.02,
+        "self_sim": 0.662,
+        "fk_grade": 4.1
       },
       {
         "scam": "lottery",
@@ -451,10 +451,10 @@
         "qc_valid": 100.0,
         "ask_coverage": 100.0,
         "id_coverage": 100.0,
-        "unique": 21.5,
+        "unique": 22.1,
         "distinct2": 0.015,
-        "self_sim": 0.635,
-        "fk_grade": 3.6
+        "self_sim": 0.621,
+        "fk_grade": 3.9
       },
       {
         "scam": "medicare",
@@ -462,10 +462,10 @@
         "qc_valid": 100.0,
         "ask_coverage": 100.0,
         "id_coverage": 100.0,
-        "unique": 8.1,
+        "unique": 8.7,
         "distinct2": 0.011,
-        "self_sim": 0.639,
-        "fk_grade": 4.8
+        "self_sim": 0.6,
+        "fk_grade": 5.8
       },
       {
         "scam": "romance",
@@ -473,10 +473,10 @@
         "qc_valid": 100.0,
         "ask_coverage": 100.0,
         "id_coverage": 100.0,
-        "unique": 9.8,
-        "distinct2": 0.01,
-        "self_sim": 0.586,
-        "fk_grade": 4.7
+        "unique": 10.1,
+        "distinct2": 0.011,
+        "self_sim": 0.57,
+        "fk_grade": 5.0
       },
       {
         "scam": "virtual_kidnapping",
@@ -485,18 +485,18 @@
         "ask_coverage": 100.0,
         "id_coverage": 100.0,
         "unique": 6.4,
-        "distinct2": 0.009,
-        "self_sim": 0.786,
-        "fk_grade": 3.8
+        "distinct2": 0.01,
+        "self_sim": 0.774,
+        "fk_grade": 4.2
       }
     ],
     "overall": {
       "n": 2197,
       "qc_valid": 100.0,
-      "unique": 9.6,
+      "unique": 9.8,
       "distinct2": 0.004,
-      "self_sim": 0.46,
-      "fk_grade": 3.8
+      "self_sim": 0.438,
+      "fk_grade": 4.5
     }
   }
 }

@@ -30,7 +30,7 @@ grade level (lower is easier).
 |---|---|---|---|---|---|
 | Prompt-LM (no training) | 99.8% | 5.5 | 29.5% | 58.6% | 73.6% |
 | SFT-v2s (GistGuard) | 99.4% | 7.0 | 65.5% | 91.3% | 59.9% |
-| Deterministic template | 100% | 3.8 | 76.9% | 100% | 9.6% |
+| Deterministic template | 100% | 4.5 | 74.0% | 100% | 9.8% |
 | SmishX (adapted prompts) | 0.0% | 12.4 | 60.5% | 59.3% | 100% |
 | Ghafariasl et al. (adapted) | 0.0% | 15.2 | 51.7% | 66.5% | 98.1% |
 
