@@ -1,0 +1,18 @@
+{
+  "Prompt-sampling": {
+    "ask_pct": 32.8,
+    "id_pct": 60.9
+  },
+  "Prompt-greedy": {
+    "ask_pct": 32.3,
+    "id_pct": 60.9
+  },
+  "Prompt-equalcard": {
+    "ask_pct": 66.0,
+    "id_pct": 91.0
+  },
+  "GistGuard(same inputs)": {
+    "ask_pct": 73.2,
+    "id_pct": 93.5
+  }
+}
