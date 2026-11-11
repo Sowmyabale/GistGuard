@@ -1,0 +1,24 @@
+{
+  "n_annotated": 100,
+  "negation_or_hypothetical_flagged": 4,
+  "identity": {
+    "extracted": 68,
+    "correct": 63,
+    "precision_pct": 92.6,
+    "missed_by_extractor": 26,
+    "recall_pct": 70.8
+  },
+  "requested_items": {
+    "extracted": 122,
+    "correct": 96,
+    "wrong": 26,
+    "precision_pct": 78.7,
+    "missed": 42,
+    "recall_pct": 69.6
+  },
+  "adversarial": {
+    "n": 4,
+    "identity_fp": 0,
+    "item_fp": 2
+  }
+}
