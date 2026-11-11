@@ -73,7 +73,8 @@ class MultiTaskTrainer(Trainer):
         return (outputs["loss"], outputs) if return_outputs else outputs["loss"]
 
     def prediction_step(self, model, inputs, prediction_loss_only=False, ignore_keys=None):
-        inputs_cuda = {k: v.to(model.device) for k, v in inputs.items()
+        device = next(model.parameters()).device
+        inputs_cuda = {k: v.to(device) for k, v in inputs.items()
                        if torch.is_tensor(v)}
         with torch.no_grad():
             outputs = model(**inputs_cuda)

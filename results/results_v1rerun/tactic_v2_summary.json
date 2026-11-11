@@ -1,0 +1,19 @@
+{
+  "scam_accuracy": 0.9977241693218024,
+  "scam_f1_macro": 0.997933777683568,
+  "tactic_vs_llm_annotations": {
+    "top1": 0.6249431042330451,
+    "top2": 0.7933545744196632,
+    "top3": 0.891670459717797
+  },
+  "n_test": 2197,
+  "annotation_distribution": {
+    "authority_impersonation": 825,
+    "fear_threat": 461,
+    "over_familiarity": 389,
+    "isolation_secrecy": 227,
+    "reciprocity_gift": 191,
+    "none": 86,
+    "social_proof": 18
+  }
+}
