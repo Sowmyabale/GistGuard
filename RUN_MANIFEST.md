@@ -33,7 +33,7 @@ predictions, not retrained.
 
 | Variant | Training data | Train script / log | Generation script | Output |
 |---|---|---|---|---|
-| Prompt-LM | none (zero-shot prompt) | — | `code/generate_gists_v3.py` | `results/results_v1rerun/test_gists_v3.json` |
+| Prompt-LM | none (untuned, few-shot prompted) | — | `code/generate_gists_v3.py` | `results/results_v1rerun/test_gists_v3.json` |
 | SFT-v1 | `silver_train.silver.jsonl` (6,578) | `code/train_gist_lora.py` / `lora_train.log` | `code/generate_gists_lora.py` | `test_gists_lora.json` |
 | SFT-v2 | `silver_v2.silver.jsonl` (4,821; tactic annotations + evidence cards) | `make_silver_v2.py` / `silver_v2.log` + `lora_v4_train.log` | `generate_gists_lora.py --adapter models/l3_gist_lora_v4` | `test_gists_lora_v4.json` |
 | SFT-v2s (GistGuard) | `silver_v2_short.silver.jsonl` (2,833 = FK<=10 subset of SFT-v2 data; filter command in `silver_v2_short` note below) | `lora_v4b_train.log` | `generate_gists_lora.py --adapter models/l3_gist_lora_v4b` | `test_gists_lora_v4b.json` |
@@ -41,21 +41,24 @@ predictions, not retrained.
 | SmishX (adapted) | none | — | `code/run_smishx_baseline.py` (verbatim SmishX prompts) | `test_gists_smishx_fixed.json` |
 | Ghafariasl (adapted) | none | — | `code/run_ghafariasl_baseline.py` (their risk-assessment formulation) | `test_gists_ghafariasl.json` |
 
-`silver_v2_short` filter command (as run):
+`silver_v2_short` filter (as run, 2026-10-18) — keeps examples whose training
+warning has Flesch-Kincaid grade <= 10:
 ```
 python -c "import json,sys; sys.path.insert(0,'.'); from eval_gist_quality import fk_grade; \
 rows=[json.loads(l) for l in open('results_v1rerun/silver_v2.silver.jsonl')]; \
-keep=[r for r in rows if fk_grade(r['warning'])<=10.0]; ..."
+keep=[r for r in rows if fk_grade(r['warning'])<=10.0]; \
+f=open('results_v1rerun/silver_v2_short.silver.jsonl','w'); \
+[f.write(json.dumps(r,ensure_ascii=False)+'\n') for r in keep]; f.close(); \
+print(len(rows),'->',len(keep))"
 ```
-(extracts `warning`+`action` before filtering; full one-liner preserved in run log 2026-10-18.)
 
 ## Headline evaluation artifacts (corrected scorer)
 
 | Metric | Artifact |
 |---|---|
-| Conditional ask/id coverage, all variants | `results/results_v1rerun/coverage_overall_v2.json` |
-| Per-scam quality table (qc, uniq, distinct-2, self-sim, FK) | `results/results_v1rerun/gist_quality_summary_v2.json` |
-| Scorer regression tests | `code/tests/test_coverage_scorer.py` (14/14) |
+| Conditional ask/id coverage, all variants | `results/results_v1rerun/coverage_overall_v3.json` |
+| Per-scam quality table (qc, uniq, distinct-2, self-sim, FK) | `results/results_v1rerun/gist_quality_summary_v3.json` |
+| Scorer regression tests | `code/tests/test_coverage_scorer.py` (24/24) |
 | Evidence cards | `results/results_v1rerun/evidence_cards.jsonl` |
 
 ## Detection baselines

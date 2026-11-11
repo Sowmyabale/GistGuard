@@ -40,6 +40,30 @@ CASES = [
      ask_coverage, ("Hang up now.", []), True),
     ("no claimed identity -> vacuous pass",
      identity_coverage, ("Hang up now.", ""), True),
+    # --- negative tests: unrelated identities/categories must NOT match ---
+    ("NEG: 'lottery' does not cover family identity 'grandson'",
+     identity_coverage, ("This is a lottery scam.", "grandson"), False),
+    ("NEG: 'bank' does not cover romance identity 'soldier'",
+     identity_coverage, ("A fake bank is calling.", "soldier"), False),
+    ("NEG: 'grandchild' phrase does not cover agency identity 'irs'",
+     identity_coverage, ("Someone pretending to be your grandchild.", "irs"), False),
+    ("NEG: 'romantic partner' does not cover brand 'chase'",
+     identity_coverage, ("A fake online romantic partner.", "chase"), False),
+    # --- plural / wording variants ---
+    ("plural: 'gift cards' covers item 'gift cards'",
+     ask_coverage, ("Never buy gift cards for strangers.", ["gift cards"]), True),
+    ("template wording: 'personal details' covers 'personal information'",
+     ask_coverage, ("They want your personal details.", ["personal information"]), True),
+    ("template wording: 'money transfer' covers 'wire / money transfer'",
+     ask_coverage, ("Do not send any money transfer.", ["wire / money transfer"]), True),
+    # --- identity fragment post-filtering ---
+    ("'it's me' opener is not an identity (extractor drops it)",
+     identity_coverage, ("This is not the real grandson.", "it's me"), True),
+    ("kidnapping threat fragment maps to 'kidnapper' category",
+     identity_coverage, ("This is not the real kidnapper.", "we have your daughter"), True),
+    ("apostrophe-insensitive brand: 'publishers clearing house'",
+     identity_coverage, ("This is not the real publishers clearing house.",
+                         "publisher's clearing house"), True),
 ]
 
 def main():

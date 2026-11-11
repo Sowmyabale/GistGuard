@@ -117,12 +117,24 @@ def _find_all(pattern_groups, text, per_scam_key=None):
 def evidence_card_fields(conv_text: str, scam_type: str):
     """-> dict of evidence fields from the raw conversation text."""
     claimed = _find_all(IDENTITY_PATTERNS, conv_text, scam_type)
+    # post-filter: drop matches that are utterance fragments rather than
+    # identities ("it's me", "overseas", "deployed"); normalize kidnapping
+    # threat fragments to the actual claimed role.
+    cleaned = []
+    for c in claimed:
+        cl = c.lower()
+        if re.search(r"\bit'?s me\b", cl) or cl in ("overseas", "deployed"):
+            continue
+        if "we have your" in cl or "don'?t call the police" in cl or "family member is" in cl:
+            cleaned.append("kidnapper")
+            continue
+        cleaned.append(c)
     items = _find_all(REQUESTED_ITEM_PATTERNS, conv_text)
     channels = _find_all(PAYMENT_CHANNEL_PATTERNS, conv_text)
     t = conv_text.lower()
     pressure = [label for label, p in PRESSURE_PATTERNS if re.search(p, t)]
     return {
-        "claimed_identity": claimed[0] if claimed else "",
+        "claimed_identity": cleaned[0] if cleaned else "",
         "requested_items": items,
         "payment_channels": channels,
         "pressure": pressure,
@@ -151,16 +163,18 @@ ASK_SYNONYMS = {
     "SSN": ["social security", "ssn"],
     "PIN / password / OTP": ["pin", "password", "verification code", "one-time code", "passcode"],
     "Medicare / insurance ID": ["medicare number", "medicare id", "member id", "policy number", "insurance number"],
-    "personal information": ["personal information", "date of birth", "home address"],
+    "personal information": ["personal information", "personal details", "date of birth", "home address"],
     "gift cards": ["gift card", "itunes", "google play", "steam"],
-    "wire / money transfer": ["wire transfer", "western union", "moneygram", "zelle", "venmo", "bank transfer"],
+    "wire / money transfer": ["wire transfer", "money transfer", "western union", "moneygram", "zelle", "venmo", "bank transfer"],
     "crypto": ["bitcoin", "crypto"],
     "upfront fee / taxes": ["fee", "taxes", "upfront"],
 }
 
-def _word_pat(phrase: str) -> "re.Pattern":
-    """Word-boundary, case-insensitive pattern for a literal phrase."""
-    return re.compile(r"\b" + re.escape(phrase.lower()) + r"\b")
+def _word_pat(phrase: str, plural: bool = False) -> "re.Pattern":
+    """Word-boundary, case-insensitive pattern for a literal phrase.
+    plural=True also accepts a trailing 's' (gift card <-> gift cards)."""
+    tail = r"s?\b" if plural else r"\b"
+    return re.compile(r"\b" + re.escape(phrase.lower()) + tail)
 
 def ask_coverage(warning: str, requested_items) -> bool:
     """True if the warning mentions at least one requested item.
@@ -177,7 +191,7 @@ def ask_coverage(warning: str, requested_items) -> bool:
         if syns is None:
             syns = [item.split(" /")[0].strip().lower()]
         for syn in syns:
-            if _word_pat(syn).search(w):
+            if _word_pat(syn, plural=True).search(w):
                 return True
     return False
 
@@ -185,68 +199,93 @@ def ask_coverage_all(warning: str, requested_items) -> bool:
     """Strict variant: the warning must mention EVERY extracted item."""
     if not requested_items:
         return True
-    return all(any(_word_pat(syn).search(warning.lower())
+    return all(any(_word_pat(syn, plural=True).search(warning.lower())
                    for syn in ASK_SYNONYMS.get(item, [item.split(" /")[0].strip().lower()]))
                for item in requested_items)
 
 # Known identity mentions -> acceptable surface forms in a warning.
+# Aliases are CATEGORY-SPECIFIC: an identity only matches phrases from its own
+# category (e.g. "grandson" may match "grandchild" but never "lottery"/"bank").
 # Short agency names (IRS, SSA, FBI) are preserved explicitly.
 _IDENTITY_ALIAS_GROUPS = [
+    # --- government agencies (category: agency) ---
     (r"\b(irs|internal revenue service)\b",
      ["irs", "internal revenue service", "tax agency", "tax department"]),
     (r"\bssa\b|\bsocial security administration\b",
      ["ssa", "social security", "social security administration"]),
     (r"\bfbi\b", ["fbi", "federal bureau of investigation"]),
-    (r"\bmedicare\b", ["medicare"]),
-    (r"\bmedicaid\b", ["medicaid"]),
     (r"\btreasury\b", ["treasury"]),
     (r"\bdea\b", ["dea"]),
-    (r"\b(fraud department|security department|security team)\b",
-     ["fraud department", "security department", "security team",
-      "bank", "bank security", "bank's fraud team"]),
+    (r"\bdepartment of (justice|homeland security)\b",
+     ["department of justice", "department of homeland security", "government agency"]),
+    (r"\b(immigration|customs)\b", ["immigration", "customs", "ice"]),
+    # --- law enforcement (category: law_enforcement) ---
     (r"\b(police department|sheriff|courthouse|marshal|jury duty)\b",
      ["police", "police department", "sheriff", "law enforcement", "officer",
       "court", "courthouse", "marshal"]),
-    (r"\b(immigration|customs)\b", ["immigration", "customs", "ice"]),
+    # --- bank / card-fraud departments (category: bank) ---
+    (r"\b(fraud department|security department|security team|bank(ing)? "
+     r"(representative|officer|agent|fraud team))\b",
+     ["bank", "bank employee", "bank representative", "fraud department",
+      "security department", "security team", "bank security"]),
+    # --- medicare / health insurance (category: medicare) ---
+    (r"\b(medicare|medicaid|health ?care|health insurance|insurance "
+     r"(company|provider|agent))\b",
+     ["medicare", "medicaid", "healthcare", "health care", "health insurance",
+      "insurance", "insurance company", "insurance agent"]),
+    # --- grandparent scam family identities (category: family) ---
+    (r"\b(your )?(grandson|granddaughter|grandchild)\b|\bit'?s me\b",
+     ["grandson", "granddaughter", "grandchild", "grandkid", "family member", "relative"]),
+    # --- romance personas (category: romance) ---
+    (r"\b(soldier|sergeant|general|army|navy|air force|deployed|overseas|"
+     r"oil rig|engineer|doctor|surgeon|widow(er)?)\b",
+     ["soldier", "sergeant", "general", "military", "army", "navy", "air force", "engineer",
+      "doctor", "surgeon", "oil rig", "deployed", "overseas", "widow", "widower",
+      "online romantic partner", "romantic partner", "online partner",
+      "person online", "online relationship"]),
+    # --- investment personas (category: investment) ---
+    (r"\b(broker|financial advisor|adviser|portfolio manager|trading platform|"
+     r"hedge fund|investment firm)\b",
+     ["broker", "financial advisor", "adviser", "investment advisor",
+      "portfolio manager", "trading platform", "hedge fund", "investment firm"]),
+    # --- lottery / prize offices (category: lottery) ---
+    (r"\b(lottery (office|commission|headquarters)|publisher'?s clearing house|\bpch\b|"
+     r"prize (department|patrol|center)|sweepstakes (office|headquarters)|"
+     r"claims? (department|agent))\b",
+     ["lottery", "lottery office", "prize office", "prize department", "sweepstakes",
+      "publisher's clearing house", "pch", "prize patrol", "claims department"]),
+    # --- virtual kidnapping (category: kidnapping) ---
+    (r"\b(kidnapper|we have your (daughter|son|wife|husband|grandchild))\b",
+     ["kidnapper", "kidnap", "fake kidnapper"]),
 ]
 _BRAND_RE = re.compile(
     r"\b(chase|wells fargo|bank of america|citibank|citi bank|usbank|u\.s\. bank|"
-    r"hsbc|capital one|pnc|td bank|aetna|united ?health|humana|blue cross|anthem|cigna|"
-    r"publisher'?s clearing house|\bpch\b)\b")
-_IDENTITY_GENERIC = [
-    "bank", "government", "government agency", "federal agency",
-    "medicare", "insurance", "insurance company", "health insurance",
-    "grandchild", "grandson", "granddaughter", "grandkid", "family member", "relative",
-    "romantic partner", "online partner", "person online", "online relationship",
-    "investment advisor", "financial advisor", "adviser", "broker",
-    "lottery", "lottery office", "prize office", "sweepstakes", "prize",
-    "kidnapper", "trading platform", "investment firm",
-]
+    r"hsbc|capital one|pnc|td bank|aetna|united ?health|humana|blue cross|anthem|cigna)\b")
 
 def identity_coverage(warning: str, claimed_identity: str) -> bool:
     """True if the warning references the claimed identity (or none was found).
 
     Matching rules:
-    - known agencies accept their listed aliases (short names like IRS count);
+    - an identity matches ONLY surface forms from its own category's alias
+      list (e.g. "grandson" -> "grandchild" OK, "lottery"/"bank" NOT OK);
     - specific brand names (Chase, Wells Fargo, Aetna, ...) require the brand
       itself -- a generic "your bank" does NOT cover "Bank of America";
-    - otherwise identity tokens (word-boundary, len>=2) or a scam-generic
-      phrase (e.g. "fake romantic partner") count as coverage.
+    - otherwise identity tokens are matched word-boundary (len>=2).
     """
     if not claimed_identity:
         return True
-    w = warning.lower()
-    ci = claimed_identity.lower().strip()
+    # apostrophe-insensitive matching ("publishers clearing house" == "publisher's ...")
+    w = warning.lower().replace("'", "").replace("’", "")
+    ci = claimed_identity.lower().strip().replace("'", "").replace("’", "")
     for pat, aliases in _IDENTITY_ALIAS_GROUPS:
         if re.search(pat, ci):
-            return any(_word_pat(a).search(w) for a in aliases)
+            return any(_word_pat(a.replace("'", "").replace("’", "")).search(w)
+                       for a in aliases)
     m = _BRAND_RE.search(ci)
     if m:
         return _word_pat(m.group(1)).search(w) is not None
     toks = [t for t in re.split(r"\W+", ci) if len(t) >= 2]
-    if any(_word_pat(t).search(w) for t in toks):
-        return True
-    return any(_word_pat(g).search(w) for g in _IDENTITY_GENERIC)
+    return any(_word_pat(t).search(w) for t in toks)
 
 def main():
     ap = argparse.ArgumentParser()

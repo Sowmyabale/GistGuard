@@ -74,12 +74,15 @@ for rec in preds:
         warning = f"This is not the real {identity}. They are asking for your {item_txt} to steal your money."
     else:
         warning = f"This caller is a scammer. They are asking for your {item_txt} to steal your money."
-    action, cues = ACTIONS.get(rec.get("true_scam") or st, _DEFAULT_ACTION)
-    appropriate = any(re.search(c, action.lower()) for c in cues)
+    # end-to-end: action is chosen from the PREDICTED scam category (what the
+    # pipeline would know at deployment), not the ground-truth label.
+    action_key = rec.get("pred_scam") or rec.get("true_scam") or st
+    action, cues = ACTIONS.get(action_key, _DEFAULT_ACTION)
+    conformance = any(re.search(c, action.lower()) for c in cues)
     rows.append({"conversation_id": cid, "true_scam": rec.get("true_scam"),
                  "pred_scam": rec.get("pred_scam"), "warning": warning,
                  "action": action, "valid": is_valid(warning, action),
-                 "action_appropriate": appropriate,
+                 "action_template_conformance": conformance,
                  "variant": "template"})
 
 json.dump(rows, open(args.output, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
@@ -92,11 +95,11 @@ for r in rows:
     ri, ci = fields["requested_items"], fields["claimed_identity"]
     if ri: ask_den += 1; ask += int(ask_coverage(r["warning"], ri))
     if ci: id_den += 1; idc += int(identity_coverage(r["warning"], ci))
-print("n=%d qc=%.1f%% ask=%.1f%% (n=%d) id=%.1f%% (n=%d) fk=%.1f uniq=%.1f%% words=%.1f action_ok=%.1f%%" % (
+print("n=%d qc=%.1f%% ask=%.1f%% (n=%d) id=%.1f%% (n=%d) fk=%.1f uniq=%.1f%% words=%.1f tpl_conform=%.1f%%" % (
     n, 100*sum(r["valid"] for r in rows)/n, 100*ask/ask_den, ask_den, 100*idc/id_den, id_den,
     sum(fk_grade(r["warning"]) for r in rows)/n,
     100*len({r["warning"] for r in rows})/n,
     sum(len(r["warning"].split()) for r in rows)/n,
-    100*sum(r["action_appropriate"] for r in rows)/n))
+    100*sum(r["action_template_conformance"] for r in rows)/n))
 for r in rows[:3]:
     print("---"); print(r["warning"]); print("->", r["action"])

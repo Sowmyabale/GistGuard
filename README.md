@@ -20,25 +20,32 @@ results/  All experimental outputs: predictions, generated gists, quality
 
 ## Key results (COVA-X test fold, n = 2,197)
 
-Coverage metrics use the corrected word-boundary scorer (`coverage_overall_v2`,
-see `results/results_v1rerun/coverage_overall_v2.json`; regression tests in
-`code/tests/`). ask/id coverage is conditional (conversations in which the
-extractor found the field; denominators 1,556 and 1,870). fk = Flesch-Kincaid
-grade level (lower is easier).
+Coverage metrics use the corrected scorer (`coverage_overall_v3`,
+`gist_quality_summary_v3`; category-specific identity aliases, plural-aware
+word-boundary item matching, identity-fragment filtering; regression tests in
+`code/tests/` — 24/24). ask/id coverage is conditional (conversations in which
+the extractor found the field; denominators 1,556 and 1,457). fk =
+Flesch-Kincaid grade level (lower is easier).
 
 | Layer 3 variant | Format-valid | FK grade | ask cov. | id cov. | unique |
 |---|---|---|---|---|---|
-| Prompt-LM (no training) | 99.8% | 5.5 | 29.5% | 58.6% | 73.6% |
-| SFT-v2s (GistGuard) | 99.4% | 7.0 | 65.5% | 91.3% | 59.9% |
-| Deterministic template | 100% | 4.5 | 74.0% | 100% | 9.8% |
-| SmishX (adapted prompts) | 0.0% | 12.4 | 60.5% | 59.3% | 100% |
-| Ghafariasl et al. (adapted) | 0.0% | 15.2 | 51.7% | 66.5% | 98.1% |
+| Prompt-LM (untuned, few-shot prompted) | 99.8% | 5.5 | 32.8% | 60.9% | 73.6% |
+| SFT-v2s (GistGuard) | 99.4% | 7.0 | 73.2% | 93.5% | 59.9% |
+| Deterministic template | 100% | 4.8 | 100% | 100% | 8.8% |
+| SmishX (adapted prompts) | 0.0% | 12.4 | 71.7% | 49.8% | 100% |
+| Ghafariasl et al. (adapted formulation) | 0.0% | 15.2 | 65.4% | 55.3% | 98.1% |
 
-Detection: 99.9% accuracy / 99.87% macro F1 on eight-class scam-type
-classification (recomputed from saved predictions). Category-derived tactic
-top-3 accuracy is 100% against scam-type-derived labels; against independently
-LLM-annotated per-conversation tactics the same predictions achieve 53.1% /
-62.2% / 73.0% (top-1/2/3) — see the response letter for the distinction.
+The template covers every extracted field by construction (it repeats them);
+its uniqueness (8.8%) shows the cost: near-identical, non-personalized
+warnings. GistGuard's contribution is personalized, diverse, plain-language
+warnings (human evaluation reported in the paper). Detection: 99.9% accuracy /
+99.87% macro F1 on eight-class scam-type classification (recomputed from saved
+predictions). Category-derived tactic top-3 accuracy is 100% against
+scam-type-derived labels; against independently LLM-annotated per-conversation
+tactics the same predictions achieve 53.1% / 62.2% / 74.0% (top-1/2/3) — a
+retrained 7-class tactic head evaluated against these annotations is reported
+in the revision (`tactic_v2_summary.json`, reproduced by
+`train_layer1_tactic_v2.py`).
 
 ## Data
 
