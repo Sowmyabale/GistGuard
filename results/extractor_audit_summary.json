@@ -1,32 +1,58 @@
 {
-  "n_annotated": 100,
-  "n_sampled_conversations": 96,
-  "n_adversarial_cases": 4,
+  "reference_presence_rule": "reference_identity_present is derived per row: 'y' if the annotator judged the extracted identity correct, judged it missed (identity present but not extracted), or an identity was extracted and judged incorrect \u2014 for all five such rows the annotator notes confirm a personal name or organization was claimed in the conversation; otherwise 'n'. A wrong extraction on a reference-present row is both a false positive and a false negative; a false identity on a reference-absent row is a false positive only.",
   "provenance": {
     "annotator": "one of the authors (graduate researcher)",
     "procedure": "candidate extractions pre-filled by the rule-based extractor; all judgments entered by the annotator after reading each conversation; no AI system assigned the audit labels",
-    "deidentified_table": "results/extractor_audit_annotations_deidentified.csv (sample IDs and judgments only, no conversation text)"
+    "deidentified_table": "results/extractor_audit_annotations_deidentified.csv (sample IDs, judgments, and reference_identity_present; no conversation text)"
   },
-  "recall_definition": "identity recall = correct / (correct + missed), where 'missed' counts both identities the extractor found nothing for (q1=missed) and identities it extracted incorrectly on non-adversarial rows (a wrong extraction also omits the correct identity). Under the previous definition (q1=missed only) identity recall was 70.8%.",
-  "negation_or_hypothetical_flagged": 4,
-  "identity": {
-    "extracted": 68,
-    "correct": 63,
-    "precision_pct": 92.6,
-    "missed_by_extractor": 31,
-    "recall_pct": 67.0
+  "sampled_conversations": {
+    "n": 96,
+    "identity": {
+      "tp": 61,
+      "fp": 5,
+      "fn": 31,
+      "extracted": 66,
+      "correct": 61,
+      "precision_pct": 92.4,
+      "recall_pct": 66.3
+    },
+    "requested_items": {
+      "extracted": 120,
+      "correct": 96,
+      "wrong": 24,
+      "missed": 42,
+      "precision_pct": 80.0,
+      "recall_pct": 69.6
+    }
   },
-  "requested_items": {
-    "extracted": 122,
-    "correct": 96,
-    "wrong": 26,
-    "precision_pct": 78.7,
-    "missed": 42,
-    "recall_pct": 69.6
-  },
-  "adversarial": {
+  "adversarial_cases": {
     "n": 4,
     "identity_fp": 0,
-    "item_fp": 2
+    "item_fp": 2,
+    "note": "constructed negation/hypothetical cases; precision/recall not meaningful by construction"
+  },
+  "all_rows_aggregate": {
+    "n": 0,
+    "identity": {
+      "tp": 63,
+      "fp": 5,
+      "fn": 31,
+      "extracted": 68,
+      "correct": 63,
+      "precision_pct": 92.6,
+      "recall_pct": 67.0
+    },
+    "requested_items": {
+      "extracted": 122,
+      "correct": 96,
+      "wrong": 26,
+      "missed": 42,
+      "precision_pct": 78.7,
+      "recall_pct": 69.6
+    }
+  },
+  "previous_definitions": {
+    "identity_recall_missed_only": 70.8,
+    "identity_recall_wrong_counts_as_fn_round2": 67.0
   }
 }

@@ -1,101 +1,101 @@
-sample_id,conversation_id,scam_type,extracted_identity,extracted_items,q1_identity_correct,q2_wrong_items,q3_missed_items,q4_negation_or_hypothetical
-ADV01,(synthetic),bank,,card number / full card,,card number / full card,,y
-ADV02,(synthetic),bank,bank fraud team,,1,,,
-ADV03,(synthetic),bank,,pin / password / otp,,pin / password / otp,,y
-ADV04,(synthetic),romance,engineer,,1,,,
-S001,bank_20260331_143243_1545,bank,chase,card number / full card,1,,personal information,
-S002,bank_20260214_090945_8129,bank,chase,card number / full card; cvv / security code; pin / password / otp,1,pin / password / otp,expiration date,
-S003,bank_20260331_231502_8105,bank,chase,ssn,1,,personal information,
-S004,bank_20260331_153618_9377,bank,chase,personal information; ssn,1,,,
-S005,bank_20260331_145552_6039,bank,chase,,1,,personal information,
-S006,bank_20260329_101539_9128,bank,chase,,1,,personal information,
-S007,bank_20260214_114452_5012,bank,chase,card number / full card; cvv / security code,1,,,
-S008,bank_20260214_091549_2397,bank,chase,account number / routing; cvv / security code,1,account number / routing,expiration date,
-S009,bank_20260214_091151_8975,bank,chase,cvv / security code,1,,,
-S010,bank_20260331_194015_4448,bank,chase,card number / full card; cvv / security code; ssn,1,,personal information,
-S011,bank_20260331_193305_1262,bank,chase,ssn,1,,personal information,
-S012,bank_20260401_103439_9176,bank,chase,ssn,1,,personal information,
-S013,government_impersonation_20260327_150652_8169,government_impersonation,social security administration,gift cards; ssn,1,ssn,,
-S014,government_impersonation_20260402_122645_4531,government_impersonation,social security administration,personal information; ssn,1,,,
-S015,government_impersonation_20260327_213017_6861,government_impersonation,social security administration,gift cards; personal information; ssn,1,gift cards,,
-S016,government_impersonation_20260327_124336_5775,government_impersonation,irs,gift cards,1,,upfront fee / taxes,
-S017,government_impersonation_20260402_010342_3339,government_impersonation,social security administration,gift cards; ssn; upfront fee / taxes; wire / money transfer,1,ssn; wire / money transfer,,
-S018,government_impersonation_20260401_234643_2938,government_impersonation,irs,,1,,upfront fee / taxes,
-S019,government_impersonation_20260327_153311_3629,government_impersonation,social security administration,gift cards; personal information; pin / password / otp; ssn,1,pin / password / otp; ssn,,
-S020,government_impersonation_20260327_150250_1123,government_impersonation,internal revenue service,gift cards,1,,upfront fee / taxes,
-S021,government_impersonation_20260327_214243_7815,government_impersonation,social security administration,gift cards; pin / password / otp; ssn,1,gift cards; pin / password / otp; ssn,,y
-S022,government_impersonation_20260327_183235_1386,government_impersonation,irs,gift cards,1,,upfront fee / taxes,
-S023,government_impersonation_20260213_100807_9936,government_impersonation,irs,gift cards,1,,upfront fee / taxes,
-S024,government_impersonation_20260327_213631_4934,government_impersonation,irs,gift cards,1,,upfront fee / taxes,
-S025,grandparent_20260331_034742_4871,grandparent,,gift cards,missed,gift cards,cash / courier pickup,
-S026,grandparent_20260328_212241_3579,grandparent,,gift cards,missed,gift cards,cash / courier pickup,
-S027,grandparent_20260212_110536_2662,grandparent,,gift cards,missed,,,
-S028,grandparent_20260331_103632_3341,grandparent,,,missed,,cash / courier pickup,
-S029,grandparent_20260212_093139_8599,grandparent,,wire / money transfer,missed,,,
-S030,grandparent_20260328_173432_8844,grandparent,,account number / routing; gift cards; wire / money transfer,missed,account number / routing; gift cards,,
-S031,grandparent_20260212_110334_1127,grandparent,,,missed,,cash / courier pickup,
-S032,grandparent_20260330_232115_7641,grandparent,,gift cards,missed,,,
-S033,grandparent_20260328_154815_5986,grandparent,,wire / money transfer,missed,wire / money transfer,cash / courier pickup,y
-S034,grandparent_20260328_194305_4729,grandparent,,,missed,,cash / courier pickup,
-S035,grandparent_20260331_071359_6790,grandparent,,,missed,,,
-S036,grandparent_20260329_075053_2953,grandparent,your granddaughter,gift cards,1,,,
-S037,investment_20260401_163043_2995,investment,financial advisor,crypto,,,,
-S038,investment_20260328_131924_3107,investment,,crypto; wire / money transfer,missed,wire / money transfer,personal information,
-S039,investment_20260213_130829_4604,investment,,crypto,missed,,,
-S040,investment_20260401_181717_8073,investment,,crypto,,,,
-S041,investment_20260401_110258_9302,investment,,crypto; personal information,missed,,,
-S042,investment_20260213_123154_1359,investment,broker,crypto,,,,
-S043,investment_20260213_110231_5381,investment,,crypto,,,,
-S044,investment_20260213_122940_1951,investment,,crypto,missed,,,
-S045,investment_20260401_182441_8215,investment,,crypto,,,,
-S046,investment_20260328_163703_6169,investment,,crypto,missed,,,
-S047,investment_20260328_190440_7934,investment,,crypto,missed,,,
-S048,investment_20260213_124011_3948,investment,trading platform,crypto,1,,,
-S049,lottery_20260401_051414_3791,lottery,prize patrol,,1,,personal information,
-S050,lottery_20260213_151335_7553,lottery,publishers clearing house,gift cards; upfront fee / taxes,1,,,
-S051,lottery_20260401_032051_8616,lottery,prize patrol,upfront fee / taxes,1,,personal information,
-S052,lottery_20260213_152844_2672,lottery,publishers clearing house,card number / full card; cvv / security code; gift cards; upfront fee / taxes,1,,,
-S053,lottery_20260213_170747_2031,lottery,publishers clearing house,personal information,1,,,
-S054,lottery_20260401_075849_4326,lottery,prize patrol,gift cards; upfront fee / taxes,1,gift cards; upfront fee / taxes,personal information,
-S055,lottery_20260213_151403_6809,lottery,publishers clearing house,gift cards; upfront fee / taxes,1,,,
-S056,lottery_20260401_072257_2713,lottery,publishers clearing house,account number / routing; upfront fee / taxes,1,account number / routing,personal information,
-S057,lottery_20260329_001303_9869,lottery,publishers clearing house,gift cards; upfront fee / taxes,1,,personal information,
-S058,lottery_20260213_150239_6629,lottery,publishers clearing house,gift cards; upfront fee / taxes,1,,,
-S059,lottery_20260401_065110_1765,lottery,prize patrol,personal information; upfront fee / taxes,1,,,
-S060,lottery_20260401_074710_4157,lottery,publishers clearing house,upfront fee / taxes,1,,,
-S061,medicare_20260330_111935_4193,medicare,medicare,personal information,1,,,
-S062,medicare_20260331_163714_4762,medicare,medicare,medicare / insurance id; personal information,1,,,
-S063,medicare_20260213_011012_1903,medicare,medicare,medicare / insurance id,1,,,
-S064,medicare_20260331_173111_3871,medicare,medicare,medicare / insurance id; personal information; ssn,,medicare / insurance id,,
-S065,medicare_20260330_142942_1488,medicare,medicare,personal information,,,,
-S066,medicare_20260331_152250_3647,medicare,medicare,personal information; ssn,,,,
-S067,medicare_20260331_162117_8545,medicare,medicare,personal information; ssn,1,,,
-S068,medicare_20260331_132117_9096,medicare,medicare,personal information; ssn,1,,,
-S069,medicare_20260331_174323_1285,medicare,medicare,medicare / insurance id; personal information; ssn,1,,,
-S070,medicare_20260331_085219_5000,medicare,medicare,medicare / insurance id; personal information; ssn,1,,,
-S071,medicare_20260331_125732_6663,medicare,medicare,medicare / insurance id; personal information; ssn,1,,,
-S072,medicare_20260331_135159_9662,medicare,medicare,medicare / insurance id; personal information,1,,,
-S073,romance_20260316_201728_5775,romance,,,missed,,,
-S074,romance_20260327_113503_1190,romance,,wire / money transfer,missed,,,
-S075,romance_20260401_052828_3805,romance,,,missed,,,
-S076,romance_20260401_022049_3113,romance,,wire / money transfer,missed,wire / money transfer,,
-S077,romance_20260320_201011_8312,romance,,,missed,,money / financial support (method unspecified),
-S078,romance_20260402_153230_1156,romance,soldier,,1,,,
-S079,romance_20260213_033949_4736,romance,,wire / money transfer,missed,,,
-S080,romance_20260401_012521_3604,romance,,,missed,,,
-S081,romance_20260401_104240_7798,romance,,,,,,
-S082,romance_20260213_035134_4944,romance,,account number / routing,missed,account number / routing,wire / money transfer,
-S083,romance_20260327_134901_4869,romance,,wire / money transfer,missed,,personal information,
-S084,romance_20260327_141909_8063,romance,soldier,,1,,money / financial support (method unspecified),
-S085,virtual_kidnapping_20260425_103045_2485,virtual_kidnapping,kidnapper,account number / routing; wire / money transfer,1,,,
-S086,virtual_kidnapping_20260425_110800_5103,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,
-S087,virtual_kidnapping_20260425_121828_9409,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off; personal information,
-S088,virtual_kidnapping_20260425_102318_4535,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,
-S089,virtual_kidnapping_20260425_014103_6673,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,
-S090,virtual_kidnapping_20260424_221544_1131,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,
-S091,virtual_kidnapping_20260424_204717_3896,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,
-S092,virtual_kidnapping_20260424_233433_4304,virtual_kidnapping,kidnapper,account number / routing; wire / money transfer,1,account number / routing,transaction confirmation id,
-S093,virtual_kidnapping_20260425_112733_4352,virtual_kidnapping,kidnapper,,1,,cash / courier pickup,
-S094,virtual_kidnapping_20260425_040756_8597,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,
-S095,virtual_kidnapping_20260425_184429_1141,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,
-S096,virtual_kidnapping_20260425_190828_7345,virtual_kidnapping,kidnapper,wire / money transfer,1,,,
+sample_id,conversation_id,scam_type,extracted_identity,extracted_items,q1_identity_correct,q2_wrong_items,q3_missed_items,q4_negation_or_hypothetical,reference_identity_present
+ADV01,(synthetic),bank,,card number / full card,,card number / full card,,y,n
+ADV02,(synthetic),bank,bank fraud team,,1,,,,y
+ADV03,(synthetic),bank,,pin / password / otp,,pin / password / otp,,y,n
+ADV04,(synthetic),romance,engineer,,1,,,,y
+S001,bank_20260331_143243_1545,bank,chase,card number / full card,1,,personal information,,y
+S002,bank_20260214_090945_8129,bank,chase,card number / full card; cvv / security code; pin / password / otp,1,pin / password / otp,expiration date,,y
+S003,bank_20260331_231502_8105,bank,chase,ssn,1,,personal information,,y
+S004,bank_20260331_153618_9377,bank,chase,personal information; ssn,1,,,,y
+S005,bank_20260331_145552_6039,bank,chase,,1,,personal information,,y
+S006,bank_20260329_101539_9128,bank,chase,,1,,personal information,,y
+S007,bank_20260214_114452_5012,bank,chase,card number / full card; cvv / security code,1,,,,y
+S008,bank_20260214_091549_2397,bank,chase,account number / routing; cvv / security code,1,account number / routing,expiration date,,y
+S009,bank_20260214_091151_8975,bank,chase,cvv / security code,1,,,,y
+S010,bank_20260331_194015_4448,bank,chase,card number / full card; cvv / security code; ssn,1,,personal information,,y
+S011,bank_20260331_193305_1262,bank,chase,ssn,1,,personal information,,y
+S012,bank_20260401_103439_9176,bank,chase,ssn,1,,personal information,,y
+S013,government_impersonation_20260327_150652_8169,government_impersonation,social security administration,gift cards; ssn,1,ssn,,,y
+S014,government_impersonation_20260402_122645_4531,government_impersonation,social security administration,personal information; ssn,1,,,,y
+S015,government_impersonation_20260327_213017_6861,government_impersonation,social security administration,gift cards; personal information; ssn,1,gift cards,,,y
+S016,government_impersonation_20260327_124336_5775,government_impersonation,irs,gift cards,1,,upfront fee / taxes,,y
+S017,government_impersonation_20260402_010342_3339,government_impersonation,social security administration,gift cards; ssn; upfront fee / taxes; wire / money transfer,1,ssn; wire / money transfer,,,y
+S018,government_impersonation_20260401_234643_2938,government_impersonation,irs,,1,,upfront fee / taxes,,y
+S019,government_impersonation_20260327_153311_3629,government_impersonation,social security administration,gift cards; personal information; pin / password / otp; ssn,1,pin / password / otp; ssn,,,y
+S020,government_impersonation_20260327_150250_1123,government_impersonation,internal revenue service,gift cards,1,,upfront fee / taxes,,y
+S021,government_impersonation_20260327_214243_7815,government_impersonation,social security administration,gift cards; pin / password / otp; ssn,1,gift cards; pin / password / otp; ssn,,y,y
+S022,government_impersonation_20260327_183235_1386,government_impersonation,irs,gift cards,1,,upfront fee / taxes,,y
+S023,government_impersonation_20260213_100807_9936,government_impersonation,irs,gift cards,1,,upfront fee / taxes,,y
+S024,government_impersonation_20260327_213631_4934,government_impersonation,irs,gift cards,1,,upfront fee / taxes,,y
+S025,grandparent_20260331_034742_4871,grandparent,,gift cards,missed,gift cards,cash / courier pickup,,y
+S026,grandparent_20260328_212241_3579,grandparent,,gift cards,missed,gift cards,cash / courier pickup,,y
+S027,grandparent_20260212_110536_2662,grandparent,,gift cards,missed,,,,y
+S028,grandparent_20260331_103632_3341,grandparent,,,missed,,cash / courier pickup,,y
+S029,grandparent_20260212_093139_8599,grandparent,,wire / money transfer,missed,,,,y
+S030,grandparent_20260328_173432_8844,grandparent,,account number / routing; gift cards; wire / money transfer,missed,account number / routing; gift cards,,,y
+S031,grandparent_20260212_110334_1127,grandparent,,,missed,,cash / courier pickup,,y
+S032,grandparent_20260330_232115_7641,grandparent,,gift cards,missed,,,,y
+S033,grandparent_20260328_154815_5986,grandparent,,wire / money transfer,missed,wire / money transfer,cash / courier pickup,y,y
+S034,grandparent_20260328_194305_4729,grandparent,,,missed,,cash / courier pickup,,y
+S035,grandparent_20260331_071359_6790,grandparent,,,missed,,,,y
+S036,grandparent_20260329_075053_2953,grandparent,your granddaughter,gift cards,1,,,,y
+S037,investment_20260401_163043_2995,investment,financial advisor,crypto,,,,,y
+S038,investment_20260328_131924_3107,investment,,crypto; wire / money transfer,missed,wire / money transfer,personal information,,y
+S039,investment_20260213_130829_4604,investment,,crypto,missed,,,,y
+S040,investment_20260401_181717_8073,investment,,crypto,,,,,n
+S041,investment_20260401_110258_9302,investment,,crypto; personal information,missed,,,,y
+S042,investment_20260213_123154_1359,investment,broker,crypto,,,,,y
+S043,investment_20260213_110231_5381,investment,,crypto,,,,,n
+S044,investment_20260213_122940_1951,investment,,crypto,missed,,,,y
+S045,investment_20260401_182441_8215,investment,,crypto,,,,,n
+S046,investment_20260328_163703_6169,investment,,crypto,missed,,,,y
+S047,investment_20260328_190440_7934,investment,,crypto,missed,,,,y
+S048,investment_20260213_124011_3948,investment,trading platform,crypto,1,,,,y
+S049,lottery_20260401_051414_3791,lottery,prize patrol,,1,,personal information,,y
+S050,lottery_20260213_151335_7553,lottery,publishers clearing house,gift cards; upfront fee / taxes,1,,,,y
+S051,lottery_20260401_032051_8616,lottery,prize patrol,upfront fee / taxes,1,,personal information,,y
+S052,lottery_20260213_152844_2672,lottery,publishers clearing house,card number / full card; cvv / security code; gift cards; upfront fee / taxes,1,,,,y
+S053,lottery_20260213_170747_2031,lottery,publishers clearing house,personal information,1,,,,y
+S054,lottery_20260401_075849_4326,lottery,prize patrol,gift cards; upfront fee / taxes,1,gift cards; upfront fee / taxes,personal information,,y
+S055,lottery_20260213_151403_6809,lottery,publishers clearing house,gift cards; upfront fee / taxes,1,,,,y
+S056,lottery_20260401_072257_2713,lottery,publishers clearing house,account number / routing; upfront fee / taxes,1,account number / routing,personal information,,y
+S057,lottery_20260329_001303_9869,lottery,publishers clearing house,gift cards; upfront fee / taxes,1,,personal information,,y
+S058,lottery_20260213_150239_6629,lottery,publishers clearing house,gift cards; upfront fee / taxes,1,,,,y
+S059,lottery_20260401_065110_1765,lottery,prize patrol,personal information; upfront fee / taxes,1,,,,y
+S060,lottery_20260401_074710_4157,lottery,publishers clearing house,upfront fee / taxes,1,,,,y
+S061,medicare_20260330_111935_4193,medicare,medicare,personal information,1,,,,y
+S062,medicare_20260331_163714_4762,medicare,medicare,medicare / insurance id; personal information,1,,,,y
+S063,medicare_20260213_011012_1903,medicare,medicare,medicare / insurance id,1,,,,y
+S064,medicare_20260331_173111_3871,medicare,medicare,medicare / insurance id; personal information; ssn,,medicare / insurance id,,,y
+S065,medicare_20260330_142942_1488,medicare,medicare,personal information,,,,,y
+S066,medicare_20260331_152250_3647,medicare,medicare,personal information; ssn,,,,,y
+S067,medicare_20260331_162117_8545,medicare,medicare,personal information; ssn,1,,,,y
+S068,medicare_20260331_132117_9096,medicare,medicare,personal information; ssn,1,,,,y
+S069,medicare_20260331_174323_1285,medicare,medicare,medicare / insurance id; personal information; ssn,1,,,,y
+S070,medicare_20260331_085219_5000,medicare,medicare,medicare / insurance id; personal information; ssn,1,,,,y
+S071,medicare_20260331_125732_6663,medicare,medicare,medicare / insurance id; personal information; ssn,1,,,,y
+S072,medicare_20260331_135159_9662,medicare,medicare,medicare / insurance id; personal information,1,,,,y
+S073,romance_20260316_201728_5775,romance,,,missed,,,,y
+S074,romance_20260327_113503_1190,romance,,wire / money transfer,missed,,,,y
+S075,romance_20260401_052828_3805,romance,,,missed,,,,y
+S076,romance_20260401_022049_3113,romance,,wire / money transfer,missed,wire / money transfer,,,y
+S077,romance_20260320_201011_8312,romance,,,missed,,money / financial support (method unspecified),,y
+S078,romance_20260402_153230_1156,romance,soldier,,1,,,,y
+S079,romance_20260213_033949_4736,romance,,wire / money transfer,missed,,,,y
+S080,romance_20260401_012521_3604,romance,,,missed,,,,y
+S081,romance_20260401_104240_7798,romance,,,,,,,n
+S082,romance_20260213_035134_4944,romance,,account number / routing,missed,account number / routing,wire / money transfer,,y
+S083,romance_20260327_134901_4869,romance,,wire / money transfer,missed,,personal information,,y
+S084,romance_20260327_141909_8063,romance,soldier,,1,,money / financial support (method unspecified),,y
+S085,virtual_kidnapping_20260425_103045_2485,virtual_kidnapping,kidnapper,account number / routing; wire / money transfer,1,,,,y
+S086,virtual_kidnapping_20260425_110800_5103,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,,y
+S087,virtual_kidnapping_20260425_121828_9409,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off; personal information,,y
+S088,virtual_kidnapping_20260425_102318_4535,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,,y
+S089,virtual_kidnapping_20260425_014103_6673,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,,y
+S090,virtual_kidnapping_20260424_221544_1131,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,,y
+S091,virtual_kidnapping_20260424_204717_3896,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,,y
+S092,virtual_kidnapping_20260424_233433_4304,virtual_kidnapping,kidnapper,account number / routing; wire / money transfer,1,account number / routing,transaction confirmation id,,y
+S093,virtual_kidnapping_20260425_112733_4352,virtual_kidnapping,kidnapper,,1,,cash / courier pickup,,y
+S094,virtual_kidnapping_20260425_040756_8597,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,,y
+S095,virtual_kidnapping_20260425_184429_1141,virtual_kidnapping,kidnapper,,1,,cash / in-person drop-off,,y
+S096,virtual_kidnapping_20260425_190828_7345,virtual_kidnapping,kidnapper,wire / money transfer,1,,,,y
