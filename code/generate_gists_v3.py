@@ -56,14 +56,18 @@ META_WORDS = ("gist", "bottom-line", "bottom line", "meaning of", "scam tactic",
 
 def build_user_message(conv_text: str, scam_type: str, tactic: str,
                        trust: int, tech: int, awareness: int,
-                       strict: bool = False, max_chars: int = 1200) -> str:
+                       strict: bool = False, max_chars: int = 1200,
+                       card: str = None) -> str:
     excerpt = conv_text[:max_chars].strip()
     if len(conv_text) > max_chars:
         excerpt += " ..."
     scam_words = SCAM_PLAIN.get(scam_type, f"a {scam_type.replace('_', ' ')} scam")
-    profile = (f"They are {PROFILE_WORDS['trust'].get(trust, 'somewhat trusting')}, "
-               f"{PROFILE_WORDS['tech'].get(tech, 'somewhat comfortable with technology')}, and "
-               f"{PROFILE_WORDS['awareness'].get(awareness, 'vaguely aware of scams')}.")
+    if trust is None:
+        profile = "not available."
+    else:
+        profile = (f"They are {PROFILE_WORDS['trust'].get(trust, 'somewhat trusting')}, "
+                   f"{PROFILE_WORDS['tech'].get(tech, 'somewhat comfortable with technology')}, and "
+                   f"{PROFILE_WORDS['awareness'].get(awareness, 'vaguely aware of scams')}.")
 
     rules = (
         "Rules:\n"
@@ -78,11 +82,15 @@ def build_user_message(conv_text: str, scam_type: str, tactic: str,
             "nothing else.\n"
         )
 
+    card_block = ("Facts extracted from the full conversation:\n"
+                  f"\"\"\"\n{card}\n\"\"\"\n\n") if card else ""
+
     return (
         "You are protecting an elderly person from a phone or text scam.\n\n"
         f"Scam type: this is {scam_words}.\n"
         f"Manipulation tactic used: {tactic.replace('_', ' ')}.\n"
         f"Victim profile: {profile}\n\n"
+        f"{card_block}"
         "Conversation so far:\n"
         f"\"\"\"\n{excerpt}\n\"\"\"\n\n"
         f"{rules}\n"
@@ -113,7 +121,8 @@ FEW_SHOT = [
     },
 ]
 
-def build_chat(conv_text, scam_type, tactic, trust, tech, awareness, strict=False):
+def build_chat(conv_text, scam_type, tactic, trust, tech, awareness, strict=False,
+               card=None):
     system = ("You are a protective assistant for elderly people. You write very short, "
               "plain-language, actionable scam warnings.")
     messages = [{"role": "system", "content": system}]
@@ -124,7 +133,7 @@ def build_chat(conv_text, scam_type, tactic, trust, tech, awareness, strict=Fals
             trust=2, tech=0, awareness=0, strict=False, max_chars=400)})
         messages.append({"role": "assistant", "content": f"{ex['warning']}\n{ex['action']}"})
     messages.append({"role": "user", "content": build_user_message(
-        conv_text, scam_type, tactic, trust, tech, awareness, strict=strict)})
+        conv_text, scam_type, tactic, trust, tech, awareness, strict=strict, card=card)})
     return messages
 
 def parse_output(text: str):
@@ -181,6 +190,15 @@ def main():
     ap.add_argument("--batch_size", type=int, default=16)
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--profile_source", default="supplied",
+                    choices=["supplied", "predicted", "absent"],
+                    help="supplied = dataset victim_config; predicted = Layer-2 "
+                         "profile saved in --predictions; absent = not available")
+    ap.add_argument("--evidence_card", action="store_true",
+                    help="Inject the extract_evidence card (same grounding the "
+                         "LoRA variant receives) for equal-input comparison")
+    ap.add_argument("--greedy", action="store_true",
+                    help="Greedy decoding (matches the LoRA generator's decoding)")
     args = ap.parse_args()
 
     import torch
@@ -223,16 +241,33 @@ def main():
             conv_text, vc = convs.get(cid, ("", {}))
             scam = rec.get("pred_scam") or rec.get("scam_type", "bank")
             tactic = rec.get("pred_tactic", "authority_impersonation")
-            trust, tech, aw = profile_nums(vc)
-            msgs = build_chat(conv_text, scam, tactic, trust, tech, aw, strict=strict)
+            if args.profile_source == "supplied":
+                trust, tech, aw = profile_nums(vc)
+            elif args.profile_source == "predicted":
+                prof = rec.get("profile") or {}
+                trust = prof.get("trust_label", 1)
+                tech = prof.get("tech_label", 1)
+                aw = prof.get("awareness_label", 1)
+            else:  # absent
+                trust = tech = aw = None
+            card = None
+            if args.evidence_card:
+                from extract_evidence import evidence_card_fields, format_card
+                card = format_card(evidence_card_fields(conv_text, scam))
+            msgs = build_chat(conv_text, scam, tactic, trust, tech, aw,
+                              strict=strict, card=card)
             texts.append(tokenizer.apply_chat_template(
                 msgs, tokenize=False, add_generation_prompt=True))
         enc = tokenizer(texts, return_tensors="pt", padding=True, truncation=True,
                         max_length=3072).to("cuda")
         with torch.no_grad():
-            out = model.generate(**enc, max_new_tokens=110, do_sample=True,
-                                 temperature=0.3, top_p=0.9,
-                                 pad_token_id=tokenizer.pad_token_id)
+            if args.greedy:
+                out = model.generate(**enc, max_new_tokens=110, do_sample=False,
+                                     pad_token_id=tokenizer.pad_token_id)
+            else:
+                out = model.generate(**enc, max_new_tokens=110, do_sample=True,
+                                     temperature=0.3, top_p=0.9,
+                                     pad_token_id=tokenizer.pad_token_id)
         gen = tokenizer.batch_decode(out[:, enc["input_ids"].shape[1]:],
                                      skip_special_tokens=True)
         return [parse_output(g) for g in gen]

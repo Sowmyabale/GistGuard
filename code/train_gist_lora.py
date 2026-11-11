@@ -21,14 +21,19 @@ from generate_gists_v3 import SCAM_PLAIN, PROFILE_WORDS
 def short_user_message(rec, max_chars: int = 1200) -> str:
     """Deployment-style SHORT prompt (no few-shot, no rule list).
     If the record carries an evidence_card (silver v2), it is injected so the
-    model grounds the warning in the conversation facts."""
+    model grounds the warning in the conversation facts.
+    If rec['trust'] is None, the victim profile is reported as unavailable
+    (profile-ablation runs)."""
     excerpt = rec["conv_text"][:max_chars].strip()
     if len(rec["conv_text"]) > max_chars:
         excerpt += " ..."
     scam_words = SCAM_PLAIN.get(rec["scam_type"], f"a {rec['scam_type'].replace('_', ' ')} scam")
-    profile = (f"the victim is {PROFILE_WORDS['trust'].get(rec['trust'], 'somewhat trusting')}, "
-               f"{PROFILE_WORDS['tech'].get(rec['tech'], 'somewhat comfortable with technology')}, and "
-               f"{PROFILE_WORDS['awareness'].get(rec['awareness'], 'vaguely aware of scams')}")
+    if rec.get("trust") is None:
+        profile = "the victim profile is not available"
+    else:
+        profile = (f"the victim is {PROFILE_WORDS['trust'].get(rec['trust'], 'somewhat trusting')}, "
+                   f"{PROFILE_WORDS['tech'].get(rec['tech'], 'somewhat comfortable with technology')}, and "
+                   f"{PROFILE_WORDS['awareness'].get(rec['awareness'], 'vaguely aware of scams')}")
     card = rec.get("evidence_card")
     card_block = (f"Evidence from the conversation:\n{card}\n\n") if card else ""
     return (

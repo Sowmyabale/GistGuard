@@ -26,6 +26,11 @@ def main():
     ap.add_argument("--batch_size", type=int, default=32)
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--profile_source", default="supplied",
+                    choices=["supplied", "predicted", "absent"],
+                    help="supplied = dataset victim_config (current runs); "
+                         "predicted = Layer-2 profile saved in --predictions; "
+                         "absent = state that no profile is available")
     args = ap.parse_args()
 
     import torch
@@ -68,7 +73,15 @@ def main():
         for rec in batch:
             cid = rec["conversation_id"]
             conv_text, vc = convs.get(cid, ("", {}))
-            trust, tech, aw = profile_nums(vc)
+            if args.profile_source == "supplied":
+                trust, tech, aw = profile_nums(vc)
+            elif args.profile_source == "predicted":
+                prof = rec.get("profile") or {}
+                trust = prof.get("trust_label", 1)
+                tech = prof.get("tech_label", 1)
+                aw = prof.get("awareness_label", 1)
+            else:  # absent
+                trust = tech = aw = None
             scam = rec.get("pred_scam") or rec.get("scam_type", "bank")
             fields = evidence_card_fields(conv_text, scam)
             pseudo = {"conv_text": conv_text,
