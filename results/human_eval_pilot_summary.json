@@ -1,0 +1,65 @@
+{
+  "study": "human evaluation pilot (single rater, blinded, A/B/C rotated)",
+  "n_items": 50,
+  "n_ratings": 150,
+  "systems": {
+    "Prompt-LM": {
+      "file": "test_gists_v3.json",
+      "description": "untuned Llama-3.1-8B, few-shot prompted"
+    },
+    "SFT-v1": {
+      "file": "test_gists_lora.json",
+      "description": "LoRA on silver_train (SFT-v1)"
+    },
+    "GistGuard": {
+      "file": "test_gists_lora_v4b.json",
+      "description": "LoRA on silver_v2_short (SFT-v2s)"
+    }
+  },
+  "variant_identity_check": "all 150 booklet cells matched their assigned system output with similarity 1.000 (exact text match); Template variants are not part of this booklet",
+  "per_system": {
+    "Prompt-LM": {
+      "n": 50,
+      "likert_means": {
+        "accuracy": 4.5,
+        "clarity": 4.82,
+        "actionability": 4.82,
+        "empathy": 5.0,
+        "groundedness": 4.5
+      },
+      "overall_likert": 4.73,
+      "stop_and_verify_pct": 100.0,
+      "untrue_or_invented_pct": 0.0,
+      "send_to_grandparent_pct": 92.0
+    },
+    "SFT-v1": {
+      "n": 50,
+      "likert_means": {
+        "accuracy": 4.7,
+        "clarity": 4.86,
+        "actionability": 4.94,
+        "empathy": 5.0,
+        "groundedness": 4.68
+      },
+      "overall_likert": 4.84,
+      "stop_and_verify_pct": 100.0,
+      "untrue_or_invented_pct": 2.0,
+      "send_to_grandparent_pct": 96.0
+    },
+    "GistGuard": {
+      "n": 50,
+      "likert_means": {
+        "accuracy": 4.34,
+        "clarity": 4.86,
+        "actionability": 4.6,
+        "empathy": 5.0,
+        "groundedness": 4.32
+      },
+      "overall_likert": 4.62,
+      "stop_and_verify_pct": 100.0,
+      "untrue_or_invented_pct": 8.0,
+      "send_to_grandparent_pct": 92.0
+    }
+  },
+  "framing": "Pilot, n=1 rater, formative. Full study with 3-5 raters (IRB exempt category 2, approved) in progress; inter-rater agreement (Krippendorff alpha) to be reported."
+}

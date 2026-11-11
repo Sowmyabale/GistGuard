@@ -160,3 +160,36 @@ If using Prolific/MTurk, standard informed consent procedures apply.
 ---
 
 *Protocol version 1.0 | Created for GXAI-Elderly Paper 1*
+---
+
+## Pilot Study (completed, n = 1 rater)
+
+A pilot pass of this protocol was completed by one trained rater on **50 stratified test conversations x 3 blinded gist variants** (A/B/C order rotated per item).
+
+**Systems in the booklet** (verified by exact text match, similarity 1.000 for all 150 cells):
+
+| Booklet variant | System | Output file |
+|-----------------|--------|-------------|
+| rotated A/B/C | Prompt-LM (untuned, few-shot) | `results/results_v1rerun/test_gists_v3.json` |
+| rotated A/B/C | SFT-v1 (LoRA on silver_train) | `results/results_v1rerun/test_gists_lora.json` |
+| rotated A/B/C | GistGuard / SFT-v2s (LoRA on silver_v2_short) | `results/results_v1rerun/test_gists_lora_v4b.json` |
+
+Note: the deterministic Template baseline is **not** part of this booklet.
+
+**Item-level ratings**: `results/human_eval_ratings_item_level.csv` (150 rows; produced by `code/build_human_eval_csv.py` from the filled booklet).
+
+**Pilot aggregate** (`results/human_eval_pilot_summary.json`):
+
+| System | Accuracy | Clarity | Actionability | Empathy | Groundedness | Overall | Stop&verify | Untrue/invented | Send to grandparent |
+|--------|----------|---------|---------------|---------|--------------|---------|-------------|-----------------|---------------------|
+| Prompt-LM | 4.50 | 4.82 | 4.82 | 5.00 | 4.50 | 4.73 | 100% | 0% | 92% |
+| SFT-v1 | 4.70 | 4.86 | 4.94 | 5.00 | 4.68 | 4.84 | 100% | 2% | 96% |
+| GistGuard | 4.34 | 4.86 | 4.60 | 5.00 | 4.32 | 4.62 | 100% | 8% | 92% |
+
+**Interpretation (formative, single rater — not statistically powered):** all three systems produce warnings the rater would send to a grandparent, with no clarity or empathy concerns. The rater flagged a small number of GistGuard warnings (4/50) as containing something untrue or invented, and rated SFT-v1 marginally highest on accuracy/actionability — feedback that informed the SFT-v2s evidence-card filtering. These findings motivated the corrected evidence extractor and the ongoing extractor audit (`extractor_audit/`).
+
+**Full study**: 3-5 raters, IRB exempt category 2 (approved); inter-rater agreement (Krippendorff's alpha) will be reported alongside per-system means.
+
+---
+
+*Pilot section added after booklet completion; ratings collected blind.*
