@@ -1,0 +1,37 @@
+{
+  "GistGuard adapter (SFT-v2s)": {
+    "file": "models/models/l3_gist_lora_v4b/adapter_model.safetensors",
+    "sha256": "fcc396c0404867c908d4e3b8e432201cff2717177f9b8966e498e230199ef0b9",
+    "bytes": 167832240
+  },
+  "GistGuard adapter config": {
+    "file": "models/models/l3_gist_lora_v4b/adapter_config.json",
+    "sha256": "688799ea2b1fe0cfc07480944527de93438a90a15730947b4e74623d551a1fbb",
+    "bytes": 1190
+  },
+  "SFT-v1 adapter (checkpoint-824)": {
+    "file": "models/l3_gist_lora/trainer/checkpoint-824/adapter_model.safetensors",
+    "sha256": "dd5fd523b3c61cf0de947e4c42544955f84ced8d91f60fec5089a92ff9cb3c5a",
+    "bytes": 167832240
+  },
+  "SFT-v1 adapter config": {
+    "file": "models/l3_gist_lora/trainer/checkpoint-824/adapter_config.json",
+    "sha256": "29e565572192894052a18349f354a0a28d069c626a279ba7116688a1e7f9dd3f",
+    "bytes": 1190
+  },
+  "Layer1 multitask head": {
+    "file": "models/models/layer1_multitask/layer1_multitask.pt",
+    "sha256": "013e010b91cb3f7c75851e978597a19dacebdf105a19608e082c595c41359391",
+    "bytes": 498711362
+  },
+  "Layer1 full checkpoint-2472": {
+    "file": "models/models/layer1_multitask/trainer/checkpoint-2472/model.safetensors",
+    "sha256": "3ab6e4c966fd744b79d44e784fa70cff93a560eac9619b75042c300483ceeb45",
+    "bytes": 498649904
+  },
+  "DistilBERT baseline ckpt-824": {
+    "file": "models/models/b4_distilbert_single/trainer/checkpoint-824/model.safetensors",
+    "sha256": "51b8def753cb0afa8588dc7b9e3f05e629c8be0a808d0d0c3c215df17b24db17",
+    "bytes": 265488176
+  }
+}
