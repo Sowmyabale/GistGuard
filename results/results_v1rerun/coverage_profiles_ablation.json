@@ -1,0 +1,14 @@
+{
+  "supplied": {
+    "ask_pct": 73.2,
+    "id_pct": 93.5
+  },
+  "predicted": {
+    "ask_pct": 98.0,
+    "id_pct": 97.6
+  },
+  "absent": {
+    "ask_pct": 97.7,
+    "id_pct": 97.7
+  }
+}
