@@ -61,6 +61,7 @@ print(len(rows),'->',len(keep))"
 | Scorer regression tests | `code/tests/test_coverage_scorer.py` (24/24) |
 | Evidence cards | `results/results_v1rerun/evidence_cards.jsonl` |
 | Human evaluation (pilot, n=1) | `results/human_eval_ratings_item_level.csv` + `results/human_eval_pilot_summary.json` (see `code/human_eval_protocol.md`, pilot section) |
+| Evidence-extractor audit (100-row annotation) | `results/extractor_audit_summary.json` — identity precision 92.6% / recall 70.8%; requested items precision 78.7% / recall 69.6%; 2/4 adversarial cases give false-positive item extractions (sheet not redistributed: contains conversation text; scoring script `code/score_audit.py`) |
 
 ## Readability-metric validation
 
