@@ -33,5 +33,15 @@
     "file": "models/models/b4_distilbert_single/trainer/checkpoint-824/model.safetensors",
     "sha256": "51b8def753cb0afa8588dc7b9e3f05e629c8be0a808d0d0c3c215df17b24db17",
     "bytes": 265488176
+  },
+  "SFT-v2 adapter (LoRA, silver_v2)": {
+    "file": "l3_gist_lora_v4/adapter_model.safetensors",
+    "sha256": "052e321107a9e8c7322a82b67ecfc0029a8864a08e72fd4fac50c31c299cf588",
+    "bytes": 167832240
+  },
+  "Layer 1 tactic-v2 (7-class full model)": {
+    "file": "layer1_multitask_tacticv2/model.safetensors",
+    "sha256": "(pending: run sha256sum on training host)",
+    "bytes": 498652980
   }
 }
