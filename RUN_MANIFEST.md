@@ -61,7 +61,20 @@ print(len(rows),'->',len(keep))"
 | Scorer regression tests | `code/tests/test_coverage_scorer.py` (24/24) |
 | Evidence cards | `results/results_v1rerun/evidence_cards.jsonl` |
 | Human evaluation (pilot, n=1) | `results/human_eval_ratings_item_level.csv` + `results/human_eval_pilot_summary.json` (see `code/human_eval_protocol.md`, pilot section) |
-| Evidence-extractor audit (100-row annotation) | `results/extractor_audit_summary.json` — identity precision 92.6% / recall 70.8%; requested items precision 78.7% / recall 69.6%; 2/4 adversarial cases give false-positive item extractions (sheet not redistributed: contains conversation text; scoring script `code/score_audit.py`) |
+| Evidence-extractor audit (100-row annotation) | `results/extractor_audit_summary.json` — identity precision 92.6% / recall 67.0%; requested items precision 78.7% / recall 69.6%; 2/4 adversarial cases give false-positive item extractions. Provenance: annotated by one of the authors (graduate researcher) on a structured sheet with candidate extractions pre-filled by the rule-based extractor; no AI system assigned the audit labels. Identity recall (repaired 2026-11-11) counts wrong extractions as false negatives too — a wrong extraction also omits the correct identity; under the previous missed-only definition recall was 70.8%. Judgments released without conversation text: `results/extractor_audit_annotations_deidentified.csv` (96 sampled rows + 4 adversarial rows, reported separately). Scoring script: `code/score_audit.py` |
+| Profile-source comparison (supplied / predicted / absent) | `results/results_v1rerun/coverage_profiles_ablation.json` (73.2/93.5, 98.0/97.6, 97.7/97.7 conditional coverage; per-scam detail in `gist_quality_ablation_profiles.json`) |
+
+## Label provenance (which checkpoint fed which experiment)
+
+All headline warning experiments consume Layer-1 outputs from the
+**original** multi-task checkpoint (`models/layer1_multitask`, saved
+predictions `results/results_v1rerun/test_predictions.jsonl`). The
+**retrained** seven-class tactic checkpoint
+(`models/layer1_multitask_tacticv2`, `tactic_v2_summary.json`: scam acc
+99.77 / macro F1 99.79; tactic top-1/2/3 62.5/79.3/89.2 vs LLM
+annotations) is evaluated on detection metrics only; no warning output was
+regenerated with its predictions. The manuscript reports the two
+checkpoints' metrics separately (Section "Scam-Type and Tactic Detection").
 
 ## Readability-metric validation
 
@@ -72,7 +85,10 @@ reproducible without optional dependencies. Validated against the
 sample of 200 GistGuard test warnings (seed 42): mean FK 7.34 (ours) vs
 7.66 (textstat), MAE 0.43 grade levels, 199/200 (99.5%) within 1.5 grade
 levels, max deviation 2.15. Conclusion: the two implementations agree
-closely and rankings between systems are unaffected.
+closely on this sample. All systems in the paper are scored with the same
+implementation, so cross-system comparisons on this metric are internally
+consistent; the validation does not by itself establish that absolute
+textstat-based grades would rank systems identically.
 
 ## Detection baselines
 
@@ -89,3 +105,17 @@ closely and rankings between systems are unaffected.
 3. LoRA LR 2e-4 with cosine schedule + warmup (script defaults/logs), not 1e-4 linear.
 4. Tactic head was originally 6 category-derived outputs; per review we retrained a 7-class head on LLM tactic annotations (`models/layer1_multitask_tacticv2`, `results/results_v1rerun/tactic_v2_summary.json`): top-1 62.5% / top-2 79.3% / top-3 89.2% vs annotations (the old head's 53.1/62.2/74.0 was vs category-derived labels).
 5. All ask/id coverage numbers recomputed with the corrected scorer (see table above).
+6. Per-scam coverage fields in `gist_quality_all_sota.json` and
+   `gist_quality_ablation_profiles.json` were regenerated 2026-11-11 with
+   the corrected *conditional* scorer (denominator = conversations where the
+   extractor found the field). Pre-2026-11-11 those fields came from an
+   unconditional, vacuous-true scorer and displayed 100% throughout; they
+   are superseded (see `_coverage_note` inside each file).
+7. Table 3 numbers corrected to `tfidf_baselines_summary.json` /
+   computed values: TF-IDF logistic-regression macro F1 99.75 (accuracy
+   99.73); majority-class macro F1 3.7 (accuracy 17.6).
+8. Detector checkpoints reported separately: original multi-task model
+   (scam acc 99.86 / macro F1 99.87, `test_metrics.json`) vs retrained
+   seven-class tactic model (scam acc 99.77 / macro F1 99.79,
+   `tactic_v2_summary.json`); warning experiments all use the original
+   model's saved predictions (see "Label provenance" above).

@@ -1,12 +1,20 @@
 {
   "n_annotated": 100,
+  "n_sampled_conversations": 96,
+  "n_adversarial_cases": 4,
+  "provenance": {
+    "annotator": "one of the authors (graduate researcher)",
+    "procedure": "candidate extractions pre-filled by the rule-based extractor; all judgments entered by the annotator after reading each conversation; no AI system assigned the audit labels",
+    "deidentified_table": "results/extractor_audit_annotations_deidentified.csv (sample IDs and judgments only, no conversation text)"
+  },
+  "recall_definition": "identity recall = correct / (correct + missed), where 'missed' counts both identities the extractor found nothing for (q1=missed) and identities it extracted incorrectly on non-adversarial rows (a wrong extraction also omits the correct identity). Under the previous definition (q1=missed only) identity recall was 70.8%.",
   "negation_or_hypothetical_flagged": 4,
   "identity": {
     "extracted": 68,
     "correct": 63,
     "precision_pct": 92.6,
-    "missed_by_extractor": 26,
-    "recall_pct": 70.8
+    "missed_by_extractor": 31,
+    "recall_pct": 67.0
   },
   "requested_items": {
     "extracted": 122,

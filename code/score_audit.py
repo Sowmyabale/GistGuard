@@ -51,13 +51,22 @@ def main():
             adversarial["n"] += 1
 
         # ---- identity ----
+        # A wrong extracted identity also means the correct identity was
+        # missed, so recall counts two kinds of false negatives:
+        #   (a) q1 == "missed"  (extractor found nothing, identity present)
+        #   (b) an extracted identity judged not correct on a non-adversarial
+        #       row (the correct identity was overlooked)
+        # Adversarial rows are excluded from (b): many have no true identity
+        # to miss, and their false positives are tallied separately above.
         if ext_id:
             id_present += 1
             if q1 in ("1", "yes", "y", "correct"):
                 id_correct += 1
             elif is_adv:
                 adversarial["identity_fp"] += 1
-        if q1 == "missed":
+            else:
+                id_missed += 1
+        elif q1 == "missed":
             id_missed += 1
 
         # ---- requested items ----
@@ -73,6 +82,21 @@ def main():
 
     summary = {
         "n_annotated": n,
+        "n_sampled_conversations": n - adversarial["n"],
+        "n_adversarial_cases": adversarial["n"],
+        "provenance": {
+            "annotator": "one of the authors (graduate researcher)",
+            "procedure": "candidate extractions pre-filled by the rule-based extractor; "
+                         "all judgments entered by the annotator after reading each conversation; "
+                         "no AI system assigned the audit labels",
+            "deidentified_table": "results/extractor_audit_annotations_deidentified.csv "
+                                  "(sample IDs and judgments only, no conversation text)",
+        },
+        "recall_definition": "identity recall = correct / (correct + missed), where 'missed' "
+                             "counts both identities the extractor found nothing for (q1=missed) "
+                             "and identities it extracted incorrectly on non-adversarial rows "
+                             "(a wrong extraction also omits the correct identity). Under the "
+                             "previous definition (q1=missed only) identity recall was 70.8%.",
         "negation_or_hypothetical_flagged": negation_cases,
         "identity": {
             "extracted": id_present,
