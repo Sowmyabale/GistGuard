@@ -57,6 +57,7 @@ print(len(rows),'->',len(keep))"
 | Metric | Artifact |
 |---|---|
 | Conditional ask/id coverage, all variants | `results/results_v1rerun/coverage_overall_v3.json` |
+| Paired bootstrap CIs for the GistGuard vs equal-evidence Prompt-LM difference | `results/results_v1rerun/paired_bootstrap_ci.json` — paired bootstrap over conversation IDs (10,000 replicates, seed 20261112); ask diff +7.2 pp, 95% CI [4.4, 9.9] (n=1,556); identity diff +2.5 pp, 95% CI [1.0, 4.2] (n=1,457). Point estimates reproduce the headline conditional coverage exactly (73.2/93.5 vs 66.0/91.0). Script: `code/paired_bootstrap.py` |
 | Per-scam quality table (qc, uniq, distinct-2, self-sim, FK) | `results/results_v1rerun/gist_quality_summary_v3.json` |
 | Scorer regression tests | `code/tests/test_coverage_scorer.py` (24/24) |
 | Evidence cards | `results/results_v1rerun/evidence_cards.jsonl` |
