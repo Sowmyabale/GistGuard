@@ -160,11 +160,15 @@ def main():
         },
         "sampled_conversations": metrics(sampled),
         "adversarial_cases": {
-            "n": adversarial["n"],
-            "identity_fp": adversarial["fp"],
-            "item_fp": adversarial["items_wrong"],
-            "note": "constructed negation/hypothetical cases; precision/recall "
-                    "not meaningful by construction",
+            **metrics(adversarial),
+            "note": (
+                "constructed negation/hypothetical/speaker-attribution cases. "
+                "Two of the four contain a reference identity -- a claimed role "
+                "('bank fraud team', 'engineer') -- recovered correctly "
+                "(identity TP=2, FP=0, FN=0); the other two contribute the two "
+                "false-positive item extractions (item precision 0.0%; item "
+                "recall has no defined denominator: no correct or missed items).",
+            ),
         },
         "all_rows_aggregate": metrics(overall),
         "previous_definitions": {

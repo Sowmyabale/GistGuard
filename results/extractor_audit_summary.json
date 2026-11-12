@@ -27,9 +27,26 @@
   },
   "adversarial_cases": {
     "n": 4,
-    "identity_fp": 0,
-    "item_fp": 2,
-    "note": "constructed negation/hypothetical cases; precision/recall not meaningful by construction"
+    "identity": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "extracted": 2,
+      "correct": 2,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0
+    },
+    "requested_items": {
+      "extracted": 2,
+      "correct": 0,
+      "wrong": 2,
+      "missed": 0,
+      "precision_pct": 0.0,
+      "recall_pct": null
+    },
+    "note": [
+      "constructed negation/hypothetical/speaker-attribution cases. Two of the four contain a reference identity -- a claimed role ('bank fraud team', 'engineer') -- recovered correctly (identity TP=2, FP=0, FN=0); the other two contribute the two false-positive item extractions (item precision 0.0%; item recall has no defined denominator: no correct or missed items)."
+    ]
   },
   "all_rows_aggregate": {
     "n": 0,
